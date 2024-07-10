@@ -1,0 +1,1 @@
+Encrypted volumes should not be created within the VeraCryptPortable\App\VeraCrypt directory.  All files within this directory will be removed on upgrade of VeraCrypt Portable.
