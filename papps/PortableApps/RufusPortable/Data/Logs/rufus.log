@@ -1,0 +1,29 @@
+Rufus x64 v4.3.2090 (Portable)
+Windows version: Windows 10 Pro x64 (Build 19045.3693)
+Syslinux versions: 4.07/2013-07-25, 6.04/pre1
+Grub versions: 0.4.6a, 2.06
+System locale ID: 0x0409 (en-US)
+Will use default UI locale 0x0409
+SetLGP: Successfully set NoDriveTypeAutorun policy to 0x0000009E
+Localization set to 'en-US'
+Notice: The ISO download feature has been deactivated because 'Check for updates' is disabled in your settings.
+Found 517 officially revoked UEFI bootloaders from embedded list
+Found 2351 additional revoked UEFI bootloaders from this system's SKUSiPolicy.p7b
+Found UAS (USB 3.0) device 'Corsair Voyager GTX UAS Device' (1B1C:1A0E)
+Removing E: from the list: This is the disk from which Rufus is running!
+0 devices found
+Scanning image...
+ISO analysis:
+  Image is an ISO9660 image
+  Reported Grub version: 2.06
+Disk image analysis:
+  Image has an unknown Master Boot Record
+  Image is a bootable disk image
+ISO label: 'Ubuntu 22.04.3 LTS amd64'
+  Size: 4.7 GB (Projected)
+  Has a >64 chars filename
+  Uses: GRUB2 (2.06-ubuntu-22.04.3)
+  Uses: EFI
+  Note: This ISO uses symbolic links, which may not be replicated due to file system
+  limitations. Because of this, some features from this image may not work...
+Using image: ubuntu-22.04.3-desktop-amd64.iso (4.7 GB)
