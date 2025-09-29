@@ -5,7 +5,7 @@ Translation note:
 2. All the comments are for explanation, they are not for translation.
 -->
 <NotepadPlus>
-	<Native-Langue name="Japanese" filename="japanese.xml" version="8.6.3">
+	<Native-Langue name="Japanese" filename="japanese.xml" version="8.8.1">
 		<Menu>
 			<Main>
 				<!-- Main Menu Entries -->
@@ -93,6 +93,7 @@ Translation note:
 					<Item id="41003" name="閉じる(&amp;C)"/>
 					<Item id="41004" name="すべて閉じる(&amp;E)"/>
 					<Item id="41005" name="現在の文書以外を閉じる"/>
+					<Item id="41026" name="ピン留めしたタブ以外を閉じる"/>
 					<Item id="41009" name="左をすべて閉じる"/>
 					<Item id="41018" name="右をすべて閉じる"/>
 					<Item id="41024" name="未変更をすべて閉じる"/>
@@ -136,6 +137,8 @@ Translation note:
 					<Item id="42060" name="選択行を　辞書順で降順ソート"/>
 					<Item id="42080" name="選択行を　辞書順で昇順ソート(大文字小文字を無視)"/>
 					<Item id="42081" name="選択行を　辞書順で降順ソート(大文字小文字を無視)"/>
+					<Item id="42100" name="選択行を　ロケールを考慮して昇順ソート"/>
+					<Item id="42101" name="選択行を　ロケールを考慮して降順ソート"/>
 					<Item id="42061" name="選択行を　整数として昇順ソート"/>
 					<Item id="42062" name="選択行を　整数として降順ソート"/>
 					<Item id="42063" name="選択行を　実数(コンマが小数点)として昇順ソート"/>
@@ -193,14 +196,14 @@ Translation note:
 					<Item id="42025" name="記録したマクロを保存(&amp;S)..."/>
 					<Item id="42026" name="書字方向を右から左へ"/>
 					<Item id="42027" name="書字方向を左から右へ"/>
-					<Item id="42028" name="読み取り専用モード(&amp;S)"/>
+					<Item id="42028" name="Notepad++内で読み取り専用"/>
 					<Item id="42029" name="現在の文書のフルパス"/>
 					<Item id="42030" name="現在の文書のファイル名"/>
 					<Item id="42031" name="現在の文書のディレクトリ"/>
 					<Item id="42087" name="すべての文書のファイル名"/>
 					<Item id="42088" name="すべての文書のフルパス"/>
 					<Item id="42032" name="マクロを複数回実行(&amp;R)..."/>
-					<Item id="42033" name="ファイルの読み取り専用を解除"/>
+					<Item id="42033" name="Windowsの読み取り専用属性"/>
 					<Item id="42035" name="行コメント化"/>
 					<Item id="42036" name="行コメント解除"/>
 					<Item id="42055" name="空行をすべて削除"/>
@@ -222,7 +225,7 @@ Translation note:
 					<Item id="43051" name="ブックマークしていない行を削除"/>
 					<Item id="43050" name="ブックマークを反転"/>
 					<Item id="43052" name="文字範囲を指定して検索(&amp;E)..."/>
-					<Item id="43053" name="対応する括弧内を選択(&amp;M)"/>
+					<Item id="43053" name="対応する {} [] () の中を選択(&amp;E)"/>
 					<Item id="43009" name="対応する括弧へジャンプ(&amp;M)"/>
 					<Item id="43010" name="前を検索(&amp;P)"/>
 					<Item id="43011" name="インクリメンタルサーチ(&amp;I)"/>
@@ -415,17 +418,19 @@ Translation note:
 					<Item id="11005" name="パス・降順"/>
 					<Item id="11006" name="種類・昇順"/>
 					<Item id="11007" name="種類・降順"/>
-					<Item id="11008" name="サイズ・小さい順"/>
-					<Item id="11009" name="サイズ・大きい順"/>
+					<Item id="11008" name="コンテンツの長さ・小さい順"/>
+					<Item id="11009" name="コンテンツの長さ・大きい順"/>
 				</Commands>
 			</Main>
 			<TabBar>
 				<Item CMDID="41003" name="閉じる"/>
 				<Item CMDID="0" name="複数のタブを閉じる"/>
 				<Item CMDID="41005" name="他のタブをすべて閉じる"/>
+				<Item CMDID="41026" name="ピン留めしたタブ以外を閉じる"/>
 				<Item CMDID="41009" name="左をすべて閉じる"/>
 				<Item CMDID="41018" name="右をすべて閉じる"/>
 				<Item CMDID="41024" name="未変更をすべて閉じる"/>
+				<Item CMDID="44048" name="ピン留め" alternativeName="ピン留めを外す"/>
 				<Item CMDID="41006" name="上書き保存"/>
 				<Item CMDID="41008" name="名前を付けて保存..."/>
 				<Item CMDID="1" name="開く"/>
@@ -437,8 +442,8 @@ Translation note:
 				<Item CMDID="41016" name="ごみ箱に移動"/>
 				<Item CMDID="41014" name="再読み込み"/>
 				<Item CMDID="41010" name="印刷..."/>
-				<Item CMDID="42028" name="読み取り専用モード"/>
-				<Item CMDID="42033" name="ファイルの読み取り専用を解除"/>
+				<Item CMDID="42028" name="Notepad++内で読み取り専用"/>
+				<Item CMDID="42033" name="Windowsの読み取り専用属性"/>
 				<Item CMDID="2" name="クリップボードにコピー"/>
 				<Item CMDID="42029" name="フルパスをコピー"/>
 				<Item CMDID="42030" name="ファイル名をコピー"/>
@@ -469,7 +474,7 @@ Translation note:
 		</Menu>
 
 		<Dialog>
-			<Find title="" titleFind="検索" titleReplace="置換" titleFindInFiles="ファイル内検索" titleFindInProjects="プロジェクト内検索" titleMark="マーク">
+			<Find title="" titleFind="検索" titleReplace="置換" titleFindInFiles="複数ファイル内検索" titleFindInProjects="プロジェクト内検索" titleMark="マーク">
 				<Item id="1" name="次を検索"/>
 				<Item id="1722" name="逆方向に検索する"/>
 				<Item id="2" name="閉じる"/>
@@ -499,9 +504,8 @@ Translation note:
 				<Item id="1624" name="検索モード"/>
 				<Item id="1625" name="標準(&amp;N)"/>
 				<Item id="1626" name="拡張(\n, \r, \t, \0, \x...) (&amp;X)"/>
-				<Item id="1660" name="ファイル内置換"/>
+				<Item id="1660" name="複数ファイル内置換"/>
 				<Item id="1665" name="プロジェクト内置換"/>
-				<Item id="1661" name="現在のフォルダー"/>
 				<Item id="1662" name="プロジェクトパネル 1"/>
 				<Item id="1663" name="プロジェクトパネル 2"/>
 				<Item id="1664" name="プロジェクトパネル 3"/>
@@ -635,14 +639,16 @@ Translation note:
 					<Item id="2219" name="デフォルトのキーワード"/>
 					<Item id="2221" name="ユーザー定義のキーワード"/>
 					<Item id="2225" name="言語:"/>
-					<Item id="2226" name="文字色を他のスタイルにも適用"/>
-					<Item id="2227" name="背景色を他のスタイルにも適用"/>
-					<Item id="2228" name="フォント名を他のスタイルにも適用"/>
-					<Item id="2229" name="フォントサイズを他のスタイルにも適用"/>
-					<Item id="2230" name="太字を他のスタイルにも適用"/>
-					<Item id="2231" name="斜体を他のスタイルにも適用"/>
-					<Item id="2232" name="下線を他のスタイルにも適用"/>
+					<Item id="2226" name="文字色をすべてのスタイルに適用"/>
+					<Item id="2227" name="背景色をすべてのスタイルに適用"/>
+					<Item id="2228" name="フォント名をすべてのスタイルに適用"/>
+					<Item id="2229" name="フォントサイズをすべてのスタイルに適用"/>
+					<Item id="2230" name="太字をすべてのスタイルに適用"/>
+					<Item id="2231" name="斜体をすべてのスタイルに適用"/>
+					<Item id="2232" name="下線をすべてのスタイルに適用"/>
 					<Item id="2234" name="関連する環境設定を開く"/>
+					<!-- Don't translate "Global override" -->
+					<Item id="2235" name="Global override について"/>
 				</SubDialog>
 			</StyleConfig>
 
@@ -757,8 +763,8 @@ Translation note:
 					<Item id="11005" name="パス・降順 で並べ替え"/>
 					<Item id="11006" name="種類・昇順 で並べ替え"/>
 					<Item id="11007" name="種類・降順 で並べ替え"/>
-					<Item id="11008" name="サイズ・小さい順 で並べ替え"/>
-					<Item id="11009" name="サイズ・大きい順 で並べ替え"/>
+					<Item id="11008" name="コンテンツの長さ・小さい順 で並べ替え"/>
+					<Item id="11009" name="コンテンツの長さ・大きい順 で並べ替え"/>
 				</MainCommandNames>
 			</ShortcutMapper>
 			<ShortcutMapperSubDialg title="ショートカット">
@@ -823,6 +829,7 @@ Translation note:
 				<Folder title="デフォルト・折り畳み設定">
 					<Item id="21101" name="デフォルトスタイル設定"/>
 					<Item id="21102" name="スタイル設定"/>
+					<Item id="21103" name="ユーザー定義についてのオンラインヘルプ"/>
 					<Item id="21105" name="ドキュメンテーション"/>
 					<Item id="21106" name="コンパクトに畳む(空行を含む)(&amp;C)"/>
 					<Item id="21220" name="スタイル1で畳む"/>
@@ -946,37 +953,55 @@ Translation note:
 			<Preference title="環境設定">
 				<Item id="6001" name="閉じる"/>
 				<Global title="全般設定">
-					<Item id="6101" name="ツールバー"/>
+					<Item id="6123" name="言語"/>
+					<Item id="6131" name="メニュー"/>
+					<Item id="6122" name="隠す(表示するには Alt か F10 を押す)"/>
+					<Item id="6132" name="右端の ＋ ▼ ✕ ボタンを非表示にする"/>
+					<Item id="6133" name="ステータスバー"/>
+					<Item id="6134" name="隠す"/>
+				</Global>
+
+				<Toolbar title="ツールバー">
 					<Item id="6102" name="隠す"/>
 					<Item id="6103" name="Fluent UI 小"/>
 					<Item id="6104" name="Fluent UI 大"/>
 					<Item id="6129" name="Filled Fluent UI 小"/>
 					<Item id="6130" name="Filled Fluent UI 大"/>
 					<Item id="6105" name="標準アイコン 小"/>
+					<Item id="6011" name="色付け"/>
+					<Item id="6012" name="全体"/>
+					<Item id="6013" name="一部のみ"/>
+					<Item id="6014" name="色の設定"/>
+					<Item id="6015" name="標準"/>
+					<Item id="6016" name="赤"/>
+					<Item id="6017" name="緑"/>
+					<Item id="6018" name="青"/>
+					<Item id="6019" name="紫"/>
+					<Item id="6020" name="シアン"/>
+					<Item id="6021" name="オリーブ"/>
+					<Item id="6022" name="黄"/>
+					<Item id="6023" name="システムのアクセントカラー"/>
+					<Item id="6024" name="カスタム"/>
+				</Toolbar>
 
-					<Item id="6106" name="タブバー"/>
+				<Tabbar title="タブバー">
 					<Item id="6107" name="小さく表示"/>
 					<Item id="6108" name="固定(ドラッグ&amp;&amp;ドロップを許可しない)"/>
-					<Item id="6109" name="非アクティブのタブを暗くする"/>
+					<Item id="6109" name="非アクティブなタブの色を変える"/>
 					<Item id="6110" name="アクティブタブにオレンジの線を表示"/>
-
+					<Item id="6111" name="非アクティブなタブにもボタンを表示"/>
 					<Item id="6112" name="タブに「閉じる」ボタンを表示"/>
 					<Item id="6113" name="ダブルクリックでドキュメントを閉じる"/>
+					<Item id="6115" name="タブのピン留め機能を有効にする"/>
+					<Item id="6135" name="ピン留め中のみピンボタンを表示する"/>
 					<Item id="6118" name="隠す"/>
 					<Item id="6119" name="多段表示"/>
 					<Item id="6120" name="縦に表示する"/>
 					<Item id="6121" name="最後のタブを閉じると終了する"/>
 					<Item id="6128" name="別デザインのアイコンを使用する"/>
-
-					<Item id="6133" name="ステータスバー"/>
-					<Item id="6134" name="隠す"/>
-
-					<Item id="6131" name="メニュー"/>
-					<Item id="6122" name="メインメニューを隠す(表示するには Alt か F10 を押す)"/>
-					<Item id="6132" name="メインメニュー右端の ＋ ▼ ✕ ボタンを非表示にする(Notepad++ の再起動が必要)"/>
-
-					<Item id="6123" name="言語"/>
-				</Global>
+					<Item id="6125" name="挙動の設定"/>
+					<Item id="6126" name="見た目の設定"/>
+				</Tabbar>
 
 				<Scintillas title="編集画面 1">
 					<Item id="6216" name="カーソル設定"/>
@@ -995,6 +1020,7 @@ Translation note:
 					<Item id="6239" name="選択範囲外を右クリックしたときに選択を解除しない"/>
 					<Item id="6245" name="仮想空白を有効にする"/>
 					<Item id="6214" name="選択範囲がないときは行全体をコピー/切り取りする"/>
+					<Item id="6225" name="選択文字列の文字色にカスタム色を利用する"/>
 					<Item id="6651" name="現在行の強調表示"/>
 					<Item id="6652" name="なし"/>
 					<Item id="6653" name="背景を色付け"/>
@@ -1031,10 +1057,10 @@ Translation note:
 					<Item id="7108" name="シアン"/>
 					<Item id="7109" name="オリーブ"/>
 					<Item id="7115" name="カスタム"/>
-					<Item id="7116" name="上部"/>
-					<Item id="7117" name="注目中のメニュー"/>
-					<Item id="7118" name="アクティブ タブ"/>
-					<Item id="7119" name="背景"/>
+					<Item id="7116" name="コンテンツの背景"/>
+					<Item id="7117" name="注目中の要素"/>
+					<Item id="7118" name="コントロールの背景"/>
+					<Item id="7119" name="ダイアログの背景"/>
 					<Item id="7120" name="エラー"/>
 					<Item id="7121" name="文字"/>
 					<Item id="7122" name="濃い文字"/>
@@ -1087,6 +1113,7 @@ Translation note:
 					<Item id="6419" name="新規文書"/>
 					<Item id="6420" name="開いているANSIファイルに適用"/>
 					<Item id="6432" name="起動時に新規文書を開く"/>
+					<Item id="6433" name="文書の最初の行を、名前がつけられていないタブの名前として利用する"/>
 				</NewDoc>
 
 				<DefaultDir title="既定のディレクトリ">
@@ -1107,12 +1134,22 @@ Translation note:
 					<Item id="6506" name="利用しない"/>
 					<Item id="6507" name="言語メニューをまとめる"/>
 					<Item id="6508" name="言語メニュー"/>
-					<Item id="6301" name="タブ設定"/>
-					<Item id="6302" name="スペースで置換"/>
-					<Item id="6303" name="タブ幅:"/>
-					<Item id="6510" name="デフォルト値を使用"/>
 					<Item id="6335" name="バックスラッシュをSQLのエスケープ文字と見なす"/>
 				</Language>
+
+				<Indentation title="インデント">
+					<Item id="7161" name="自動インデント"/>
+					<Item id="7162" name="オフ"/>
+					<Item id="7163" name="基本"/>
+					<Item id="7164" name="高度"/>
+					<Item id="6301" name="インデント設定"/>
+					<Item id="6302" name="スペース"/>
+					<Item id="6303" name="インデント幅:"/>
+					<Item id="6310" name="インデント文字:"/>
+					<Item id="6311" name="タブ"/>
+					<Item id="6510" name="デフォルト値を使用"/>
+					<Item id="6512" name="バックスペースキーで、スペース1文字を消すのではなくインデントを減らす"/>
+				</Indentation>
 
 				<Highlighting title="強調表示">
 					<Item id="6351" name="選択した語をすべて色づけ"/>
@@ -1169,7 +1206,7 @@ Translation note:
 					<Item id="6727" name="編集内容がここにも表示されます"/>
 					<Item id="6728" name="ヘッダーとフッター"/>
 				</Print>
-                
+
 				<Searching title="検索">
 					<Item id="6902" name="検索画面で固定幅フォントを使用する（Notepad++ の再起動が必要）"/>
 					<Item id="6903" name="検索結果を結果ウィンドウに表示する時に、検索画面を自動で閉じないようにする"/>
@@ -1180,6 +1217,7 @@ Translation note:
 					<Item id="6908" name="検索文字列欄に、選択中の文字列を自動入力する"/>
 					<Item id="6909" name="何も選択されていないときは、カーソル位置の単語を自動入力する"/>
 					<Item id="6910" name="この文字数以上を選択時に「選択内のみ」を自動でオン"/>
+					<Item id="6913" name="「複数ファイル内検索」にて、現在の文書のディレクトリを初期値にする"/>
 				</Searching>
 
 
@@ -1197,7 +1235,7 @@ Translation note:
 				<Backup title="自動バックアップ">
 					<Item id="6817" name="セッションスナップショットと定期的なバックアップ"/>
 					<Item id="6818" name="セッションスナップショットと定期的なバックアップを有効にする"/>
-					<Item id="6819" name="バックアップを"/>
+					<Item id="6819" name="編集中、バックアップを"/>
 					<Item id="6821" name="秒ごとに行う"/>
 					<Item id="6822" name="バックアップパス:"/>
 					<Item id="6309" name="現在のセッションを次回起動時に復元"/>
@@ -1211,7 +1249,6 @@ Translation note:
 				</Backup>
 
 				<AutoCompletion title="自動補完">
-					<Item id="6115" name="自動インデント"/>
 					<Item id="6807" name="自動補完"/>
 					<Item id="6808" name="入力毎に補完を行う"/>
 					<Item id="6809" name="関数名補完"/>
@@ -1303,20 +1340,38 @@ Translation note:
 
 				<MISC title="その他">
 					<ComboBox id="6347">
-						<Element name="有効"/>
+						<Element name="現在のファイルで有効"/>
 						<Element name="開いている全ファイルで有効"/>
 						<Element name="無効"/>
 					</ComboBox>
-					<Item id="6308" name="タスクトレイに格納"/>
+					<ComboBox id="6307">
+						<Element name="格納しない"/>
+						<Element name="最小化時に"/>
+						<Element name="終了時に"/>
+						<Element name="最小化/終了時に"/>
+					</ComboBox>
+					<ComboBox id="6362">
+						<Element name="GDI (互換性を優先)"/>
+						<Element name="DirectWrite (標準)"/>
+						<Element name="DirectWrite (フレームを保持)"/>
+						<Element name="DirectWrite (GDI DCに描画)"/>
+						<Element name="DirectWrite (DirectX 11)"/>
+					</ComboBox>
+					<ComboBox id="6364">
+						<Element name="行わない"/>
+						<Element name="Notepad++ の起動時に行う"/>
+						<Element name="Notepad++ の終了時に行う"/>
+					</ComboBox>
+					<Item id="6308" name="タスクトレイへ格納"/>
+					<Item id="6363" name="描画モード"/>
+					<Item id="6365" name="自動アップデート:"/>
 					<Item id="6312" name="ファイルの状態監視"/>
 					<Item id="6313" name="自動で最新状態に更新"/>
 					<Item id="6325" name="更新後最後の行にスクロール"/>
 					<Item id="6322" name="セッションファイルの拡張子:"/>
-					<Item id="6323" name="Notepad++の自動アップデートを有効にする"/>
 					<Item id="6324" name="ビューの切り替え(Ctrl+Tab)"/>
 					<Item id="6331" name="タイトルバーにファイル名のみ表示"/>
 					<Item id="6334" name="文字コードを自動判別"/>
-					<Item id="6349" name="DirectWriteを使用する（特殊な文字の描画が改善されます。Notepad++ の再起動が必要）"/>
 					<Item id="6337" name="ワークスペースファイルの拡張子:"/>
 					<Item id="6114" name="有効"/>
 					<Item id="6117" name="最近使用した順で切り替える"/>
@@ -1392,6 +1447,11 @@ Translation note:
 				<Item id="7" name="いいえ(&amp;N)"/>
 				<Item id="4" name="常に はい(&amp;A)"/>
 			</DoSaveAll><!-- HowToReproduce: Check the 'Enable Save All confirm dialog' checkbox in Preference->MISC, now click 'Save all' -->
+
+			<DebugInfo title="デバッグ情報">
+				<Item id="1752" name="情報をクリップボードにコピー（&amp;C）"/>
+				<Item id="1" name="OK"/>
+			</DebugInfo>
 		</Dialog>
 		<MessageBox>
 			<!-- $INT_REPLACE$ and $STR_REPLACE$ are place holders, don't translate these place holders. -->
@@ -1423,7 +1483,9 @@ Translation note:
 			<DroppingFolderAsProjectModeWarning title="無効な操作です" message="「フォルダーをプロジェクトとして開く」設定になっているため、ファイルとフォルダーを同時にドロップして開くことはできません。
 この操作を使いたい場合、「環境設定」を開き、「既定のディレクトリ」の「フォルダーをドロップした時、ワークスペースとせずに すべてのファイルを開く」を有効にして下さい。"/>
 			<SortingError title="ソートエラー" message="行番号 $INT_REPLACE$ が原因でソートを実行できませんでした。"/>
-
+			<SortLocaleMultiple title="ソートを行えません" message="複数選択時はソートを行えません。"/><!-- HowToReproduce: Make a multiple selection and choose Edit | Line Operations | Sort Lines In Locale Order. -->
+			<SortLocaleUnknown title="ソートに失敗しました" message="不明な理由でソートに失敗しました。"/><!-- HowToReproduce: This condition is theoretical; it is unknown what could cause it. -->
+			<SortLocaleExcept title="ソートに失敗しました" message="$STR_REPLACE$"/><!-- HowToReproduce: Open a large file, e.g. 500MB / 90k lines, in 32-bit Notepad++ and choose Edit | Line Operations | Sort Lines In Locale Order. -->
 			<ColumnModeTip title="矩形モード" message="矩形モードに切り替えるには、次の3つの方法があります：
 1.（キーボードとマウス）Altキーを押しながら左ボタンでドラッグ
 2.（キーボード）Alt＋Shiftキーを押しながら矢印キーを押す
@@ -1491,8 +1553,13 @@ langs.xml を復元しますか？"/>
 			<UDLNewNameError title="ユーザー定義 エラー" message="この名前は他の言語に使用されています。
 違う名前にして下さい。"/>
 			<UDLRemoveCurrentLang title="現在の言語を削除" message="よろしいですか？"/>
+			<UDL_importSuccessful title="ユーザー定義" message="インポートしました。"/>
+			<UDL_importFails title="ユーザー定義" message="インポートに失敗しました。"/>
+			<UDL_saveBeforeImport title="ユーザー定義" message="エクスポートを行う前に、「保存...」ボタンを押して作成した定義を保存してください。"/> <!-- HowToReproduce: Choose "User Defined Language" in User Language combobox, then click on "Export... button". -->
+			<UDL_exportSuccessful title="ユーザー定義" message="エクスポートしました。"/>
+			<UDL_exportFails title="ユーザー定義" message="エクスポートに失敗しました。"/>
 			<SCMapperDoDeleteOrNot title="よろしいですか？" message="このショートカットを削除してよろしいですか？"/>
-			<FindCharRangeValueError title="数値範囲" message="0 から 255 の値を入力して下さい。"/>
+			<FindCharRangeValueError title="数値範囲" message="0 から 255 の値を入力して下さい。"/> <!-- HowToReproduce: Search menu, then Find characters in range, select Custom range, enter 999 in either edit box, press Find. -->
 			<OpenInAdminMode title="保存に失敗" message="ファイルを保存できませんでした。保護されたファイルのようです。
 Notepad++ を管理者権限で立ち上げますか？"/>
 			<OpenInAdminModeWithoutCloseCurrent title="保存に失敗" message="ファイルを保存できませんでした。保護されたファイルのようです。
@@ -1528,6 +1595,15 @@ Notepad++ を管理者権限で立ち上げますか？"/>
 注意：プレースホルダーとして残さない場合や残した後に閉じた場合、プログラム終了時にセッションに反映されます！　ファイル「session.xml」のバックアップを今すぐ作成することをお勧めします。"/>
 			<RTLvsDirectWrite title="RTL を利用できません" message="右から左への書字方向（RTL）は DirectWrite と互換性がありません。「環境設定」の「その他」にて DirectWrite をオフにし、Notepad++ を再起動してください。"/>
 			<FileMemoryAllocationFailed title="メモリー領域の確保に失敗しました" message="Notepad++ で開こうとしているファイルに対し、十分な連続したメモリー領域が確保できなかったことが原因と思われます。"/><!-- HowToReproduce: Try to open multiple files with total size > ~700MB in the x86 Notepad++ (it will depend on the PC memory configuration and the current system memory usage...). -->
+			<FindRegexBackwardDisabled title="正規表現での逆方向の検索は無効です" message="標準では、正規表現使用時は逆方向への検索はできません。これは予想外の検索結果になることがあるためです。逆方向へ検索するには、検索ダイアログを開き、検索モードを「標準」か「拡張」にしてください。
+OKボタンを押すと検索ダイアログが開きます。
+
+もし正規表現での逆方向の検索を有効にされたい場合は、オンラインマニュアルをご確認ください。"/>
+			<PrintError title="0" message="印刷を開始できませんでした。"/><!-- Use title="0" to use Windows OS default translated "Error" title. -->
+			<FindAutoChangeOfInSelectionWarning title="検索条件についての注意" message="「選択内のみ」のチェックボックスが自動で変更されました。
+検索条件が予期したものであるか確認してから、操作を続けてください。"/> <!-- HowToReproduce: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
+			<Need2Restart2ShowMenuShortcuts title="Notepad++ を再起動してください" message="メニュー右端のボタンを表示するには、Notepad++ を再起動してください。"/>
+			<NoAdminRight2ChangeReadOnlyFileAttribute title="読み取り専用属性を変更できませんでした" message="このファイルの読み取り専用属性を変更するには、Notepad++ を管理者権限で実行してください。"/>
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="クリップボード履歴"/>
@@ -1661,8 +1737,9 @@ Notepad++ を管理者権限で立ち上げますか？"/>
 例）階層にかかわらず log や logs といったフォルダー内を除き、すべてのファイル内を検索する：
 *.* !+\log*"/>
 			<find-in-files-select-folder value="検索するディレクトリを選択してください"/>
-			<find-status-top-reached value="検索：末尾からの最初の一致です。文書の先頭を通過しました"/>
-			<find-status-end-reached value="検索：先頭からの最初の一致です。文書の末尾を通過しました"/>
+			<find-in-files-dir-from-active-doc-tip value="現在の文書のディレクトリを記入する"/><!-- HowToReproduce: Search > Find in Files > [<<] -->
+			<find-status-top-reached value="検索：文書頭に到達したため、末尾から検索します"/>
+			<find-status-end-reached value="検索：文書末に到達したため、先頭から検索します"/>
 			<find-status-replaceinfiles-1-replaced value="複数ファイル内を検索：1 件を置換しました"/>
 			<find-status-replaceinfiles-nb-replaced value="複数ファイル内を検索：$INT_REPLACE$ 件を置換しました"/>
 			<find-status-replaceinopenedfiles-1-replaced value="すべての文書で置換：1 件を置換しました"/>
@@ -1676,8 +1753,8 @@ Notepad++ を管理者権限で立ち上げますか？"/>
 			<find-status-replaceall-1-replaced value="すべて置換：1 件を置換しました"/>
 			<find-status-replaceall-nb-replaced value="すべて置換：$INT_REPLACE$ 件を置換しました"/>
 			<find-status-replaceall-readonly value="すべて置換：置換できません。この文書は読み取り専用です"/>
-			<find-status-replace-end-reached value="置換：先頭からの最初の一致を置換しました。文書の末尾を通過しました"/>
-			<find-status-replace-top-reached value="置換：末尾からの最初の一致を置換しました。文書の先頭を通過しました"/>
+			<find-status-replace-end-reached value="置換：文書末に到達したため、先頭から置換します"/>
+			<find-status-replace-top-reached value="置換：文書頭に到達したため、末尾から置換します"/>
 			<find-status-replaced-next-found value="置換：1 件を置換しました。次の一致が見つかりました"/>
 			<find-status-replaced-without-continuing value="置換：1 件を置換しました。"/>
 			<find-status-replaced-next-not-found value="置換：1 件を置換しました。一致するものはありません"/>
@@ -1694,9 +1771,9 @@ Notepad++ を管理者権限で立ち上げますか？"/>
 			<finder-collapse-all value="すべて畳む"/>
 			<finder-uncollapse-all value="すべて展開する"/>
 			<finder-copy value="選択行をコピー"/>
-			<finder-copy-paths value="すべてのパスをコピー"/>
+			<finder-copy-selected-paths value="選択行のパスをコピー"/>
 			<finder-clear-all value="すべてクリア"/>
-			<finder-open-all value="すべて開く"/>
+			<finder-open-selected-paths value="選択行を開く"/>
 			<finder-purge-for-every-search value="検索時に以前の結果をクリア"/>
 			<finder-wrap-long-lines value="長い行を折り返す"/>
 			<common-ok value="OK"/>
@@ -1785,6 +1862,31 @@ U+FEFF : zero-width no-break space（ゼロ幅改行なしスペース）
 			<npcIncludeCcUniEol-tip value="非表示文字の表示設定を、C0、C1制御コードと、Unicode改行文字（Next Line、Line Separator、Paragraph Separator）にも適用します。"/>
 			<searchingInSelThresh-tip value="編集画面でこの文字数以上を選択したまま検索画面を開くと、「選択内のみ」を自動でオンにします。最大値は 1024 です。0 にするとこの動作を無効にできます。"/>
 			<verticalEdge-tip value="線を表示したい桁位置を指定してください。複数の値を半角スペースで区切って記入することで、複数の線を表示できます。"/>
+			<fileSaveAsCopySaveButton-tip value="Shiftを押しながら「保存」を押すと、複製したファイルを開きます。"/>
+			<autoIndentBasic-tip value="現在の行（エンターキーを押して作成された新しい行）のインデントを、前の行のインデントと同じにします。"/>
+			<autoIndentAdvanced-tip value="C言語風の言語やPythonのときに、スマート・インデントを使用します。C言語風の言語とは、
+C、C++、Java、C#、Objective-C、PHP、JavaScript、JSP、CSS、Perl、Rust、PowerShell、JSON を指します。
+
+「高度」を選択しても、上記の言語以外を編集している場合は「基本」と同じになります。"/>
+
+			<!-- Don't translate "Global override" and "Default Style" -->
+			<global-override-tip value="&quot;Global override&quot; を使用すると、すべての言語のスタイル設定が、チェックを入れたもので上書きされます。&quot;Default Style&quot; を使われるほうが、お望みの挙動に近いかもしれません。"/>
+			<scintillaRenderingTechnology-tip value="特殊な文字の描画や、グラフィックス関連の問題が改善することがあります。Notepad++ の再起動が必要です。"/>
+
+			<!-- Due to the limited space on the status bar, if the translations for 'length' & 'lines' are much longer than the English words, please leave them in English instead of translating them. -->
+			<statusbar-length-lines value="長さ: $STR_REPLACE1$    行数: $STR_REPLACE2$"/>
+
+			<!-- Due to the limited space on the status bar, if the translations for 'Ln' & 'Col' are longer than the English words, please leave them in English instead of translating them. -->
+			<statusbar-Ln-Col value="行: $STR_REPLACE1$    桁: $STR_REPLACE2$"/>
+
+			<!-- Due to the limited space on the status bar, if the translations for 'Pos' & 'Sel' are longer than the English words, please leave them in English instead of translating them. -->
+			<statusbar-Pos value="位置: "/>
+			<statusbar-Sel value="選択: "/>
+			<statusbar-Sel-number value="選択"/>
+			<toolbar-accent-tip value="これを選択すると、ツールバーのアイコン色が Windows のアクセントカラーに従います。Windows のアクセントカラーは、ボタン、枠、スタートメニューのタイルなどのハイライトに使われています。変更するには、Windows の「設定」→「個人用設定」→「色」に進み、アクセントカラーを変更してください。"/>
+			<max-len-on-search-tip value="検索／置換文字列は $INT_REPLACE$文字までです。超えた分は切り捨てられます。また、次回のセッションに引き継がれません。"/>
+			<max-len-on-save-tip value="この検索／置換文字列（$INT_REPLACE$文字超え）は、次回のセッションに引き継がれません。"/>
+			<goto-setting-tip value="関連する設定はこちら"/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>

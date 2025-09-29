@@ -86,7 +86,6 @@
 					<Item id="42030" name="Kasalukuyang ngalan ng pila tungo sa Clipboard"/>
 					<Item id="42031" name="Kasalukuyang daan sa dir tungo sa Clipboard"/>
 					<Item id="42032" name="Patakbuhin ang macro ng ilang ulit..."/>
-					<Item id="42033" name="Burahin ang basahin lang na watawat"/>
 					<Item id="42035" name="Blokeng puna"/>
 					<Item id="42036" name="Blokeng di-puna"/>
 
@@ -351,19 +350,16 @@
 			<Preference title="Kanaisan">
 				<Item id="6001" name="Isara"/>
 				<Global title="Global">
-					<Item id="6101" name="Tool bar"/>
 					<Item id="6102" name="Itago"/>
 					<Item id="6103" name="Maliliit na icon"/>
 					<Item id="6104" name="Malalaking icon"/>
 					<Item id="6105" name="Maliliit na standard na icon"/>
 
-					<Item id="6106" name="Tab bar"/>
 					<Item id="6107" name="Pauntiin"/>
 					<Item id="6108" name="Ikalang (Walang Drag at Drop)"/>
 					<Item id="6109" name="Iguhit ang mga inactive tab"/>
 					<Item id="6110" name="Iguhit ang orang top bar"/>
 
-					<Item id="6111" name="Ipakita ang Status Bar"/>
 					<Item id="6112" name="Payagan ang close button sa bawat tab"/>
 					<Item id="6113" name="Dalawang pindot para sumara ang kasulatan"/>
 					<Item id="6118" name="Itago"/>
@@ -458,8 +454,6 @@
 					<Item id="6304" name="Kalagayan ng Kasaysayan ng Pila"/>
 					<Item id="6305" name="Huwag i-check 'pag oras ng launch"/>
 					<Item id="6306" name="Pinakamalaking Bilang ng Pila sa Kasaysayan :"/>
-					<Item id="6307" name="Payagan"/>
-					<Item id="6308" name="Paliitin sa sys tray"/>
 					<Item id="6309" name="Tandaan ang kasalukuyang session sa susunod na launch"/>
 					<Item id="6312" name="Auto-detection ng Kalagayan ng File"/>
 					<Item id="6313" name="Mag-update nang tahimik"/>
@@ -478,7 +472,6 @@
 
 					<Item id="6331" name="Show only filename in titlebar"/>
 					<Item id="6114" name="Payagan"/>
-					<Item id="6115" name="Kusang pagpasok"/>
 					<Item id="6117" name="Payagan ang MRU-ng kaugalian"/>
 
 				</MISC>

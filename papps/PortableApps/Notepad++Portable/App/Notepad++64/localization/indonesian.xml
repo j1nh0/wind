@@ -185,7 +185,6 @@ Last modified by Sahid A.Z. on 3/3/2023
 					<Item id="42087" name="Salin Semua Nama Berkas"/>
 					<Item id="42088" name="Salin Semua Jalur Berkas"/>
 					<Item id="42032" name="&amp;Jalankan Makro Beberapa Kali..."/>
-					<Item id="42033" name="Hapus Tanda Baca-Saja"/>
 					<Item id="42035" name="Komentar Baris Tunggal"/>
 					<Item id="42036" name="Hapus Komentar Baris Tunggal"/>
 					<Item id="42055" name="Hapus Baris Kosong"/>
@@ -408,7 +407,6 @@ Last modified by Sahid A.Z. on 3/3/2023
 				<Item CMDID="41014" name="Muat ulang"/>
 				<Item CMDID="41010" name="Cetak..."/>
 				<Item CMDID="42028" name="Baca-Saja"/>
-				<Item CMDID="42033" name="Hapus Tanda Baca-Saja"/>
 				<Item CMDID="2" name="Salin ke Papan Klip"/>
 				<Item CMDID="42029" name="Salin Jalur Berkas Lengkap"/>
 				<Item CMDID="42030" name="Salin Semua Nama Berkas"/>
@@ -461,7 +459,6 @@ Last modified by Sahid A.Z. on 3/3/2023
 				<Item id="1626" name="&amp;Lanjut (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Ganti dalam Berkas"/>
 				<Item id="1665" name="Ganti dalam Proyek"/>
-				<Item id="1661" name="Ikuti dok. ini"/>
 				<Item id="1662" name="Panel Proyek 1"/>
 				<Item id="1663" name="Panel Proyek 2"/>
 				<Item id="1664" name="Panel Proyek 3"/>
@@ -888,7 +885,6 @@ Last modified by Sahid A.Z. on 3/3/2023
 			<Preference title="Preferensi">
 				<Item id="6001" name="Tutup"/>
 				<Global title="Umum">
-					<Item id="6101" name="Bilah Alat"/>
 					<Item id="6102" name="Sembunyikan"/>
 					<Item id="6103" name="Fluent UI: kecil"/>
 					<Item id="6104" name="Fluent UI: besar"/>
@@ -896,13 +892,11 @@ Last modified by Sahid A.Z. on 3/3/2023
 					<Item id="6130" name="Fluent UI Berisi: besar"/>
 					<Item id="6105" name="Ikon standar: kecil"/>
 
-					<Item id="6106" name="Bilah Tab"/>
 					<Item id="6107" name="Kecilkan"/>
 					<Item id="6108" name="Kunci (tanpa seret dan lepaskan)"/>
 					<Item id="6109" name="Tab nonaktif gelap"/>
 					<Item id="6110" name="Bilah tab-aktif berwarna"/>
 
-					<Item id="6111" name="Tampilkan bilah status"/>
 					<Item id="6112" name="Tampilkan tombol tutup di setiap tab"/>
 					<Item id="6113" name="Klik ganda untuk menutup dokumen"/>
 					<Item id="6118" name="Sembunyikan"/>
@@ -924,7 +918,6 @@ Last modified by Sahid A.Z. on 3/3/2023
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6246" name="Jadikan perintah pelipatan/pembukaan level ini sebagai sakelar"/>
-					<Item id="6225" name="Aktifkan Multipengeditan (Ctrl+Klik/pilihan)"/>
 					<Item id="6227" name="Penggal Baris"/>
 					<Item id="6228" name="Baku"/>
 					<Item id="6229" name="Diratakan"/>
@@ -1136,7 +1129,6 @@ Anda dapat mendefinisikan beberapa penanda kolom dengan menggunakan spasi putih 
 				</Backup>
 
 				<AutoCompletion title="Pelengkapan Otomatis (PO)">
-					<Item id="6115" name="Indentasi otomatis"/>
 					<Item id="6807" name="Pelengkapan Otomatis (PO)"/>
 					<Item id="6808" name="Aktifkan PO pada tiap input"/>
 					<Item id="6809" name="Pelengkapan fungsi"/>
@@ -1231,7 +1223,6 @@ Anda dapat mendefinisikan beberapa penanda kolom dengan menggunakan spasi putih 
 						<Element name="Aktifkan untuk semua berkas terbuka"/>
 						<Element name="Nonaktifkan"/>
 					</ComboBox>
-					<Item id="6308" name="Minimalkan ke baki sistem"/>
 					<Item id="6312" name="Deteksi Otomatis Status Berkas"/>
 					<Item id="6313" name="Perbarui diam-diam"/>
 					<Item id="6325" name="Gulir ke baris terakhir setelah diperbarui"/>
@@ -1240,7 +1231,6 @@ Anda dapat mendefinisikan beberapa penanda kolom dengan menggunakan spasi putih 
 					<Item id="6324" name="Penukar Dokumen (Ctrl+TAB)"/>
 					<Item id="6331" name="Tampilkan nama berkas saja di bilah judul"/>
 					<Item id="6334" name="Otomatis deteksi pengodean karakter"/>
-					<Item id="6349" name="Gunakan DirectWrite (Mungkin meningkatkan perenderan karakter khusus, perlu memulai ulang Notepad++)"/>
 					<Item id="6337" name="Ekst. berkas Ruang Kerja:"/>
 					<Item id="6114" name="Aktifkan"/>
 					<Item id="6117" name="Aktifkan perilaku MRU"/>
@@ -1600,10 +1590,8 @@ Temukan dalam semua berkas kecuali semua folder log atau logs secara berulang:
 			<finder-uncollapse-all value="Buka semua lipatan"/>
 			<finder-copy value="Salin Baris Terpilih"/>
 			<finder-copy-verbatim value="Salin"/>
-			<finder-copy-paths value="Salin Nama Jalur"/>
 			<finder-select-all value="Pilih semua"/>
 			<finder-clear-all value="Bersihkan semua"/>
-			<finder-open-all value="Buka semua"/>
 			<finder-purge-for-every-search value="Hapus untuk tiap pencarian"/>
 			<finder-wrap-long-lines value="Kemas kata baris panjang"/>
 			<common-ok value="Oke"/>

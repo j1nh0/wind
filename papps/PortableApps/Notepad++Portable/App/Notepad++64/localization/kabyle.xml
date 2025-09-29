@@ -121,7 +121,6 @@
 					<Item id="42030" name="Nɣel isem n ufaylu amiran"/>
 					<Item id="42031" name="Nɣel akaram n ufaylu amiran"/>
 					<Item id="42032" name="Selkem a Macro aṭas n tikkal..."/>
-					<Item id="42033" name="Kkes askar i tɣuri kan"/>
 					<Item id="42034" name="Amaẓrag n tgejda..."/>
 					<Item id="42035" name="Ger awennit"/>
 					<Item id="42036" name="kkes awennit"/>
@@ -337,7 +336,6 @@
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Extended (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Semselsi deg yifuyla"/>
-				<Item id="1661" name="Follow current doc."/>
 				<Item id="1641" name="Af-d kulec di zzmam amiran"/>
 				<Item id="1686" name="Transparency"/>
 				<Item id="1703" name=". matches newline"/>
@@ -563,19 +561,16 @@
 			<Preference title="Preferences">
 				<Item id="6001" name="Mdel"/>
 				<Global title="Amatu">
-					<Item id="6101" name="Taggagt n wallalen"/>
 					<Item id="6102" name="Ffer"/>
 					<Item id="6103" name="Tignitin timectaḥ"/>
 					<Item id="6104" name="Tignitin timeqranin"/>
 					<Item id="6105" name="Standard icons"/>
 
-					<Item id="6106" name="Tab Bar"/>
 					<Item id="6107" name="Reduce"/>
 					<Item id="6108" name="Lock (no drag and drop)"/>
 					<Item id="6109" name="Darken inactive tabs"/>
 					<Item id="6110" name="Draw a coloured bar on active tab"/>
 
-					<Item id="6111" name="Show status bar"/>
 					<Item id="6112" name="Show close button on each tab"/>
 					<Item id="6113" name="Double click to close document"/>
 					<Item id="6118" name="Ffer"/>
@@ -596,7 +591,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Multi-Editing Settings"/>
-					<Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
 					<Item id="6201" name="Folder Margin Style"/>
 					<Item id="6202" name="Simple"/>
 					<Item id="6203" name="Arrow"/>
@@ -715,7 +709,6 @@
 				</Backup>
 
 				<AutoCompletion title="Auto-Completion">
-					<Item id="6115" name="Auto-indent"/>
 					<Item id="6807" name="Auto-Completion"/>
 					<Item id="6808" name="Enable auto-completion on each input"/>
 					<Item id="6809" name="Function completion"/>
@@ -752,10 +745,6 @@
 				<MISC title="MISC.">
 					<Item id="6304" name="Recent Files History"/>
 					<Item id="6305" name="Don't check at launch time"/>
-
-					<Item id="6307" name="Enable"/>
-					<Item id="6308" name="Minimize to system tray"/>
-
 					<Item id="6312" name="File Status Auto-Detection"/>
 					<Item id="6313" name="Update silently"/>
 					<Item id="6318" name="Clickable Link Settings"/>

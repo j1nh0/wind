@@ -134,7 +134,6 @@
 					<Item id="42030" name="Όνομα αρχείου σε Προσωρινή μνήμη"/>
 					<Item id="42031" name="Διαδρομή καταλόγου σε Προσωρινή μνήμη"/>
 					<Item id="42032" name="Εκτέλεση μακροεντολής πολλές φορές..."/>
-					<Item id="42033" name="Καθαρισμός μόνο για ανάγνωση μεταβητής flag"/>
 					<Item id="42034" name="Επεξεργαστής Στηλών..."/>
 					<Item id="42035" name="Πρόσθεση σχολίου"/>
 					<Item id="42036" name="Αφαίρεση σχολίου"/>
@@ -412,7 +411,6 @@
 				<Item id="1658" name="Σε υπο-φακέλους"/>
 				<Item id="1659" name="Σε κρυφούς φακέλους"/>
 				<Item id="1660" name="Αντικατάσταση σε αρχεία"/>
-				<Item id="1661" name="Και στο τρέχον doc."/>
 				<Item id="1662" name="Πίνακας έργου 1"/>
 				<Item id="1663" name="Πίνακας έργου 2"/>
 				<Item id="1664" name="Πίνακας έργου 3"/>
@@ -799,18 +797,15 @@
 			<Preference title="Προτιμήσεις">
 				<Item id="6001" name="Κλείσιμο"/>
 				<Global title="Γενικά">
-					<Item id="6101" name="Γραμμή εργαλείων"/>
 					<Item id="6102" name="Απόκρυψη"/>
 					<Item id="6103" name="Μικρά εικονίδια"/>
 					<Item id="6104" name="Μεγάλα εικονίδια"/>
 					<Item id="6105" name="Μικρά πρότυπα εικονίδια"/>
-					<Item id="6106" name="Γραμμή καρτελών"/>
 					<Item id="6107" name="Μείωση"/>
                     
 					<Item id="6108" name="Κλείδωμα (Χωρίς Σύρσιμο-Απόθεση)"/>
 					<Item id="6109" name="Μαύρισμα ανενεργών καρτελών"/>
 					<Item id="6110" name="Εμφάνιση άνω πορτοκαλί γραμμής"/>
-					<Item id="6111" name="Εμφάνιση γραμμής κατάστασης"/>
 					<Item id="6112" name="Πλήκτρο κλεισίματος σε κάθε καρτέλα"/>
                     
 					<Item id="6113" name="Διπλό κλικ για κλείσιμο εγγράφου"/>
@@ -838,7 +833,6 @@
 					<Item id="6219" name="Ρυθμός Αναλαμπής: "/>
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
-					<Item id="6225" name="Ενεργοποίηση (Ctrl+Κλικ Ποντικιού/επιλογή)"/>
 					<Item id="6227" name="Αναδίπλωση γραμμών"/>
 					<Item id="6228" name="Εξ΄ ορισμού"/>
 					<Item id="6229" name="Ευθυγράμμιση"/>
@@ -999,7 +993,6 @@
 				</Backup>
 
 				<AutoCompletion title="Αυτόμ συμπλήρωση">
-					<Item id="6115" name="Αυτόματη εσοχή"/>
 					<Item id="6807" name="Αυτόμ συμπλήρωση"/>
 					<Item id="6808" name="Ενεργοπ. αυτόμ. συμπλήρ. σε κάθε είσοδο"/>
 					<Item id="6809" name="Συνάρτηση συμπλήρωσης"/>
@@ -1068,7 +1061,6 @@
 					</ComboBox>
 					<Item id="6114" name="Ενεργό"/>
 					<Item id="6117" name="Ενεργή MRU προσαρμογή"/>
-					<Item id="6308" name="Ελαχιστοποίηση στη Γραμμή εργασιών"/>
 					<Item id="6312" name="Κατάσταση Αρχείων Αυτόματης-ανίχνευσης"/>
 					<Item id="6313" name="Αθόρυβη ενημέρωση"/>
 					<Item id="6322" name="Επέκταση αρχείου συνόδου:"/>
@@ -1081,7 +1073,6 @@
 					<Item id="6344" name="Σύνοψη εγγράφου"/>
 					<Item id="6345" name="Σύνοψη στην καρτέλα"/>
 					<Item id="6346" name="Σύνοψη στο χάρτη εγγράφου"/>
-					<Item id="6349" name="Χρήση DirectWrite (Μπορεί να βελτιωθεί η απόδοση ειδικών χαρακτήρων, πρέπει να γίνει επανεκκίνησηNotepad++)"/>
 					<Item id="6360" name="Σίγαση όλων των ήχων"/>
 				</MISC>
 			</Preference>
@@ -1195,7 +1186,7 @@
 			<OpenFileError title="ERROR" message="Δεν μπορεί να ανοίξει το αρχείο &quot;$STR_REPLACE$&quot;."/>
 			<FileBackupFailed title="Αποτυχία δημιουργίας αντιγράφου αρχείου" message="Η προηγούμενη έκδοση του αρχείου δεν μπόρεσε να αποθηκευτεί στον κατάλογο αντιγράφων ασφαλείας στο &quot;$STR_REPLACE$&quot;.
 
-Do you want to save the current file anyways?"/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
+Do you want to save the current file anyway?"/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
 			<LoadLangsFailed title="Configurator" message="Load langs.xml failed!
 Do you want to recover your langs.xml?"/><!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
@@ -1384,10 +1375,8 @@ Find in all files except exe, obj &amp;&amp; log:
 			<finder-uncollapse-all value="Uncollapse all"/>
 			<finder-copy value="Copy Selected Line(s)"/>
 			<finder-copy-verbatim value="Copy"/>
-			<finder-copy-paths value="Copy Pathname(s)"/>
 			<finder-select-all value="Select all"/>
 			<finder-clear-all value="Clear all"/>
-			<finder-open-all value="Open all"/>
 			<finder-purge-for-every-search value="Purge for every search"/>
 			<finder-wrap-long-lines value="Word wrap long lines"/>
 			<common-ok value="OK"/>

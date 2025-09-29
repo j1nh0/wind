@@ -125,7 +125,6 @@
 					<Item id="42030" name="Aktivt filnamn"/>
 					<Item id="42031" name="Aktiv filsti"/>
 					<Item id="42032" name="Køyr makro fleire gonger..."/>
-					<Item id="42033" name="Fjern merke for låsing"/>
 					<Item id="42035" name="Blokkommentar"/>
 					<Item id="42036" name="Fjern blokkommentar"/>
 					<Item id="42037" name="Kolonnemodus..."/>
@@ -310,7 +309,6 @@
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Utvida (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Bytt ut i filer"/>
-				<Item id="1661" name="Følg aktivt dokument"/>
 				<Item id="1641" name="Søk etter alle i aktivt dokument"/>
 				<Item id="1686" name="Gjennomsiktig"/>
 			</Find>
@@ -436,19 +434,16 @@
 			<Preference title="Innstillingar">
 				<Item id="6001" name="Lukk"/>
 				<Global title="Allment">
-					<Item id="6101" name="Verktøylinje"/>
 					<Item id="6102" name="Skjul"/>
 					<Item id="6103" name="Småe ikon"/>
 					<Item id="6104" name="Store ikon"/>
 					<Item id="6105" name="Standardikon"/>
 
-					<Item id="6106" name="Fanelinje"/>
 					<Item id="6107" name="Mindre"/>
 					<Item id="6108" name="Lås (ikkje dra-og-slepp)"/>
 					<Item id="6109" name="Gjer inaktive faner mørkare"/>
 					<Item id="6110" name="Bruk farge på aktiv fane"/>
 
-					<Item id="6111" name="Vis statuslinje"/>
 					<Item id="6112" name="Vis lukkeknapp på kvar fane"/>
 					<Item id="6113" name="Dobbelklikk for å lukke dokument"/>
 					<Item id="6118" name="Skjul"/>
@@ -468,7 +463,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Multiredigering"/>
-					<Item id="6225" name="Bruk (Ctrl+museklikk/merking)"/>
 					<Item id="6201" name="Blokkinnstillingar"/>
 					<Item id="6202" name="Enkel"/>
 					<Item id="6203" name="Pil"/>
@@ -569,8 +563,6 @@
 					<Item id="6304" name="Historikk over nyleg opna filer"/>
 					<Item id="6305" name="Ikkje sjekk ved oppstart"/>
 					<Item id="6306" name="Ikkje vis fleire stykk enn:"/>
-					<Item id="6307" name="Bruk"/>
-					<Item id="6308" name="Minimer til systemlinja"/>
 					<Item id="6309" name="Hugs gjeldande økt til neste gang"/>
 					<Item id="6312" name="Automatisk oppdaging av filstatus"/>
 					<Item id="6313" name="Stille oppdatering"/>
@@ -589,7 +581,6 @@
 
 					<Item id="6331" name="Berre vis filnamn på tittellinja"/>
 					<Item id="6114" name="Bruk"/>
-					<Item id="6115" name="Automatisk innrykk"/>
 					<Item id="6117" name="Bruk funksjonar for nylege element"/>
 
 				</MISC>

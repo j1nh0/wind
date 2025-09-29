@@ -111,7 +111,6 @@
 					<Item id="42030" name="Faylın adını kopiya et"/>
 					<Item id="42031" name="Qovluğun yolunu kopiya et"/>
 					<Item id="42032" name="Makronu bir neçə dəfə işlət..."/>
-					<Item id="42033" name="&quot;Ancaq oxumaq&quot; tağını götür"/>
 					<Item id="42035" name="Bloku Şərhləndir"/>
 					<Item id="42036" name="Bloku Şərhləndirmə"/>
 
@@ -289,7 +288,6 @@
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Genişləndirilmiş (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Fayllarda əvəz et"/>
-				<Item id="1661" name="Bu sənəddən sonrakı"/>
 				<Item id="1641" name="Bu sənəddə hamısını tap"/>
 				<Item id="1686" name="Şəffaflıq"/>
 			</Find>
@@ -408,19 +406,16 @@
 				<Item id="6001" name="Bağla"/>
 
 				<Global title="Ümumi">
-					<Item id="6101" name="Alətlər paneli"/>
 					<Item id="6102" name="Gizlət"/>
 					<Item id="6103" name="Balaca ikonlar"/>
 					<Item id="6104" name="Böyük ikonlar"/>
 					<Item id="6105" name="Standart ikonlar"/>
 
-					<Item id="6106" name="Sənəd başlıqları"/>
 					<Item id="6107" name="Kiçiltmək"/>
 					<Item id="6108" name="Qıfılla (yer dəyişməsinə qadağa et)"/>
 					<Item id="6109" name="Aktiv olmayan başlıqlar boz olsun"/>
 					<Item id="6110" name="Üstündə sarı xətt olsun"/>
 
-					<Item id="6111" name="Vəziyyət sətirini göstər"/>
 					<Item id="6112" name="Bağla düyməsini göstər"/>
 					<Item id="6113" name="Başlığı iki kliklə bağla"/>
 					<Item id="6118" name="Gizlət"/>
@@ -439,7 +434,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Multi-Redaktə nizamları"/>
-					<Item id="6225" name="İcazə ver (Ctrl+Mouse klik/Seçmək)"/>
 					<Item id="6201" name="Blokun qıraqlarının stili"/>
 					<Item id="6202" name="Sadə"/>
 					<Item id="6203" name="Oxlar"/>
@@ -531,8 +525,6 @@
 					<Item id="6304" name="Açılmış sənədlərin tarixi"/>
 					<Item id="6305" name="İşə salarkən yoxlama"/>
 					<Item id="6306" name="Maks. sənəd sayı :"/>
-					<Item id="6307" name="İcazə ver"/>
-					<Item id="6308" name="Sistem treyə kiçilt"/>
 					<Item id="6309" name="Axırıncı sessiyanın sənədlərini aç"/>
 					<Item id="6312" name="Statusu avtomatik təyinləşdir"/>
 					<Item id="6313" name="Soruşmadan yenilə"/>
@@ -552,7 +544,6 @@
 
 					<Item id="6331" name="Başlıqda yalnız faylın adını göstər"/>
 					<Item id="6114" name="İcazə ver"/>
-					<Item id="6115" name="Auto-indent"/>
 					<Item id="6117" name="Enable MRU behaviour"/>
 				</MISC>
 

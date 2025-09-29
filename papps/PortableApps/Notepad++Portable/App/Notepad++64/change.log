@@ -1,21 +1,25 @@
-Notepad++ v8.6.8 bug-fixes & new enhancements:
+Notepad++ v8.8.5 regression-fix:
 
- 1. Fix a crash in Column Editor caused by an arithmetic overflow.
- 2. Fix the issue where any negative repeat value in Column Editor causes a hang.
- 3. Fix an extra space being inserted in HEX mode issue in Column Editor.
- 4. Fix a visual glitch of the toolbar pressed buttons in dark mode.
- 5. Add auto-indent feature for Python.
- 6. Fix the issue where "show control characters" settings not remembered when switching to another tab.
- 7. Fix the missing monitoring disabled state icon from the fluent icon set on the toolbar.
- 8. Adjusted the inaccurate naming of indent settings in thee Preferences dialog.
- 9. Fix the issue where the customized color of active tab in inactive view is missing.
-10. Introduce a new plugin command "NPPM_GETTABCOLORID" to retrieve the current tab color ID.
-11. Allow the tree view dark mode customization for plugins.
-12. Fix the popup dialog for updating not metioning 'Notepad++'.
+ 1. Fix "Edit with Notepad++" context menu not being installed correctly regression.
+ 
+
+Notepad++ v8.8.4 vulnerability-fixes, bug-fixes & new enhancement:
+
+ 1. Fix -notabbar & asNotepad.xml stop hiding tabbar regression (from v8.7.9).
+ 2. Fix "Edit with Notepad++" not removed by uninstaller regression (from v8.8.3).
+ 3. Fix possible heap memory leak.
+ 4. Increase search input length from 2046 to 16383.
+ 5. Add warning tip for the max length on search input (Find/Replace).
+ 6. Fix JavaScript listed twice in Language & Indent settings of Preferences issue.
+ 7. Fix external lexers showing several time in Indent settings issue.
+ 8. Add button to insert variables in the run dialog.
+ 9. Enhance "Go to settings": guide users to the related setting explicitly.
+10. Add a clear button for filter field in Shortcut Mapper.
+11. Make NFO font overridable by adding font name in Lexer "nfo" of stylers.xml.
 
 
 Get more info on
-https://notepad-plus-plus.org/downloads/v8.6.8/
+https://notepad-plus-plus.org/downloads/v8.8.5/
 
 
 Included plugins:
@@ -27,4 +31,4 @@ Included plugins:
 
 Updater (Installer only):
 
-* WinGUp (for Notepad++) v5.2.9
+* WinGUp (for Notepad++) v5.3.3

@@ -182,7 +182,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="42087" name="Fitxategi guztien izenak Arbelera"/>
 					<Item id="42088" name="Fitxategi guztien bideak Arbelera"/>
 					<Item id="42032" name="Exekutatu Makro bat Hainbat Aldiz..."/>
-					<Item id="42033" name="Kendu Irakurtzeko-Bakarrik Marka"/>
 					<Item id="42035" name="Gehitu Lerro Bakarreko Iruzkina"/>
 					<Item id="42036" name="Kendu Lerro Bakarreko Iruzkina"/>
 					<Item id="42055" name="Kendu Lerro Hutsak"/>
@@ -438,7 +437,6 @@ The comments are here for explanation, it's not necessary to translate them.
 				<Item id="1626" name="Hedatua (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Ordeztu Fitxategietan"/>
 				<Item id="1665" name="Ordeztu Proiektuetan"/>
-				<Item id="1661" name="Jarraitu oraingo dok."/>
 				<Item id="1662" name="1. Proiektu-panela"/>
 				<Item id="1663" name="2. Proiektu-panela"/>
 				<Item id="1664" name="3. Proiektu-panela"/>
@@ -841,7 +839,6 @@ The comments are here for explanation, it's not necessary to translate them.
 			<Preference title="Hobespenak">
 				<Item id="6001" name="Itxi"/>
 				<Global title="Orokorra">
-					<Item id="6101" name="Tresna-barra"/>
 					<Item id="6102" name="Ezkutatu"/>
 					<Item id="6103" name="Fluent UI: txikiak"/>
 					<Item id="6104" name="Fluent UI: handiak"/>
@@ -849,13 +846,11 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6130" name="Filled Fluent UI: handiak"/>
 					<Item id="6105" name="Ikono arruntak: txikiak"/>
 
-					<Item id="6106" name="Fitxa-barra"/>
 					<Item id="6107" name="Gutxitu"/>
 					<Item id="6108" name="Blokeatu (ezin hartu eta eraman egin)"/>
 					<Item id="6109" name="Ilundu fitxa ez-aktiboak"/>
 					<Item id="6110" name="Marraztu barra koloreduna fitxa aktiboan"/>
 
-					<Item id="6111" name="Erakutsi egoera-barra"/>
 					<Item id="6112" name="Erakutsi itxi botoia fitxa bakoitzean"/>
 					<Item id="6113" name="Klik bikoitza fitxategia ixteko"/>
 					<Item id="6118" name="Ezkutatu"/>
@@ -874,7 +869,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6219" name="Kliskatze-ratioa:"/>
 					<Item id="6221" name="Azkar"/>
 					<Item id="6222" name="Mantso"/>
-					<Item id="6225" name="Gaitu Editatze-Anitza (Ctrl+sagu klika/hautapena)"/>
 					<Item id="6227" name="Lerro-itzulbiraketa"/>
 					<Item id="6228" name="Lehenetsitakoa"/>
 					<Item id="6229" name="Lerrokatuta"/>
@@ -1069,7 +1063,6 @@ Zutabe-markatzaile anitz zehaztu ditzakezu zenbakiak zuriuneen bidez banatuta."/
 				</Backup>
 
 				<AutoCompletion title="Osaketa automatikoa">
-					<Item id="6115" name="Koskatze automatikoa"/>
 					<Item id="6807" name="Osaketa automatikoa"/>
 					<Item id="6808" name="Gaitu osaketa automatikoa sarrera bakoitzean"/>
 					<Item id="6809" name="Funtzio-osaketa"/>
@@ -1142,7 +1135,6 @@ Zutabe-markatzaile anitz zehaztu ditzakezu zenbakiak zuriuneen bidez banatuta."/
 						<Element name="Gaitu irekitako fitxategi guztientzat"/>
 						<Element name="Desgaitu"/>
 					</ComboBox>
-					<Item id="6308" name="Eraman sistemako tresna-barrara minimizatzean"/>
 					<Item id="6312" name="Fitxategi-egoeraren Antzemate Automatikoa"/>
 					<Item id="6313" name="Eguneratu isiliean"/>
 					<Item id="6325" name="Korritu azken lerrora eguneratu ondoren"/>
@@ -1151,7 +1143,6 @@ Zutabe-markatzaile anitz zehaztu ditzakezu zenbakiak zuriuneen bidez banatuta."/
 					<Item id="6324" name="Dokumentu Aldatzailea (Ctrl+TAB)"/>
 					<Item id="6331" name="Erakutsi soilik fitxategi-izena izenburu-barran"/>
 					<Item id="6334" name="Antzeman automatikoki karaktere-kodifikazioa"/>
-					<Item id="6349" name="Erabili DirectWrite (Karaktere berezien errenderizatzea hobetu dezake, Notepad++ berrabiaraztea behar du)"/>
 					<Item id="6337" name="Lan eremuaren fitxategi-luzapena:"/>
 					<Item id="6114" name="Gaitu"/>
 					<Item id="6117" name="Gaitu MRU jokaera (Gehien Erabilitakoak)"/>
@@ -1486,10 +1477,8 @@ Bilatu fitxategi guztietan baina alde batera utzi log ala logs karpetak modu err
 			<finder-uncollapse-all value="Zabaldu guztiak"/>
 			<finder-copy value="Kopiatu Aukeratutako Lerroa(k)"/>
 			<finder-copy-verbatim value="Kopiatu"/>
-			<finder-copy-paths value="Kopiatu Bide-izena(k)"/>
 			<finder-select-all value="Aukeratu guztia"/>
 			<finder-clear-all value="Garbitu guztia"/>
-			<finder-open-all value="Ireki guztia"/>
 			<finder-purge-for-every-search value="Garbitu bilaketa bakoitzean"/>
 			<finder-wrap-long-lines value="Lerro luzeetako hitzen itzulbiraketa"/>
 			<common-ok value="Ados"/>

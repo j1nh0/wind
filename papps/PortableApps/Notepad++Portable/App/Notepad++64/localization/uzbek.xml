@@ -144,7 +144,6 @@ Updater: Shamsiddinov Zafar
 					<Item id="42030" name="&amp;Fayl nomi"/>
 					<Item id="42031" name="&amp;Fayl yoʻlagi"/>
 					<Item id="42032" name="Koʻp marotabali kirish..."/>
-					<Item id="42033" name="&amp;&quot;Faqat oʻqish&quot; rejimini bekor qilmoq"/>
 					<Item id="42034" name="Ustun yaratuvchi..."/>
 					<Item id="42035" name="Satrni sharhlamoq"/>
 					<Item id="42036" name="Satrni sharhlamaslik"/>
@@ -405,7 +404,6 @@ Updater: Shamsiddinov Zafar
 				<Item id="1658" name="Barcha ostjildlardan"/>
 				<Item id="1659" name="Berkitilgan jildlardan"/>
 				<Item id="1660" name="Fayllarda alishtirmoq"/>
-				<Item id="1661" name="Joriy fayl jildida"/>
 				<Item id="1686" name="Shaffoflik"/>
 				<Item id="1687" name="Faol boʻlmaganda"/>
 				<Item id="1688" name="Doimoy"/>
@@ -715,17 +713,14 @@ Updater: Shamsiddinov Zafar
 			<Preference title="Tanlovlar">
 				<Item id="6001" name="Yopmoq"/>
 				<Global title="Asosiy">
-					<Item id="6101" name="Uskunalar paneli koʻrinishi"/>
 					<Item id="6102" name="Panelni berkitmoq"/>
 					<Item id="6103" name="Kichik yorliqlarda"/>
 					<Item id="6104" name="Katta yorliqlarda"/>
 					<Item id="6105" name="Standart yorliqlarda"/>
-					<Item id="6106" name="Xatchoʻplar paneli koʻrinishi"/>
 					<Item id="6107" name="Kichraytirilgan oʻlchamda"/>
 					<Item id="6108" name="Siljitishni ta’qiqlamoq"/>
 					<Item id="6109" name="Faol boʻlmagan xatchoʻplar kul rangda"/>
 					<Item id="6110" name="Faoli ustidan sabzi rang chiziq"/>
-					<Item id="6111" name="Satr Holatini koʻrsatmoq"/>
 					<Item id="6112" name="Xatchoʻpda yopish tugmasi"/>
 					<Item id="6113" name="Ikki marta bosib yopmoq"/>
 					<Item id="6118" name="Berkitmoq"/>
@@ -760,7 +755,6 @@ Updater: Shamsiddinov Zafar
 					<Item id="6221" name="S"/>
 					<Item id="6222" name="T"/>
 					<Item id="6224" name="Multitahrirlamoq"/>
-					<Item id="6225" name="Yoq. (Ctrl + Bosish / Ajratish)"/>
 					<Item id="6226" name="Faol emas"/>
 					<Item id="6227" name="Satr Koʻchirish uslubi"/>
 					<Item id="6228" name="Standart"/>
@@ -910,8 +904,6 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 					<Item id="6335" name="Teskari tutuq belgisi (‘) SQL belgisi koʻrinishidir"/>
 				</Language>
 				<MISC title="Boshqalar">
-					<Item id="6307" name="Faollashtirmoq"/>
-					<Item id="6308" name="Treyga oʻtkazmoq"/>
 					<Item id="6312" name="Fayl oʻzgarishlarini kuzatmoq  (извне)"/>
 					<Item id="6313" name="Soʻrovsiz yangilamoq"/>
 					<Item id="6318" name="Veb-havolalar ishlovi"/>
@@ -929,7 +921,6 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 					<Item id="6344" name="Faylni Koʻrmoq"/>
 					<Item id="6345" name="Xatchoʻplar ostida miniatura"/>
 					<Item id="6346" name="Fayl xaritasida koʻrsatmoq"/>
-					<Item id="6349" name="DirectWrite funksiyasidan foydalanmoq (Notepad++ dasturiga qayta kirish talab etiladi)"/>
 					<Item id="6350" name="Toʻldirish rejimini qoʻllamoq"/>
 					<Item id="6351" name="Saqlash darchasiga *.* filterini qoʻshmoq"/>
 					<Item id="6360" name="Barcha ovozlarni oʻchirib qoʻymoq"/>
@@ -990,7 +981,6 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 					<Item id="6822" name="Nusxa yoʻlagi:"/>
 				</Backup>
 				<AutoCompletion title="Avtotugallash">
-					<Item id="6115" name="Oldingi satrdagi chekinishni takrorlamoq"/>
 					<Item id="6807" name="Avtotugallash"/>
 					<Item id="6808" name="Har bir kiritiganda, faolashtirmoq"/>
 					<Item id="6809" name="Funksiyani tugallash"/>
@@ -1242,7 +1232,6 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 			<finder-copy value="Nusxalamoq"/>
 			<finder-select-all value="Barini belgilamoq"/>
 			<finder-clear-all value="Barini tozalamoq"/>
-			<finder-open-all value="Barini ochmoq"/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>

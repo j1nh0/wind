@@ -163,7 +163,6 @@ https://github.com/AndresTraks/
 					<Item id="42030" name="Kopeeri faili nimi lõikepuhvrisse"/>
 					<Item id="42031" name="Kopeeri faili kausta rada lõikepuhvrisse"/>
 					<Item id="42032" name="Taasesita makro mitu korda..."/>
-					<Item id="42033" name="Eemalda faililt kirjutuskaitse atribuut"/>
 					<Item id="42035" name="Ühe rea kommentaar"/>
 					<Item id="42036" name="Eemalda ühe rea kommentaar"/>
 					<Item id="42055" name="Kustuta tühjad read"/>
@@ -372,7 +371,6 @@ https://github.com/AndresTraks/
 				<Item id="1625" name="Tavaline"/>
 				<Item id="1626" name="Laiendatud (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Asenda failides"/>
-				<Item id="1661" name="Järgi praegust dokumenti"/>
 				<Item id="1641" name="Leia kõik praeguses dokumendis"/>
 				<Item id="1686" name="Läbipaistvus"/>
 				<Item id="1703" name="&amp;. vastab realõpule"/>
@@ -624,19 +622,16 @@ https://github.com/AndresTraks/
 			<Preference title="Eelistused">
 				<Item id="6001" name="Sule"/>
 				<Global title="Üldine">
-					<Item id="6101" name="Tööriistariba"/>
 					<Item id="6102" name="Peida"/>
 					<Item id="6103" name="Väikesed ikoonid"/>
 					<Item id="6104" name="Suured ikoonid"/>
 					<Item id="6105" name="Tavasuuruses ikoonid"/>
 
-					<Item id="6106" name="Sakkide riba"/>
 					<Item id="6107" name="Vähenda"/>
 					<Item id="6108" name="Lukusta (keela pukseerimine)"/>
 					<Item id="6109" name="Tumenda mitte-aktiivsed sakid"/>
 					<Item id="6110" name="Värviline riba aktiivse saki kohal"/>
 
-					<Item id="6111" name="Näita olekuriba"/>
 					<Item id="6112" name="Näita iga saki juures sulgemisnuppu"/>
 					<Item id="6113" name="Topeltklõps faili sulgemiseks"/>
 					<Item id="6118" name="Peida"/>
@@ -658,7 +653,6 @@ https://github.com/AndresTraks/
 					<Item id="6221" name="+"/>
 					<Item id="6222" name="-"/>
 					<Item id="6224" name="Mitmik-redigeerimise sätted"/>
-					<Item id="6225" name="Võimalda (Ctrl+hiireklikk/valik)"/>
 					<Item id="6201" name="Voltimisnuppude stiil"/>
 					<Item id="6202" name="Lihtne"/>
 					<Item id="6203" name="Nooled"/>
@@ -797,7 +791,6 @@ https://github.com/AndresTraks/
 				</Backup>
 
 				<AutoCompletion title="Automaattäitmine">
-					<Item id="6115" name="Automaatne taane"/>
 					<Item id="6807" name="Automaattäitmine"/>
 					<Item id="6808" name="Luba automaattäitmine iga sisendi puhul"/>
 					<Item id="6809" name="Funktsioonide lõpetamine"/>
@@ -854,8 +847,6 @@ https://github.com/AndresTraks/
 				</SearchEngine>
 
 				<MISC title="Muu">
-					<Item id="6307" name="Võimalda"/>
-					<Item id="6308" name="Minimeeri süsteemisalve"/>
 					<Item id="6312" name="Faili oleku automaatne tuvastamine"/>
 					<Item id="6313" name="Värskenda vaikselt"/>
 					<Item id="6318" name="Hüperlinkide avamise sätted"/>

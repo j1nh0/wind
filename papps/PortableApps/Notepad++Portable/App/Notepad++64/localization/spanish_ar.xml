@@ -132,7 +132,6 @@
 					<Item id="42030" name="Copiar nombre del archivo"/>
 					<Item id="42031" name="Copiar ruta de la carpeta"/>
 					<Item id="42032" name="Ejecutar una macro varias veces..."/>
-					<Item id="42033" name="Quitar indicador de solo lectura"/>
 					<Item id="42035" name="Comentar selección"/>
 					<Item id="42036" name="Sin comentar selección"/>
 					<Item id="42055" name="Eliminar líneas vacías"/>
@@ -333,7 +332,6 @@
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Extendido (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Reemplazar en archivos"/>
-				<Item id="1661" name="Seguir en doc. actual"/>
 				<Item id="1641" name="Buscar todo en el documento actual"/>
 				<Item id="1686" name="Transparencia"/>
 				<Item id="1703" name="&amp;. en nueva línea"/>
@@ -559,19 +557,16 @@
 			<Preference title="Preferencias">
 				<Item id="6001" name="Cerrar"/>
 				<Global title="Generales">
-					<Item id="6101" name="Barra de herramientas"/>
 					<Item id="6102" name="Ocultar"/>
 					<Item id="6103" name="Iconos pequeños"/>
 					<Item id="6104" name="Iconos grandes"/>
 					<Item id="6105" name="Iconos predeterminados"/>
 
-					<Item id="6106" name="Barra de pestañas"/>
 					<Item id="6107" name="Reducir texto"/>
 					<Item id="6108" name="Bloquear (impedir arrastrar y soltar)"/>
 					<Item id="6109" name="Mostrar ventanas inactivas"/>
 					<Item id="6110" name="Mostrar línea naranja en activa"/>
 
-					<Item id="6111" name="Mostrar barra de estado"/>
 					<Item id="6112" name="Botón de cierre en cada pestaña"/>
 					<Item id="6113" name="Doble clic para cerrar un documento"/>
 					<Item id="6118" name="Ocultar"/>
@@ -592,7 +587,6 @@
 					<Item id="6221" name="R"/>
 					<Item id="6222" name="L"/>
 					<Item id="6224" name="Multiedición"/>
-					<Item id="6225" name="Habilita (Ctrl+Ratón)"/>
 					<Item id="6201" name="Estilo visual de los niveles"/>
 					<Item id="6202" name="Simple"/>
 					<Item id="6203" name="Flechas"/>
@@ -709,7 +703,6 @@
 				</Backup>
 
 				<AutoCompletion title="Autocompletar">
-					<Item id="6115" name="Sangría automática"/>
 					<Item id="6807" name="Autocompletar"/>
 					<Item id="6808" name="Habilitar autocompletar en cada entrada"/>
 					<Item id="6809" name="Completar función"/>
@@ -743,8 +736,6 @@
 				</Delimiter>
 
 				<MISC title="Miscelánea">
-					<Item id="6307" name="Habilitar"/>
-					<Item id="6308" name="Minimizar a bandeja del sistema"/>
 					<Item id="6309" name="Recordar sesión actual en el próximo inicio"/>
 					<Item id="6312" name="Auto-detectar estado del archivo"/>
 					<Item id="6313" name="Actualización automática"/>

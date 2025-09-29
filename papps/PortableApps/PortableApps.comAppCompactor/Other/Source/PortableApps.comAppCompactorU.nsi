@@ -1,4 +1,4 @@
-﻿;Copyright 2006-2024 John T. Haller
+﻿;Copyright 2006-2025 John T. Haller
 ;Copyright 2008 Harold E. Austin, Jr.
 
 ;Website: https://portableapps.com/apps/utilities/portableapps.com_appcompactor
@@ -21,9 +21,9 @@
 ;Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 !define APPNAME "PortableApps.com AppCompactor"
-!define VER "3.7.8.0"
+!define VER "3.12.0.0"
 !define WEBSITE "https://portableapps.com/apps/utilities/portableapps.com_appcompactor"
-!define FRIENDLYVER "3.7.8"
+!define FRIENDLYVER "3.12"
 
 ;=== Program Details
 Name "${APPNAME}"

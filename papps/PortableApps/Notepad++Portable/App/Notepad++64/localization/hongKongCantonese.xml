@@ -207,7 +207,6 @@
 					<Item id="42032" name="係咁執行 mac&amp;ro..."/>
 
 					<!-- type: Edit menu (cont'd) -->
-					<Item id="42033" name="取消唯讀屬性"/>
 					<Item id="42035" name="轉做單行式註解"/>
 					<Item id="42036" name="取消單行式註解"/>
 					<Item id="42055" name="剷走空行"/>
@@ -504,7 +503,6 @@
 				<Item CMDID="41014" name="喺磁碟重新 load 過"/><!-- #new v8.4.8 -->
 				<Item CMDID="41010" name="Print 出嚟..."/><!-- #new v8.4.8 -->
 				<Item CMDID="42028" name="唯讀"/><!-- #new v8.4.8 -->
-				<Item CMDID="42033" name="取消唯讀屬性"/><!-- #new v8.4.8 -->
 				<Item CMDID="2" name="抄去剪貼簿"/><!-- #new v8.4.8 -->
 				<Item CMDID="42029" name="抄低個檔案路徑"/><!-- #new v8.4.8 -->
 				<Item CMDID="42030" name="抄低個檔名"/><!-- #new v8.4.8 -->
@@ -557,7 +555,6 @@
 				<Item id="1626" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
 				<Item id="1660" name="所有檔案全部取代"/>
 				<Item id="1665" name="喺 projects 嘅檔案執行取代"/><!-- #new v7.9.4 -->
-				<Item id="1661" name="使用目前文件嘅資料夾"/>
 				<Item id="1662" name="Project Panel 1"/><!-- #new v7.9.4 -->
 				<Item id="1663" name="Project Panel 2"/><!-- #new v7.9.4 -->
 				<Item id="1664" name="Project Panel 3"/><!-- #new v7.9.4 -->
@@ -993,19 +990,16 @@
 				<Item id="6001" name="閂"/>
 
 				<Global title="一般">
-					<Item id="6101" name="工具列"/>
 					<Item id="6102" name="隱藏"/>
 					<Item id="6103" name="滑脫脫介面：細圖示"/><!-- "Fluent UI" -->
 					<Item id="6104" name="滑脫脫介面：大圖示"/><!-- "Fluent UI" -->
 					<Item id="6129" name="肥嘟嘟介面：細圖示"/><!-- "Filled Fluent UI" --><!-- #new v7.9.6 -->
 					<Item id="6130" name="肥嘟嘟介面：大圖示"/><!-- "Filled Fluent UI" --><!-- #new v7.9.6 -->
 					<Item id="6105" name="標準介面：細圖示"/>
-					<Item id="6106" name="Tab Bar"/>
 					<Item id="6107" name="縮細"/>
 					<Item id="6108" name="鎖定（唔畀 drag-and-drop）"/>
 					<Item id="6109" name="整暗啲唔係用緊嘅 tabs"/>
 					<Item id="6110" name="喺用緊嘅 tab 上面加條顏色 bar"/>
-					<Item id="6111" name="顯示狀態列"/>
 					<Item id="6112" name="喺每個 tab 顯示交叉掣"/>
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
 					<Item id="6118" name="隱藏"/>
@@ -1026,7 +1020,6 @@
 					<Item id="6221" name="快"/>
 					<Item id="6222" name="慢"/>
 					<Item id="6246" name="「摺埋呢層」同「展開呢層」命令改為「切換」"/><!-- #new v8.4.2 -->
-					<Item id="6225" name="幾個位置同時改嘢（Ctrl + 撳／撳著滑鼠掣）"/>
 					<Item id="6227" name="自動換行"/><!-- #moved in v7.9.2 -->
 					<Item id="6228" name="預設"/><!-- #moved in v7.9.2 -->
 					<Item id="6229" name="對齊"/><!-- #moved in v7.9.2 -->
@@ -1242,7 +1235,6 @@
 				</Backup>
 
 				<AutoCompletion title="自動完成">
-					<Item id="6115" name="自動縮排"/>
 					<Item id="6807" name="自動完成"/>
 					<Item id="6808" name="打每隻字都行自動完成"/>
 					<Item id="6809" name="函式自動完成"/>
@@ -1338,7 +1330,6 @@
 						<Element name="喺所有打開咗嘅檔案啟用"/>
 						<Element name="停用"/>
 					</ComboBox>
-					<Item id="6308" name="最小化視窗嗰陣縮去系統匣"/>
 					<Item id="6312" name="自動偵測檔案狀態"/>
 					<Item id="6313" name="靜靜雞喺背景更新"/>
 					<Item id="6325" name="更新後轆去最後一行"/>
@@ -1347,7 +1338,6 @@
 					<Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
 					<Item id="6331" name="標題列淨係顯示檔案名"/>
 					<Item id="6334" name="自動偵測檔案編碼"/>
-					<Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
 					<Item id="6337" name="資料夾工作區檔案副檔名："/>
 					<Item id="6114" name="啟用"/>
 					<Item id="6117" name="啟用 MRU 行為功能"/>
@@ -1711,10 +1701,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 			<finder-uncollapse-all value="展開所有層級"/>
 			<finder-copy value="抄低呢（幾）行"/>
 			<finder-copy-verbatim value="抄"/><!-- #new v7.9.2 -->
-			<finder-copy-paths value="抄低檔案路徑"/><!-- #new v7.9.6 -->
 			<finder-select-all value="揀晒"/>
 			<finder-clear-all value="全部清除"/>
-			<finder-open-all value="全部打開"/>
 			<finder-purge-for-every-search value="次次都清走搜尋結果"/><!-- #new v7.9.6 -->
 			<finder-wrap-long-lines value="自動換行"/>
 			<common-ok value="OK"/>

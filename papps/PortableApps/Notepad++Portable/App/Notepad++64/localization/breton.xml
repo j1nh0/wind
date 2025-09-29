@@ -163,7 +163,6 @@
 					<Item id="42030" name="Eilañ an anv-restr-red er golver"/>
 					<Item id="42031" name="Eilañ an doser-red er golver"/>
 					<Item id="42032" name="Sevenniñ ur makro dibaouez..."/>
-					<Item id="42033" name="Diverkañ ar baniell Lenn-Hepken"/>
 					<Item id="42035" name="Evezhiadenniñ (mod linenn)"/>
 					<Item id="42036" name="Dievezhiedennañ (mod linenn)"/>
 					<Item id="42055" name="Dilemel al linennoù goullo"/>
@@ -384,7 +383,6 @@
 				<Item id="1625" name="&amp;Normal"/>
 				<Item id="1626" name="Astennet (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Erlec'hiañ er restroù"/>
-				<Item id="1661" name="Heuliañ an teuliad-red"/>
 				<Item id="1641" name="Kavout pep-tra en teuliad-red"/>
 				<Item id="1686" name="Treuzwelusted"/>
 				<Item id="1703" name="&amp;. a genglot gant linennoù nevez"/>
@@ -688,19 +686,16 @@
 			<Preference title="Arventennoù">
 				<Item id="6001" name="Serriñ"/>
 				<Global title="Hollek">
-					<Item id="6101" name="Barrenn ostilhoù"/>
 					<Item id="6102" name="Kuzhat"/>
 					<Item id="6103" name="Ikonioù bihan"/>
 					<Item id="6104" name="Ikonioù bras"/>
 					<Item id="6105" name="Ikonioù standard"/>
 
-					<Item id="6106" name="Barrenn ivinelloù"/>
 					<Item id="6107" name="Bihanaat"/>
 					<Item id="6108" name="Morailhañ (stlejañ-dilec'hiañ ebet)"/>
 					<Item id="6109" name="Ivinelloù dioberiant teñvalet"/>
 					<Item id="6110" name="Barrenn livet war an ivinell oberiant"/>
 
-					<Item id="6111" name="Diskouez barrenn ar statudoù"/>
 					<Item id="6112" name="Diskouez ar bouton serriñ war bep ivinell"/>
 					<Item id="6113" name="Klikañ doubl evit serriñ un teuliad"/>
 					<Item id="6118" name="Kuzhat"/>
@@ -722,7 +717,6 @@
 					<Item id="6221" name="Herrek"/>
 					<Item id="6222" name="Gorrek"/>
 					<Item id="6224" name="Arventennoù lies-aozañ"/>
-					<Item id="6225" name="Enaouiñ (Ktrl+Klik diuzañ)"/>
 					<Item id="6201" name="Stil bevennoù doser"/>
 					<Item id="6202" name="Simpl"/>
 					<Item id="6203" name="Bir"/>
@@ -862,7 +856,6 @@
 				</Backup>
 
 				<AutoCompletion title="Em-glokaat">
-					<Item id="6115" name="Em-endantañ"/>
 					<Item id="6807" name="Em-glokaat"/>
 					<Item id="6808" name="Enaouiñ an em-glokaat war bep enmont"/>
 					<Item id="6809" name="Arc'hweladur klokat"/>
@@ -924,7 +917,6 @@
 						<Element name="Enaouiñ evit an holl restroù digoret"/>
 						<Element name="Lazhañ"/>
 					</ComboBox>
-					<Item id="6308" name="Bihanaat e barrenn ar c'hemennoù"/>
 					<Item id="6312" name="Em-diguzhadur ar statudoù restr"/>
 					<Item id="6313" name="Hizivaat hep trouz ebet"/>
 					<Item id="6318" name="Arventennoù al liammoù klikus"/>
@@ -1233,7 +1225,6 @@ Klask en holl restroù paneve exe, obj &amp;&amp; log:
 			<finder-copy value="Eilañ"/>
 			<finder-select-all value="Diuzañ pep-tra"/>
 			<finder-clear-all value="Diverkañ pep-tra"/>
-			<finder-open-all value="Digeriñ pep-tra"/>
 			<common-ok value="Mat eo"/>
 			<common-cancel value="Nullañ"/>
 			<common-name value="Anv: "/>

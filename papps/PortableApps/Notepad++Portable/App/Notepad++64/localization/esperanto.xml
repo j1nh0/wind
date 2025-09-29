@@ -146,7 +146,6 @@
 					<Item id="42030" name="... la nomon de la aktiva dosiero"/>
 					<Item id="42031" name="... la vojon de la dosierujo de la aktiva dosiero"/>
 					<Item id="42032" name="Lanĉu makroon plurfoje..."/>
-					<Item id="42033" name="Purigu la indikilon de nurlego"/><!-- Indikilo kontraŭ flago: flago estas rekonata per la angla, alie necesas lerni novan signifon de la fundamenta radiko "flago"; indiko estas el la 3a "Baza Radikaro Oficiala", tamen estas memdesplikanta (do pli bonlingva)-->
 					<Item id="42035" name="Komentigu blokon"/>
 					<Item id="42036" name="Malkomentigu blokon"/>
 					<Item id="42055" name="Forigu maplenajn liniojn"/>
@@ -360,7 +359,6 @@
 				<Item id="1625" name="Normala"/>
 				<Item id="1626" name="Speciala (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Anstataŭigu en la dosieroj"/>
-				<Item id="1661" name="Ujo de la aktiva dosiero"/>
 				<Item id="1641" name="Serĉu ĉiujn en la aktiva dosiero"/>
 				<Item id="1686" name="Travidebla"/>
 				<Item id="1703" name="&amp;. kaptas linifinon"/>
@@ -600,19 +598,16 @@
 			<Preference title="Agordoj">
 				<Item id="6001" name="Bone"/>
 				<Global title="Ĝeneralaĵoj">
-					<Item id="6101" name="Ilobreto"/>
 					<Item id="6102" name="Kaŝu"/>
 					<Item id="6103" name="Malgrandaj bildsimboloj"/>
 					<Item id="6104" name="Grandaj bildsimboloj"/>
 					<Item id="6105" name="Klasikaj bildsimboloj"/>
 
-					<Item id="6106" name="Langetobreto"/>
 					<Item id="6107" name="Malprigrandigu"/>
 					<Item id="6108" name="Bloku (sen ŝovado)"/>
 					<Item id="6109" name="Malheligu neaktivajn langetojn"/>
 					<Item id="6110" name="Kolora strio ĉe la aktiva langeto"/>
 
-					<Item id="6111" name="Montru statan breton"/>
 					<Item id="6112" name="Montru fermobutonon ĉe ĉiu langeto"/>
 					<Item id="6113" name="Duobla klako fermas dokumenton"/>
 					<Item id="6118" name="Kaŝu"/>
@@ -634,7 +629,6 @@
 					<Item id="6221" name="R"/>
 					<Item id="6222" name="M"/>
 					<Item id="6224" name="Agordoj pri plurredaktado"/>
-					<Item id="6225" name="Ŝaltu (Ctrl+Musklako/Elektado)"/>
 					<Item id="6201" name="Simbolo de blokgrupoj"/>
 					<Item id="6202" name="Simpla"/>
 					<Item id="6203" name="Sagforma"/>
@@ -743,8 +737,6 @@
 				</RecentFilesHistory>
 
 				<MISC title="Diversaĵoj">
-					<Item id="6307" name="Ŝaltu"/>
-					<Item id="6308" name="Minimumigu en taskopleton"/>
 					<Item id="6309" name="Memoru la seancdosierojn por estonta lanĉo"/>
 					<Item id="6312" name="Aŭtomata rekono de dosierstato"/>
 					<Item id="6313" name="Ĝisdatigu sen rimarkigo"/>
@@ -788,7 +780,6 @@
 				</Backup>
 
 				<AutoCompletion title="Vortkompletigo">
-					<Item id="6115" name="Aŭtomata krommarĝeno"/>
 					<Item id="6807" name="Aŭtomata vortkompletiĝo"/>
 					<Item id="6808" name="Ŝaltu vortkompletiĝon por ĉiu enigo"/>
 					<Item id="6809" name="Kompletigu funkciojn"/>

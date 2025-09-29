@@ -136,7 +136,6 @@
 					<Item id="42030" name="Emri i filit aktual për Clipboard"/>
 					<Item id="42031" name="Dosja aktuale. Rruga për Clipboard"/>
 					<Item id="42032" name="Ekzekuto Macro shumë herë..."/>
-					<Item id="42033" name="Pastro flamurin vetëm-lexo"/>
 					<Item id="42035" name="Koment i linjës së vetme"/>
 					<Item id="42036" name="Jo-koment i linjës së vetme"/>
 					<Item id="42055" name="Largo linjat e zbrazëta"/>
@@ -358,7 +357,6 @@
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Zgjeruar (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Zëvendëso në file"/>
-				<Item id="1661" name="Ndjek dok. aktual"/>
 				<Item id="1641" name="Gjej të gjitha në dokumentin aktual"/>
 				<Item id="1686" name="Transparencë"/>
 				<Item id="1703" name="&amp;. përkime linjë re"/>
@@ -596,19 +594,16 @@
 			<Preference title="Preferencat">
 				<Item id="6001" name="Mbyll"/>
 				<Global title="E përgjithshme">
-					<Item id="6101" name="Linja e mjeteve"/>
 					<Item id="6102" name="Fsheh"/>
 					<Item id="6103" name="Ikona të vogla"/>
 					<Item id="6104" name="Ikona të mëdha"/>
 					<Item id="6105" name="Ikona standarde"/>
                     
-					<Item id="6106" name="Linja Tab"/>
 					<Item id="6107" name="Zvogëlo"/>
 					<Item id="6108" name="Kyë (jo tërhiq dhe lësho)"/>
 					<Item id="6109" name="Errëso tabelorët inaktivë"/>
 					<Item id="6110" name="Vizato një linjë me ngjyra në tabelorin aktiv"/>
                     
-					<Item id="6111" name="Shfaq linjën e statusit"/>
 					<Item id="6112" name="Shfaq butonin mbyll në secilin tab"/>
 					<Item id="6113" name="Kliko dyfish për të mbyllur dokumentin"/>
 					<Item id="6118" name="Fsheh"/>
@@ -629,7 +624,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Rregullimet Multi-korrigjim"/>
-					<Item id="6225" name="Aftëso (Ctrl+klikim miu/zgjedhje)"/>
 					<Item id="6201" name="Stili i margjinës së dosjes"/>
 					<Item id="6202" name="Thjeshtë"/>
 					<Item id="6203" name="Shigjetë"/>
@@ -754,7 +748,6 @@
 				</Backup>
 
 				<AutoCompletion title="Auto-plotësimi">
-					<Item id="6115" name="Auto-kryeradhë"/>
 					<Item id="6807" name="Auto-plotësimi"/>
 					<Item id="6808" name="Aftëso auto-plotësimin në secilën hyrje"/>
 					<Item id="6809" name="Plotësimi i funksionit"/>
@@ -798,8 +791,6 @@
 				</Cloud>
 
 				<MISC title="MISC.">
-					<Item id="6307" name="Aftëso"/>
-					<Item id="6308" name="Minimizo në tabaken e sistemit"/>
 					<Item id="6312" name="Statusi i filit Auto-Detekto"/>
 					<Item id="6313" name="Aktualizo në qetësi"/>
 					<Item id="6318" name="Rregullimet e lidhjes së klikueshme"/>

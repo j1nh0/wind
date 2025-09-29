@@ -164,7 +164,6 @@
 					<Item id="42030" name="Dabartinio failo pavadinimas į mainų sritį"/>
 					<Item id="42031" name="Dabartinio katalogo kelias į mainų sritį"/>
 					<Item id="42032" name="Paleisti Makro daug kartų..."/>
-					<Item id="42033" name="Išvalyti 'Tik skaitymas' vėliavėlę"/>
 					<Item id="42035" name="Komentuoti eilutę"/>
 					<Item id="42036" name="Nekomentuoti eilutės"/>
 					<Item id="42055" name="Šalinti tuščias eilutes"/>
@@ -375,7 +374,6 @@
 				<Item id="1625" name="Įprastas"/>
 				<Item id="1626" name="Išplėstas (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Keisti failuose"/>
-				<Item id="1661" name="Dabartinio dok. katalogas"/>
 				<Item id="1641" name="Rasti viską dabartiniame dokumente"/>
 				<Item id="1686" name="Permatomumas"/>
 				<Item id="1703" name="&amp;. žymi naują eil."/>
@@ -654,19 +652,16 @@
 			<Preference title="Nustatymai">
 				<Item id="6001" name="Uždaryti"/>
 				<Global title="Pagrindiniai">
-					<Item id="6101" name="Įrankių juosta"/>
 					<Item id="6102" name="Slėpti"/>
 					<Item id="6103" name="Mažos piktogramos"/>
 					<Item id="6104" name="Didelės piktogramos"/>
 					<Item id="6105" name="Įprastinės piktogramos"/>
 
-					<Item id="6106" name="Kortelių juosta"/>
 					<Item id="6107" name="Sumažinti"/>
 					<Item id="6108" name="Užrakinti (negalimas perstatymas)"/>
 					<Item id="6109" name="Tamsinti neaktyvias korteles"/>
 					<Item id="6110" name="Spalvota juosta ant aktyvios kortelės"/>
 
-					<Item id="6111" name="Rodyti būsenos juostą"/>
 					<Item id="6112" name="Uždarymo mygtukas kiekv. kortelėje"/>
 					<Item id="6113" name="Dvigubas paspaudimas uždaro dok."/>
 					<Item id="6118" name="Slėpti"/>
@@ -688,7 +683,6 @@
 					<Item id="6221" name="G"/>
 					<Item id="6222" name="L"/>
 					<Item id="6224" name="Daugybinis redagavimas"/>
-					<Item id="6225" name="Įgalinti (Ctrl+Pelės pažymėjimas)"/>
 					<Item id="6201" name="Suskleidimo paraštė"/>
 					<Item id="6202" name="Paprasta"/>
 					<Item id="6203" name="Rodyklės"/>
@@ -827,7 +821,6 @@
 				</Backup>
 
 				<AutoCompletion title="Automatinis baigimas">
-					<Item id="6115" name="Automatinė įtrauka"/>
 					<Item id="6807" name="Automatinis baigimas"/>
 					<Item id="6808" name="Įgalinti automatinį baigimą"/>
 					<Item id="6809" name="Funkcijų baigimas"/>
@@ -884,8 +877,6 @@
 				</SearchEngine>
 
 				<MISC title="Įvairūs">
-					<Item id="6307" name="Įgalinti"/>
-					<Item id="6308" name="Minimizuoti į sisteminį skydelį"/>
 					<Item id="6312" name="Failų būsenos automatinis nustatymas"/>
 					<Item id="6313" name="Atnaujinti neklausiant"/>
 					<Item id="6318" name="Paspaudžiamų nuorodų nustatymai"/>
@@ -1171,7 +1162,6 @@ Ar norite paleisti Notepad++ administratoriaus teisėmis?"/>
 			<finder-copy value="Kopijuoti"/>
 			<finder-select-all value="Pažymėti viską"/>
 			<finder-clear-all value="Išvalyti viską"/>
-			<finder-open-all value="Atidaryti viską"/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>

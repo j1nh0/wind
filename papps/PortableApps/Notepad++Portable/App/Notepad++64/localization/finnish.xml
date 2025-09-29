@@ -143,7 +143,6 @@ Updated to v8.6 fixed version
 					<Item id="42030" name="Nykyinen tiedostonimi leikepöydälle"/>
 					<Item id="42031" name="Nykyinen hakemistopolku leikepöydälle"/>
 					<Item id="42032" name="&amp;Suorita makro useita kertoja"/>
-					<Item id="42033" name="Poista kirjoitussuojaus"/>
 					<Item id="42034" name="Sarake-editori..."/>
 					<Item id="42035" name="Kommentoi (rivimoodi)"/>
 					<Item id="42036" name="Poista kommentointi (rivimoodi)"/>
@@ -443,7 +442,6 @@ Updated to v8.6 fixed version
 				<Item id="1658" name="Kaikissa al&amp;ikansioissa"/>
 				<Item id="1659" name="&amp;Piilotetuissa kansioissa"/>
 				<Item id="1660" name="&amp;Korvaa tiedostoissa"/>
-				<Item id="1661" name="Seuraa nykyistä dokumenttia"/>
 				<Item id="1662" name="Projektipaneeli 1"/>
 				<Item id="1663" name="Projektipaneeli 2"/>
 				<Item id="1664" name="Projektipaneeli 3"/>
@@ -845,17 +843,14 @@ Updated to v8.6 fixed version
 			<Preference title="Asetukset">
 				<Item id="6001" name="&amp;Sulje"/>
 				<Global title="Yleiset">
-					<Item id="6101" name="Työkalurivi"/>
 					<Item id="6102" name="Piilota"/>
 					<Item id="6103" name="Pienet kuvakkeet"/>
 					<Item id="6104" name="Isot kuvakkeet"/>
 					<Item id="6105" name="Normaalikuvakkeet"/>
-					<Item id="6106" name="Välilehtipalkki"/>
 					<Item id="6107" name="Pienennä"/>
 					<Item id="6108" name="Lukitut (ei raahausmahdollisuutta)"/>
 					<Item id="6109" name="Tummenna passiiviset välilehdet"/>
 					<Item id="6110" name="Värillinen palkki aktiiviselle välilehdelle"/>
-					<Item id="6111" name="Näytä tilarivi"/>
 					<Item id="6112" name="Näytä sulkemispainike"/>
 					<Item id="6113" name="Suljettavissa kaksoisnapsautuksella"/>
 					<Item id="6118" name="Piilotettu"/>
@@ -885,7 +880,6 @@ Updated to v8.6 fixed version
 					<Item id="6221" name="+"/>
 					<Item id="6222" name="-"/>
 					<Item id="6224" name="Monimuokkaus"/>
-					<Item id="6225" name="Käytä (Ctrl+Napsaus/valinta)"/>
 					<Item id="6227" name="Rivitys"/>
 					<Item id="6228" name="Oletus"/>
 					<Item id="6229" name="Tasattu"/>
@@ -1099,7 +1093,6 @@ Updated to v8.6 fixed version
 				</Backup>
 				
 				<AutoCompletion title="Automaattitäydennys">
-					<Item id="6115" name="Automaattinen sisennys"/>
 					<Item id="6807" name="Automaattinen täydennys"/>
 					<Item id="6808" name="Automaattinen täydennys kullekin syötteelle"/>
 					<Item id="6809" name="Funktion täydennys"/>
@@ -1200,7 +1193,6 @@ Updated to v8.6 fixed version
 					</ComboBox>
 					<Item id="6114" name="Käytössä"/>
 					<Item id="6117" name="Ota käyttöön MRU-käyttäytyminen"/>
-					<Item id="6308" name="Pienennä ilmoitusalueelle"/>
 					<Item id="6312" name="Tiedostotilan automaattinen tunnistus"/>
 					<Item id="6313" name="Äänetön päivitys"/>
 					<Item id="6314" name="Käytä hakuikkunassa tasalevyistä fonttia (sovellus on käynnistettävä uudelleen)"/>
@@ -1217,7 +1209,6 @@ Updated to v8.6 fixed version
 					<Item id="6344" name="Asiakirjan kurkkija"/>
 					<Item id="6345" name="Kurkista välilehteen"/>
 					<Item id="6346" name="Kurkista asiakirjakarttaan"/>
-					<Item id="6349" name="DirectWrite käytössä (Saattaa parantaa erikoismerkkien ulkoasua, sovellus on käynnistettävä uudelleen)"/>
 					<Item id="6360" name="Vaimenna kaikki äänet"/>
 					<Item id="6361" name="Käytä vahvistusikkunaa tallennettaessa kaikki"/>
 				</MISC>
@@ -1489,10 +1480,8 @@ Updated to v8.6 fixed version
 			<finder-uncollapse-all value="Laajenna kaikki"/>
 			<finder-copy value="Kopioi valitut rivit"/>
 			<finder-copy-verbatim value="Kopioi"/>
-			<finder-copy-paths value="Kopioi polut"/>
 			<finder-select-all value="Valitse kaikki"/>
 			<finder-clear-all value="Tyhjennä kaikki"/>
-			<finder-open-all value="Avaa kaikki"/>
 			<finder-purge-for-every-search value="Tyhjennä kutakin hakua varten"/>
 			<finder-wrap-long-lines value="Rivitä pitkät rivit"/>
 			<common-ok value="OK"/>

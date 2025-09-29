@@ -164,7 +164,6 @@
 					<Item id="42030" name="Current Filename chuig an ngearrthaisce"/>
 					<Item id="42031" name="Current Dir. Path chuig an ngearrthaisce"/>
 					<Item id="42032" name="&amp;Rith a Macro Multiple Times..."/>
-					<Item id="42033" name="Glan Read-Only Flag"/>
 					<Item id="42035" name="Single Line Comment"/>
 					<Item id="42036" name="Single Line Uncomment"/>
 					<Item id="42055" name="Bain línte folmha"/>
@@ -391,7 +390,6 @@
 				<Item id="1625" name="&amp;Gnáth"/>
 				<Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="&amp;Ionadaigh sna comhaid"/>
-				<Item id="1661" name="Follow current doc."/>
 				<Item id="1641" name="Aimsigh uile sa cháipéis reatha"/>
 				<Item id="1686" name="Trédhearc&amp;acht"/>
 				<Item id="1703" name="&amp;. matches newline"/>
@@ -755,19 +753,16 @@
 			<Preference title="Sainroghanna">
 				<Item id="6001" name="Dún"/>
 				<Global title="Coiteann">
-					<Item id="6101" name="Toolbar"/>
 					<Item id="6102" name="Folaigh"/>
 					<Item id="6103" name="Deilbhíní móra"/>
 					<Item id="6104" name="Deilbhíní beaga"/>
 					<Item id="6105" name="Deilbhíní caighdeánacha"/>
 
-					<Item id="6106" name="Tab Bar"/>
 					<Item id="6107" name="Laghdaigh"/>
 					<Item id="6108" name="Lock (no drag and drop)"/>
 					<Item id="6109" name="Darken inactive tabs"/>
 					<Item id="6110" name="Draw a coloured bar on active tab"/>
 
-					<Item id="6111" name="Show status bar"/>
 					<Item id="6112" name="Show close button on each tab"/>
 					<Item id="6113" name="Double click to close document"/>
 					<Item id="6118" name="Folaigh"/>
@@ -789,7 +784,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Multi-Editing Settings"/>
-					<Item id="6225" name="Cumasaigh (Ctrl+Mouse click/selection)"/>
 					<Item id="6201" name="Folder Margin Style"/>
 					<Item id="6202" name="Simplí"/>
 					<Item id="6203" name="Saighead"/>
@@ -934,7 +928,6 @@ You can define several column markers by using white space to separate the diffe
 				</Backup>
 
 				<AutoCompletion title="Auto-Completion">
-					<Item id="6115" name="Auto-indent"/>
 					<Item id="6807" name="Auto-Completion"/>
 					<Item id="6808" name="Cumasaigh auto-completion on each input"/>
 					<Item id="6809" name="Function completion"/>
@@ -996,7 +989,6 @@ You can define several column markers by using white space to separate the diffe
 						<Element name="Cumasaigh for all opened files"/>
 						<Element name="Díchumasaigh"/>
 					</ComboBox>
-					<Item id="6308" name="Minimize to system tray"/>
 					<Item id="6312" name="File Status Auto-Detection"/>
 					<Item id="6313" name="Nuashonraigh go ciúin é"/>
 					<Item id="6318" name="Clickable Link Settings"/>
@@ -1008,7 +1000,6 @@ You can define several column markers by using white space to separate the diffe
 					<Item id="6324" name="Document Switcher (Ctrl+TAB)"/>
 					<Item id="6331" name="Show only filename in title bar"/>
 					<Item id="6334" name="Autodetect character encoding"/>
-					<Item id="6349" name="Use DirectWrite (May improve rendering special characters, need to restart Notepad++)"/>
 					<Item id="6337" name="Workspace file ext.:"/>
 					<Item id="6114" name="Cumasaigh"/>
 					<Item id="6117" name="Cumasaigh MRU behaviour"/>
@@ -1075,10 +1066,10 @@ You have to restart your Notepad++ to take effect after modifying contextMenu.xm
 			<NppHelpAbsentWarning title="File does not exist" message="
 doesn't exist. Please download it on Notepad++ site."/>
 			<SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification.
-All the saved modifications can not be undone.
+All the saved modifications cannot be undone.
 Continue?"/>
 			<LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification.
-All the saved modifications can not be undone.
+All the saved modifications cannot be undone.
 Continue?"/>
 			<CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
 			<DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
@@ -1121,9 +1112,9 @@ Do you want to go to Notepad++ page to download the latest version?"/>
 			<FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
 			<CreateNewFileOrNot title="Create new file" message="&quot;$STR_REPLACE$&quot; doesn't exist. Create it?"/>
 			<CreateNewFileError title="Create new file" message="Cannot create the file &quot;$STR_REPLACE$&quot;."/>
-			<OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
+			<OpenFileError title="ERROR" message="Cannot open file &quot;$STR_REPLACE$&quot;."/>
 			<FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.
-Do you want to save the current file anyways?"/>
+Do you want to save the current file anyway?"/>
 			<LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
 			<LoadLangsFailed title="Configurator" message="Load langs.xml failed!
 Do you want to recover your langs.xml?"/>
@@ -1303,7 +1294,6 @@ Find in all files except exe, obj &amp;&amp; log:
 			<finder-copy value="Cóipeáil"/>
 			<finder-select-all value="Roghnaigh uile"/>
 			<finder-clear-all value="Glan uile"/>
-			<finder-open-all value="Oscail uile"/>
 			<common-ok value="Tá go maith"/>
 			<common-cancel value="Cealaigh"/>
 			<common-name value="Ainm: "/>

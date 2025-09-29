@@ -1,6 +1,41 @@
-Our donations page has been fixed. Thank you for supporting PortableApps.com by making a donation today if you can!
+We've been operating at a loss much of this year. Recent donations have been helping a lot. Please donate if you can. Credit/debit, wire transfer, PayPal, crypto and more are accepted.
 
-* VERSION 29.5.3 [2024-06-26]
+* VERSION 30.1 [2025-09-27]
+
+UPDATED: 7-Zip to latest version
+UPDATED: Compiler to Delphi 13.0 for improved speed and stability
+
+* VERSION 30.0.4 [2025-07-15]
+
+UPDATED: Croatian Locale
+FIXED: Incorrect version in About
+
+* VERSION 30.0.3 [2025-07-14]
+
+ADDED: Specialized handling for Textify closing
+UPDATED: 7-Zip to latest version
+
+* VERSION 30.0.2 [2025-03-27]
+
+FIXED: Theme visual display issues, improved theme hovers
+FIXED: Themes show pink corners on XP or Vista/7 when Aero is disabled
+FIXED: App list click issues for some users
+UPDATED: Czech locale
+
+* VERSION 30.0.1 [2025-03-26]
+
+FIXED: Flat theme visual issues
+FIXED: 7-Zip not working on 32-bit Windows (updater/app store/backup)
+
+* VERSION 30.0 [2025-03-26]
+
+ADDED: Ability to disable app updates for specific apps
+ADDED: Specialized handling for Run-Command closing
+UPDATED: Compiler to Delphi 12.2 for improved speed and stability
+UPDATED: 7-Zip to latest version
+FIXED: Access violation when mouse over menu on start
+
+* VERSION 29.5.3 [2024-06-27]
 
 ADDED: .Net 8/9 support
 UPDATED: 7-Zip to latest version
@@ -13,7 +48,7 @@ FIXED: Command strings visible in backup details window
 
 * VERSION 29.5.1 [2024-05-08]
 
-UPDATED: Dutech and Russian locales
+UPDATED: Dutch and Russian locales
 UPDATED: Arabic installer locale
 FIXED: Empty ns*.tmp directory left TEMP after platform upgrade (fixed on subsequent upgrades)
 
@@ -72,112 +107,4 @@ ADDED: Freeware license filter (personal, education, business, open source only)
 ADDED: Edge case compatibility checks (Ex: apps that work with Windows 7 to 11 but not 8.0)
 UPDATED: Afrikaans, Albanian, Amharic, Arabic, Armenian, Basque, Bulgarian, ChineseSimplified, ChineseTraditional, Croatian, Czech, Danish, Dutch, English, EnglishGB, Farsi, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Portuguese, PortugueseBrazilian, Romanian, Russian, Serbian, Slovak, Spanish, SpanishInternational, Swedish, Thai, Turkish, Ukrainian, Vietnamese locales
 
-* VERSION 28.0.1 [2024-01-05]
-
-ADDED: Finnish, Latvian platform install introductions
-FIXED: Errant version info in some platform files
-UPDATED: Afrikaans, Albanian, Amharic, Armenian, Chinese Traditional, Finnish, Hebrew, Italian, Korean, Spanish, Spanish International, Ukrainian locales
-UPDATED: Arabic platform install introduction
-
-* VERSION 28.0 [2023-12-21]
-
-ADDED: App store compatibility filter to show apps that work on your OS version
-ADDED: Legacy apps for Windows XP, Vista, 7, 8, and 10 (32-bit)
-UPDATED: Arabic, Armenian, Bulgarian, English, EnglishGB, French, Greek, German, Hungarian, Japanese, Polish, PortugueseBR locales
-UPDATED: Portuguese, Russian Platform installer welcome messages
-
-* VERSION 27.0.1 [2023-12-03]
-
-ADDED: Polish platform installer welcome/license
-FIXED: 32-bit support not removed on update of dual architecture apps when option selected
-UPDATED: German, Chinese Simplified installer welcome/license
-
-* VERSION 27.0 [2023-11-30]
-
-ADDED: Option to include or exclude 32-bit in dual architecture apps
-ADDED: Multilingual welcome/license during install
-ADDED: EndeavourOS and Nitrux detection and font matching
-FIXED: Language switching in glibc apps (Audacity, GIMP, etc) with Hungarian
-UPDATED: Compiler to Delphi 12 for improved speed and stability
-UPDATED: Arabic, Armenian, Bulgarian, Chinese Simplified, English, EnglishGB, Farsi, French, German, Greek, Hungarian, Japanese, Polish, Portuguese, PortugueseBR, Russian, Slovak locales
-
-* VERSION 26.3.1 [2023-11-11]
-
-ADDED: Additional translated strings in the What's New and Sponsors tabs in About window
-FIXED: Language switching in glibc apps (Audacity, GIMP, etc) with Arabic, French, Korean, Latvian
-UPDATED: Arabic, Chinese Simplified, Chinese Traditional, English, English GB, French, German, Hebrew, Italian, Japanese, Korean, Portuguese, Portuguese Brazilian, Russian, Spanish, Spanish International, Ukrainian locales
-
-* VERSION 26.3 [2023-11-03]
-
-UPDATED: Improved security: All downloads and online installer downloads rebuilt/rehashed with SHA256
-UPDATED: Chinese Simplified, Croatian, Japanese, Slovak locales
-FIXED: Status line blank in updater/app store when verifying online installer downloads
-REMOVED: Legacy MD5 support
-
-* VERSION 26.2.3 [2023-10-11]
-
-ADDED: Verification notification in updater/app store
-UPDATED: Arabic, Bulgarian, English, EnglishGB, French, German, Greek, Hungarian, Latvian, Polish, Portuguese, Portuguese Brazilian, Russian locales
-
-* VERSION 26.2.2.1 [2023-10-03]
-
-FIXED: Flickering and showing command line in updater/app store
-
-* VERSION 26.2.2 [2023-10-03]
-
-ADDED: Improved keyboard navigation, menus/context menus appear near controls when triggered with keyboard
-UPDATED: Holiday decoration dates
-UPDATED: Arabic, Armenian, Chinese Simplified, Greek, Latvian, Polish locales
-
-* VERSION 26.2.1 [2023-09-16]
-
-ADDED: BlueSky and Mastodon links in Help
-FIXED: Occasional removal of app files on cancelled downloads on slow internet connections
-FIXED: RTL locale display issues on legacy Windows in About window, Help menu
-FIXED: Danish locale shows as Dutch
-UPDATED: Arabic, Bulgarian, Chinese Simplified, Chinese Traditional, Danish, Dutch, French, Hungarian, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Spanish International locales
-
-* VERSION 26.2 [2023-09-14]
-
-ADDED: Exit Anyway option when closing apps on exit
-FIXED: Misplaced letter and parenthesis in app right-click menu on legacy Windows with RTL locales
-FIXED: [paf.exe] tag in Manage Apps submenu on modern Windows with RTL locales
-FIXED: Updater tab is default in Options instead of General
-UPDATED: Arabic, Bulgarian, Chinese Simplified, Dutch, English, EnglishGB, French, German, Hungarian, Latvian, Polish, Portuguese BR locales
-
-* VERSION 26.1 [2023-09-06]
-
-ADDED: Non-PAF custom command line via appname.exe.pap.ini
-ADDED: NixOS detection and font matching
-UPDATED: Close apps dialog to Retry when apps running
-UPDATED: 7-Zip to latest version
-
-* VERSION 26.0 [2023-06-15]
-
-ADDED: Preservation of symlinks in base path of apps being uninstalled
-UPDATED: Greatly improved app uninstall speed
-UPDATED: Delphi IDE/compiler to latest patch
-FIXED: App store/updater final page has small fonts on some systems
-FIXED: Platform sends font change message when no fonts loaded
-FIXED: Some apps report no free space when installing to unmapped UNC paths
-FIXED: Some apps show unnecessary installer UI while being installed
-FIXED: Some apps don't refresh the PA.c Platform after installing via the App Store
-
-* VERSION 25.0 [2023-04-07]
-
-ADDED: Initial macOS support with installer and macOS helper app
-ADDED: ShareX auto closing support
-UPDATED: Delphi compiler to 11.3, improved performance and stability
-
-* VERSION 24.1 [2023-02-13]
-
-ADDED: Marathi locale
-ADDED: Partial automated OS font matching in Backup/Restore
-UPDATED: Japanese locale
-FIXED: Stray characters in Backup finish screen
-
-* VERSION 24.0 [2023-01-30]
-
-ADDED: Windows on ARM detecion and support, displayed in About
-ADDED: Pin to taskbar/Add to Start for ARM64 apps
-ADDED: Partial automated OS font matching in Updater/App Store
+Previous versions lised at: https://portableapps.com/platform/changelog

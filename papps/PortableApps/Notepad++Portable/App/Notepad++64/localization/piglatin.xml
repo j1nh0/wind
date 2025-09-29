@@ -159,7 +159,6 @@
 					<Item id="42030" name="Urrentcay Ilenamefay otay Ipboardclay"/>
 					<Item id="42031" name="Urrentcay Irday. Athpay otay Ipboardclay"/>
 					<Item id="42032" name="Un&amp;ray ayay Acromay Ultiplemay Imestay..."/>
-					<Item id="42033" name="Earclay Eadray-Onlyyay Agflay"/>
 					<Item id="42035" name="Inglesay Inelay Ommentcay"/>
 					<Item id="42036" name="Inglesay Inelay Uncommentyay"/>
 					<Item id="42055" name="Emoveray Emptyyay Ineslay"/>
@@ -370,7 +369,6 @@
 				<Item id="1625" name="Ormal&amp;nay"/>
 				<Item id="1626" name="E&amp;xtendedyay (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Eplace&amp;ray inyay Ilesfay"/>
-				<Item id="1661" name="Ollowfay urrentcay ocday."/>
 				<Item id="1641" name="Indfay Allyay inyay Urrentcay Ocumentday"/>
 				<Item id="1686" name="Ansparenc&amp;ytray"/>
 				<Item id="1703" name="&amp;. atchesmay ewlinenay"/>
@@ -680,17 +678,14 @@
 			<Preference title="Preferences">
 				<Item id="6001" name="Oseclay"/>
 				<Global title="General">
-					<Item id="6101" name="Oolbartay"/>
 					<Item id="6102" name="Idehay"/>
 					<Item id="6103" name="Allsmay iconsyay"/>
 					<Item id="6104" name="Igbay iconsyay"/>
 					<Item id="6105" name="Andardstay iconsyay"/>
-					<Item id="6106" name="Abtay Arbay"/>
 					<Item id="6107" name="Educeray"/>
 					<Item id="6108" name="Ocklay (onay agdray andyay opdray)"/>
 					<Item id="6109" name="Arkenday inactiveyay abstay"/>
 					<Item id="6110" name="Awdray ayay olouredcay arbay onyay activeyay abtay"/>
-					<Item id="6111" name="Owshay atusstay arbay"/>
 					<Item id="6112" name="Owshay oseclay uttonbay onyay eachyay abtay"/>
 					<Item id="6113" name="Oubleday ickclay otay oseclay ocumentday"/>
 					<Item id="6118" name="Idehay"/>
@@ -710,7 +705,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Ultimay-Editingyay Ettingssay"/>
-					<Item id="6225" name="Enableyay (Ctrl+mouse ickclay/electionsay)"/>
 					<Item id="6201" name="Olderfay Arginmay Ylestay"/>
 					<Item id="6202" name="Implesay"/>
 					<Item id="6203" name="Arrowyay"/>
@@ -845,7 +839,6 @@
 				</Backup>
 
 				<AutoCompletion title="Auto-Completion">
-					<Item id="6115" name="Autoyay-indentyay"/>
 					<Item id="6807" name="Autoyay-Ompletioncay"/>
 					<Item id="6808" name="Enableyay autoyay-ompletioncay onyay eachyay inputyay"/>
 					<Item id="6809" name="Unctionfay ompletioncay"/>
@@ -900,8 +893,6 @@
 				</SearchEngine>
 
 				<MISC title="MISC.">
-					<Item id="6307" name="Enableyay"/>
-					<Item id="6308" name="Inimizemay otay ystemsay aytray"/>
 					<Item id="6312" name="Ilefay Atusstay Autoyay-Etectionday"/>
 					<Item id="6313" name="Updateyay ilentlysay"/>
 					<Item id="6318" name="Ickableclay Inklay Ettingssay"/>
@@ -1138,7 +1129,6 @@
 			<finder-copy value="Opycay"/>
 			<finder-select-all value="Electsay allyay"/>
 			<finder-clear-all value="Earclay allyay"/>
-			<finder-open-all value="Openyay allyay"/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>

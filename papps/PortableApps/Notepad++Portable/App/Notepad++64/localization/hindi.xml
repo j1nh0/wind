@@ -170,7 +170,6 @@
 					<Item id="42030" name="वर्तमान फाईल का नाम क्लिपबोर्ड पर लें"/>
 					<Item id="42031" name="वर्तमान डायरेक्टरी पाथ क्लिपबोर्ड पर लें"/>
 					<Item id="42032" name="मैक्रो को कई बार चलायें..."/>
-					<Item id="42033" name="Read-Only फ्लेग को निकालें"/>
 					<Item id="42035" name="सिंगल लाइन कमेंट"/>
 					<Item id="42036" name="सिंगल लाइन अंकमेंट"/>
 					<Item id="42055" name="खाली लाइनों को हटाएँ"/>
@@ -389,7 +388,6 @@
 				<Item id="1625" name="सामान्य"/>
 				<Item id="1626" name="विस्तृत (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="फ़ाईलों में बदलें"/>
-				<Item id="1661" name="वर्तमान दस्तावेज़ का अनुसरण करें"/>
 				<Item id="1641" name="वर्तमान दस्तावेज़ में सब खोजें"/>
 				<Item id="1686" name="पारदर्शिता"/>
 				<Item id="1703" name="&amp;. न्यू लाइन मैच"/>
@@ -693,19 +691,16 @@
 			<Preference title="पसंदगी (Preferences)">
 				<Item id="6001" name="बंद करें"/>
 				<Global title="समान्य">
-					<Item id="6101" name="टूलबार"/>
 					<Item id="6102" name="छिपायें"/>
 					<Item id="6103" name="छोटे आइकॉनस"/>
 					<Item id="6104" name="बड़े आइकॉनस"/>
 					<Item id="6105" name="स्टेंडर्ड आइकॉन"/>
 
-					<Item id="6106" name="टैब बार"/>
 					<Item id="6107" name="घटायें"/>
 					<Item id="6108" name="लॉक (no drag and drop)"/>
 					<Item id="6109" name="निष्क्रिय टैब को काला करें"/>
 					<Item id="6110" name="सक्रिय टैब पर रंगीन बार बनायें"/>
 
-					<Item id="6111" name="स्टेटस बार दिखायें"/>
 					<Item id="6112" name="हरेक टैब पर बंद का बटन दिखायें"/>
 					<Item id="6113" name="दस्तावेज़ बंद करने के लिए डबल क्लिक करें"/>
 					<Item id="6118" name="छिपायें"/>
@@ -727,7 +722,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="मल्टी-एडिटिंग सेटिंग्स"/>
-					<Item id="6225" name="सक्रिय (Ctrl+Mouse click/selection)"/>
 					<Item id="6201" name="फोंल्डर मार्जिन स्टाइल"/>
 					<Item id="6202" name="आसान (Simple)"/>
 					<Item id="6203" name="तीर (Arrow)"/>
@@ -866,7 +860,6 @@
 				</Backup>
 
 				<AutoCompletion title="स्वतः पूर्ति">
-					<Item id="6115" name="स्वचालित इंडेंट"/>
 					<Item id="6807" name="स्वतः पूर्ति"/>
 					<Item id="6808" name="प्रत्येक इनपुट पर स्वतः पूर्ति सक्रिय करें"/>
 					<Item id="6809" name="फंक्शन समापन"/>
@@ -928,7 +921,6 @@
 						<Element name="सभी खुली हुई फाइलों के लिए इनेबल करें"/>
 						<Element name="डिसेबल करें"/>
 					</ComboBox>
-					<Item id="6308" name="सिस्टम ट्रे में छोटा करें"/>
 					<Item id="6312" name="फाईल स्टेटस की स्वचालित जांच"/>
 					<Item id="6313" name="साइलेंटली अपडेट करें"/>
 					<Item id="6318" name="क्लिक योग्य लिंक की सेटिंग"/>
@@ -1217,7 +1209,6 @@
 			<finder-copy value="कॉपी करें"/>
 			<finder-select-all value="सब सेलेक्ट करें"/>
 			<finder-clear-all value="सब क्लियर करें"/>
-			<finder-open-all value="सब ओपन करें"/>
 			<common-ok value="ओके"/>
 			<common-cancel value="रद्द करें"/>
 			<common-name value="नाम: "/>

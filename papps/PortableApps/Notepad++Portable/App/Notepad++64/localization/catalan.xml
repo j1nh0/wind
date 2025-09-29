@@ -175,7 +175,6 @@ By Hiro5 <groccat at gmail>
 					<Item id="42051" name="P&amp;anell d'inserció de caràcters"/>
 					<Item id="42052" name="&amp;Historial del porta-retalls"/>
 					<Item id="42028" name="M&amp;ode de Només-Lectura"/>
-					<Item id="42033" name="T&amp;reu marca de Només-Lectura"/>
 					<Item id="43001" name="&amp;Cerca..."/>
 					<Item id="43013" name="Cerca als &amp;fitxers..."/>
 					<Item id="43002" name="Cerca &amp;següent"/>
@@ -388,7 +387,6 @@ By Hiro5 <groccat at gmail>
 				<Item id="1615" name="Marca'ls tots"/>
 				<Item id="1632" name="A la selecció"/>
 				<Item id="1633" name="Neteja"/>
-				<Item id="1661" name="Segueix fitxer actual"/>
 				<Item id="1658" name="Inclou subdirectoris"/>
 				<Item id="1659" name="Inclou carpetes ocultes"/>
 				<Item id="1603" name="Només la paraula sencera"/>
@@ -695,7 +693,6 @@ By Hiro5 <groccat at gmail>
 				<Item id="6001" name="Tanca"/>
 				<Global title="Global">
 					<Item id="6123" name="Idioma"/>
-					<Item id="6101" name="Barra d'eines"/>
 					<Item id="6102" name="Amaga la barra d'eines"/>
 					<Item id="6103" name="Icones petites"/>
 					<Item id="6104" name="Icones grans"/>
@@ -703,8 +700,6 @@ By Hiro5 <groccat at gmail>
 					<Item id="6125" name="Panell de documents"/>
 					<Item id="6126" name="Mostra"/>
 					<Item id="6127" name="Desactiva la columna d'extensions"/>
-					<Item id="6111" name="Mostra barra d'estat"/>
-					<Item id="6106" name="Barra de pestanyes"/>
 					<Item id="6118" name="Amaga la barra de pestanyes"/>
 					<Item id="6119" name="Multilínia"/>
 					<Item id="6120" name="Vertical"/>
@@ -724,7 +719,6 @@ By Hiro5 <groccat at gmail>
 					<Item id="6221" name="R"/>
 					<Item id="6222" name="L"/>
 					<Item id="6224" name="Multi-edició"/>
-					<Item id="6225" name="Habilita (Ctrl+Ratolí)"/>
 					<Item id="6201" name="Estil d'agrupació"/>
 					<Item id="6202" name="Simple"/>
 					<Item id="6203" name="Triangle"/>
@@ -852,7 +846,6 @@ By Hiro5 <groccat at gmail>
 					<Item id="6803" name="Directori:"/>
 				</Backup>
 				<AutoCompletion title="Autocompleció">
-					<Item id="6115" name="Sagnat automàtic"/>
 					<Item id="6807" name="Autocompleció"/>
 					<Item id="6808" name="Permetre Autocompleció a cada entrada"/>
 					<Item id="6809" name="Autocompleta funcions"/>
@@ -906,7 +899,6 @@ By Hiro5 <groccat at gmail>
 					<Item id="6346" name="Previsualitza en el mapa del document"/>
 					<Item id="6334" name="Autodetecta codificació de caràcters"/>
 					<Item id="6314" name="Empra lletra monoespai al diàleg de cerca (demana reiniciar Notepad++)"/>
-					<Item id="6308" name="Minimitza a la safata del sistema"/>
 					<Item id="6331" name="Mostra només el nom de fitxer a la barra de títol"/>
 					<Item id="6323" name="Actualitza Notepad++ automàticament"/>
 					<Item id="6348" name="No omplis el camp del diàleg de cerca amb la paraula seleccionada"/>
@@ -914,7 +906,6 @@ By Hiro5 <groccat at gmail>
 					<Item id="6319" name="Habilita"/>
 					<Item id="6320" name="No subratllis"/>
 					<Item id="6312" name="Autodetecció d'estat del fitxer"/>
-					<Item id="6307" name="Habilita"/>
 					<Item id="6313" name="Actualitza en silenci"/>
 					<Item id="6325" name="Vés a l'última línia després d'actualitzar"/>
 					<Item id="6322" name="Ext. del fitxer de sessió:"/>
@@ -1178,7 +1169,6 @@ By Hiro5 <groccat at gmail>
 			<finder-copy value="Copia"/>
 			<finder-select-all value="Selecciona-ho tot"/>
 			<finder-clear-all value="Neteja-ho tot"/>
-			<finder-open-all value="Obre-ho tot"/>
 			<common-ok value="D'acord"/>
 			<common-cancel value="Cancel·la"/>
 			<common-name value="Nom: "/>

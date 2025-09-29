@@ -183,7 +183,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="42087" name="Alle filnavne til udklipsholder"/>
 					<Item id="42088" name="Alle filstier til udklipsholder"/>
 					<Item id="42032" name="&amp;Kør en makro flere gange..."/>
-					<Item id="42033" name="Fjern skrivebeskyttelse"/>
 					<Item id="42035" name="Liniekommentar til"/>
 					<Item id="42036" name="Liniekommentar  fra"/>
 					<Item id="42055" name="Fjern tomme linier"/>
@@ -404,7 +403,6 @@ The comments are here for explanation, it's not necessary to translate them.
 				<Item CMDID="41014" name="Genindlæs"/>
 				<Item CMDID="41010" name="Udskriv.."/>
 				<Item CMDID="42028" name="Skrivebeskyttet"/>
-				<Item CMDID="42033" name="Fjern skrivebeskyttelse"/>
 				<Item CMDID="2" name="Kopiér"/>
 				<Item CMDID="42029" name="Fuld fiisti"/>
 				<Item CMDID="42030" name="Filnavn"/>
@@ -465,7 +463,6 @@ The comments are here for explanation, it's not necessary to translate them.
 				<Item id="1626" name="&amp;Udvidet (\n, \r, \t, \0, \u, \x...)"/>
 				<Item id="1660" name="Erstat i filer"/>
 				<Item id="1665" name="Erstat i projekter"/>
-				<Item id="1661" name="Følg aktuelt dokument"/>
 				<Item id="1662" name="Projektpanel 1"/>
 				<Item id="1663" name="Projektpanel 2"/>
 				<Item id="1664" name="Projektpanel 3"/>
@@ -897,7 +894,6 @@ The comments are here for explanation, it's not necessary to translate them.
 			<Preference title="Programindstillinger">
 				<Item id="6001" name="Luk"/>
 				<Global title="Generelt">
-					<Item id="6101" name="Værktøjslinie"/>
 					<Item id="6102" name="Skjul"/>
 					<Item id="6103" name="Små ikoner"/>
 					<Item id="6104" name="Store ikoner"/>
@@ -905,13 +901,11 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6130" name="Store udfyldte ikoner"/>
 					<Item id="6105" name="Standardikoner"/>
 
-					<Item id="6106" name="Fanelinie"/>
 					<Item id="6107" name="Lille"/>
 					<Item id="6108" name="Lås (deaktivér træk/slip)"/>
 					<Item id="6109" name="Nedton inaktive faner"/>
 					<Item id="6110" name="Vis farvet linie over aktiv fane"/>
 
-					<Item id="6111" name="Vis statuslinie"/>
 					<Item id="6112" name="Vis luk på hver fane"/>
 					<Item id="6113" name="Dobbeltklik lukker dokument"/>
 					<Item id="6118" name="Skjul"/>
@@ -933,7 +927,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6221" name="H"/>
 					<Item id="6222" name="L"/>
 					<Item id="6246" name="Tillad kommando at folde/udfolde aktuelt niveau"/>
-					<Item id="6225" name="Multiredigering (Ctrl+klik for at markere flere)"/>
 					<Item id="6227" name="Ombryd"/>
 					<Item id="6228" name="Standard"/>
 					<Item id="6229" name="Justeret"/>
@@ -1145,7 +1138,6 @@ Brug mellemrum til at angive flere markører."/>
 				</Backup>
 
 				<AutoCompletion title="Automatik">
-					<Item id="6115" name="Automatisk indrykning"/>
 					<Item id="6807" name="Automatisk fuldførelse"/>
 					<Item id="6808" name="Aktivér automatisk fuldførelse"/>
 					<Item id="6809" name="Fuldfør funktioner"/>
@@ -1240,7 +1232,6 @@ Brug mellemrum til at angive flere markører."/>
 						<Element name="Aktivér for alle åbne filer"/>
 						<Element name="Deaktivér"/>
 					</ComboBox>
-					<Item id="6308" name="Minimér til ikon ved uret"/>
 					<Item id="6312" name="Registrér filstatus automatisk"/>
 					<Item id="6313" name="Opdater i baggrunden"/>
 					<Item id="6325" name="Rul til sidste linie efter opdatering"/>
@@ -1249,7 +1240,6 @@ Brug mellemrum til at angive flere markører."/>
 					<Item id="6324" name="Dokumentskifter (Ctrl+tabulator)"/>
 					<Item id="6331" name="Vis kun filnavn i titellinien"/>
 					<Item id="6334" name="Registrér tegnsæt automatisk"/>
-					<Item id="6349" name="Brug DirectWrite (kan forbedre gengivelse af specialtegn. Notepad++ skal genstartes)"/>
 					<Item id="6337" name="Arbejdsrum filtype:"/>
 					<Item id="6114" name="Aktivér"/>
 					<Item id="6117" name="Skift mellem senest brugte"/>
@@ -1615,10 +1605,8 @@ Find i alle filer, undtagen i mapperne log med undermapper:
 			<finder-uncollapse-all value="Udvid alle"/>
 			<finder-copy value="Kopiér valgte linie(r)"/>
 			<finder-copy value="Kopier"/>
-			<finder-copy-paths value="Kopiér stinavn(e)"/>
 			<finder-select-all value="Markér alle"/>
 			<finder-clear-all value="Ryd alle"/>
-			<finder-open-all value="Åbn alle"/>
 			<finder-purge-for-every-search value="Ryd ved ny søgning"/>
 			<finder-wrap-long-lines value="Ombryd lange linier"/>
 			<common-ok value="OK"/>

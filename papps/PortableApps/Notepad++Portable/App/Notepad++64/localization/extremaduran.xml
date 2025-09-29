@@ -71,7 +71,6 @@
 					<Item id="42030" name="Copial nombri el ficheru al portapapelis"/>
 					<Item id="42031" name="Copial ruta el ficheru al portapapelis"/>
 					<Item id="42032" name="Ehecutal un macru varias vezis..."/>
-					<Item id="42033" name="Quital etiqueta e sólu lehtura"/>
 					<Item id="42035" name="Comental selezión"/>
 					<Item id="42036" name="Descomental selezión"/>
 
@@ -298,19 +297,16 @@
 			<Preference title="Ozionis">
 				<Item id="6001" name="Fechal"/>
 				<Global title="Global">
-					<Item id="6101" name="Barra e herramientas"/>
 					<Item id="6102" name="Escuendel"/>
 					<Item id="6103" name="Iconus caquerus"/>
 					<Item id="6104" name="Iconus grandis"/>
 					<Item id="6105" name="Iconus caquerus pol defeutu"/>
 
-					<Item id="6106" name="Barra e pestañas"/>
 					<Item id="6107" name="Reuzil"/>
 					<Item id="6108" name="Bloqueal (impíl horreal i soltal)"/>
 					<Item id="6109" name="Muestral pestañas inahtivas"/>
 					<Item id="6110" name="Muestra barra naranha ena pestaña ahtiva"/>
 
-					<Item id="6111" name="Muestral barra estáu"/>
 					<Item id="6112" name="Botón de fechaúra huntu a cá pestaña"/>
 					<Item id="6113" name="Hadel dobli 'click' pa fechal documentu"/>
 					<Item id="6118" name="Escuendel"/>
@@ -389,8 +385,6 @@
 					<Item id="6304" name="Cunfiguración del historial d'archivus"/>
 					<Item id="6305" name="Nu comprebal al comincial"/>
 					<Item id="6306" name="Másimu d'archivus nel historial :"/>
-					<Item id="6307" name="Ahtival"/>
-					<Item id="6308" name="Minimizal a bandeha e sistema"/>
 					<Item id="6309" name="Recuerdal sesión ahtual pa la prózima vezi"/>
 					<Item id="6312" name="Auto-comprebal el estáu el archivu"/>
 					<Item id="6313" name="Ahtualizal automáticamenti"/>
@@ -401,7 +395,6 @@
 					<Item id="6324" name="Escambiaol de documentus (Ctrl+TAB)"/>
 
 					<Item id="6114" name="Ahtival escambiaol de documentus (Ctrl+Tab)"/>
-					<Item id="6115" name="Autu-sangría"/>
 					<Item id="6116" name="Recuerdal el direhtoriu e la úrtima operazión"/>
 					<Item id="6117" name="Ahtival mó MRU pal escambiaol de documentus"/>
 				</MISC>

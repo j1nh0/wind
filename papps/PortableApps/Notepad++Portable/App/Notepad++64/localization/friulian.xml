@@ -114,7 +114,6 @@
 					<Item id="42030" name="Non dal file atuâl tai Aponts"/>
 					<Item id="42031" name="Cartele dal percors atuâl tai Aponts"/>
 					<Item id="42032" name="Riprodûs une macro plui voltis..."/>
-					<Item id="42033" name="Nete l'atribût dome in leture"/>
 					<Item id="42035" name="Comente bloc"/>
 					<Item id="42036" name="Gjave coment al bloc"/>
 
@@ -291,7 +290,6 @@
 				<Item id="1625" name="Normâl"/>
 				<Item id="1626" name="Estindût (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Sostituìs tai files"/>
-				<Item id="1661" name="Seguìs doc. atuâl"/>
 				<Item id="1641" name="Cjate dut tal document atuâl"/>
 				<Item id="1686" name="Trasparence"/>
 			</Find>
@@ -403,19 +401,16 @@
 			<Preference title="Preferencis">
 				<Item id="6001" name="Siere"/>
 				<Global title="Globâl">
-					<Item id="6101" name="Sbare dai imprescj"/>
 					<Item id="6102" name="Plate"/>
 					<Item id="6103" name="Iconis piçulis"/>
 					<Item id="6104" name="Iconis grandis"/>
 					<Item id="6105" name="Iconis standard piçulis"/>
 
-					<Item id="6106" name="Sbare des lengutis"/>
 					<Item id="6107" name="Dimensions piçulis"/>
 					<Item id="6108" name="Bloche (No Drag &amp;&amp; Drop)"/>
 					<Item id="6109" name="Scurìs lis lengutis no ativis"/>
 					<Item id="6110" name="Piture une sbare colorade su lis lengutis ativis"/>
 
-					<Item id="6111" name="Mostre sbare di stât"/>
 					<Item id="6112" name="Ative boton par sierâ su ogni lengute"/>
 					<Item id="6113" name="Dopli clic par sierâ il document"/>
 					<Item id="6118" name="Plate"/>
@@ -433,7 +428,6 @@
 					<Item id="6221" name="V"/>
 					<Item id="6222" name="P"/>
 					<Item id="6224" name="Impostazions multi editing"/>
-					<Item id="6225" name="Ative (Ctrl+Clic dal mouse/selezion)"/>
 					<Item id="6201" name="Stîl margjin cartele"/>
 					<Item id="6202" name="Sempliç"/>
 					<Item id="6203" name="Frece"/>
@@ -520,8 +514,6 @@
 					<Item id="6304" name="Impostazions file cronologjie"/>
 					<Item id="6305" name="No stâ controlâ al inviament"/>
 					<Item id="6306" name="Numar massim files te cronologjie:"/>
-					<Item id="6307" name="Ative"/>
-					<Item id="6308" name="Minimize te tray di sisteme"/>
 					<Item id="6309" name="Visiti la session atuâl al prossim inviament"/>
 					<Item id="6312" name="Rilevament automatic stât file"/>
 					<Item id="6313" name="Inzorne cidin"/>
@@ -540,7 +532,6 @@
 
 					<Item id="6331" name="Mostre dome il non dal file te sbare dal titul"/>
 					<Item id="6114" name="Ative"/>
-					<Item id="6115" name="Rientri automatic"/>
 					<Item id="6117" name="Ative compuartament MRU"/>
 
 				</MISC>

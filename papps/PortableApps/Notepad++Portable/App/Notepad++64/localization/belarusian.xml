@@ -182,7 +182,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="42087" name="Капіяваць усе назвы файлаў"/>
 					<Item id="42088" name="Капіяваць усе шляхі да файлаў"/>
 					<Item id="42032" name="Шматразовае выкананне макраса..."/>
-					<Item id="42033" name="Зняць атрыбут толькі чытанне"/>
 					<Item id="42035" name="Закаментаваць радок"/>
 					<Item id="42036" name="Раскаментаваць радок"/>
 					<Item id="42055" name="Выдаліць пустыя радкі"/>
@@ -457,7 +456,6 @@ The comments are here for explanation, it's not necessary to translate them.
 				<Item id="1626" name="Пашыраны (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Замяніць у файлах"/>
 				<Item id="1665" name="Замяніць у праектах"/>
-				<Item id="1661" name="У папцы бягучага файла"/>
 				<Item id="1662" name="Панэль праекта 1"/>
 				<Item id="1663" name="Панэль праекта 2"/>
 				<Item id="1664" name="Панэль праекта 3"/>
@@ -869,7 +867,6 @@ The comments are here for explanation, it's not necessary to translate them.
 			<Preference title="Параметры">
 				<Item id="6001" name="Закрыць"/>
 				<Global title="Агульныя">
-					<Item id="6101" name="Панэль інструментаў"/>
 					<Item id="6102" name="Схаваць"/>
 					<Item id="6103" name="Fluent UI: маленькі"/>
 					<Item id="6104" name="Fluent UI: вялікі"/>
@@ -877,13 +874,11 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6130" name="Filled Fluent UI: вялікі"/>
 					<Item id="6105" name="Стандартныя значкі: маленькія"/>
 
-					<Item id="6106" name="Панэль укладак"/>
 					<Item id="6107" name="Паменшыць"/>
 					<Item id="6108" name="Забараніць перацягванне"/>
 					<Item id="6109" name="Неактыўныя шэрыя ўкладкі"/>
 					<Item id="6110" name="Каляровая панэль актыўнай укладкі"/>
 
-					<Item id="6111" name="Радок стану"/>
 					<Item id="6112" name="Клавіша закрыцця на кожнай укладцы"/>
 					<Item id="6113" name="Закрываць падвойным націскам"/>
 					<Item id="6118" name="Схаваць"/>
@@ -905,7 +900,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6221" name="+"/>
 					<Item id="6222" name="-"/>
 					<Item id="6246" name="Пераключаць каманды згортвання/разгортвання бягучага ўзроўню"/>
-					<Item id="6225" name="Уключыць мульты-рэдагаванне (Ctrl+націск мышы/выбар)"/>
 					<Item id="6227" name="Перанос радкоў"/>
 					<Item id="6228" name="Прадвызначана"/>
 					<Item id="6229" name="Выраўнены"/>
@@ -1111,7 +1105,6 @@ The comments are here for explanation, it's not necessary to translate them.
 				</Backup>
 
 				<AutoCompletion title="Аўтазавяршэнне">
-					<Item id="6115" name="Аўтаводступ"/>
 					<Item id="6807" name="Аўтазавяршэнне"/>
 					<Item id="6808" name="Уключыць аўтазавяршэнне для кожнага ўвядзення"/>
 					<Item id="6809" name="Завяршэнне функцый"/>
@@ -1196,7 +1189,6 @@ The comments are here for explanation, it's not necessary to translate them.
 						<Element name="Уключыць для ўсіх адкрытых файлаў"/>
 						<Element name="Адключыць"/>
 					</ComboBox>
-					<Item id="6308" name="Згортваць у сістэмны латок"/>
 					<Item id="6312" name="Аўтавызначэнне стану файла"/>
 					<Item id="6313" name="Абнаўляць без апавяшчэння"/>
 					<Item id="6325" name="Пасля абнаўлення перайсці да апошняга радка"/>
@@ -1205,7 +1197,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="6324" name="Пераключэнне дакументаў (Ctrl+TAB)"/>
 					<Item id="6331" name="Паказваць толькі назву файла ў радку загалоўка"/>
 					<Item id="6334" name="Аўтавызначэнне кадавання сімвалаў"/>
-					<Item id="6349" name="Выкарыстоўваць DirectWrite (можа палепшыць апрацоўку спецыяльных сімвалаў, неабходны перазапуск праграмы)"/>
 					<Item id="6337" name="Пашырэнне файла працоўнай вобласці:"/>
 					<Item id="6114" name="Уключыць"/>
 					<Item id="6117" name="Будаваць спіс па меры выкарыстання"/>
@@ -1544,10 +1535,8 @@ The comments are here for explanation, it's not necessary to translate them.
 			<finder-uncollapse-all value="Разгарнуць усе"/>
 			<finder-copy value="Капіяваць выбраныя радкі"/>
 			<finder-copy-verbatim value="Капіяваць"/>
-			<finder-copy-paths value="Капіяваць назвы шляхоў"/>
 			<finder-select-all value="Выбраць усе"/>
 			<finder-clear-all value="Ачысціць усе"/>
-			<finder-open-all value="Адкрыць усе"/>
 			<finder-purge-for-every-search value="Ачышчаць для кожнага пошуку"/>
 			<finder-wrap-long-lines value="Пераносіць словы ў доўгіх радках"/>
 			<common-ok value="Добра"/>

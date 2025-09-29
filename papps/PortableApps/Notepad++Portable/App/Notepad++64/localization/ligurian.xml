@@ -111,7 +111,6 @@
 					<Item id="42030" name="Nomme do file atoale"/>
 					<Item id="42031" name="Cartèlla atoale"/>
 					<Item id="42032" name="Ezegoi 'na macro ciù vòtte..."/>
-					<Item id="42033" name="Netezza o flag de sola letua"/>
 					<Item id="42034" name="Editô a colònne..."/>
 					<Item id="42035" name="Comenta blòcco (riga pe riga)"/>
 					<Item id="42036" name="Decommenta blòcco (riga pe riga)"/>
@@ -288,7 +287,6 @@
 				<Item id="1658" name="Inte sotocartèlle"/>
 				<Item id="1659" name="Inte cartèlle ascoze"/>
 				<Item id="1660" name="&amp;Sostitoisci inti file"/>
-				<Item id="1661" name="Segoi documento atoale"/>
 				<Item id="1686" name="T&amp;rasparensa"/>
 				<Item id="1687" name="Se perde o focus"/>
 				<Item id="1688" name="Senpre"/>
@@ -399,17 +397,14 @@
 			<Preference title="Preferense">
 				<Item id="6001" name="Særa"/>
 				<Global title="Generale">
-					<Item id="6101" name="Bara di strumenti"/>
 					<Item id="6102" name="Ascondi"/>
 					<Item id="6103" name="Figue picinn-e"/>
 					<Item id="6104" name="Figue grende"/>
 					<Item id="6105" name="Figue standard"/>
-					<Item id="6106" name="Bara de schede"/>
 					<Item id="6107" name="Mostra schede picinn-e"/>
 					<Item id="6108" name="Blòcca (dizabilitou o rebelâ)"/>
 					<Item id="6109" name="Ascuisci e schede inative"/>
 					<Item id="6110" name="&apos;Evidensia in colori a scheda ativa"/>
-					<Item id="6111" name="Mostra a bara de stato"/>
 					<Item id="6112" name="Pomello pe serâ in sce ògni scheda"/>
 					<Item id="6113" name="O sciacâ doe vòtte o særa 'na scheda"/>
 					<Item id="6118" name="Ascondi"/>
@@ -444,7 +439,6 @@
 					<Item id="6213" name="Modalitæ &apos;sfondo&apos;"/>
 					<Item id="6214" name="Evidensia a riga atoale"/>
 					<Item id="6224" name="Inpostaçioin seleçion multipla"/>
-					<Item id="6225" name="Abilita (Ctrl+Click/seleçion)"/>
 					<Item id="6226" name="Nisciun"/>
 					<Item id="6227" name="A cappo outomatico"/>
 					<Item id="6228" name="Predefinio"/>
@@ -516,13 +510,10 @@
 					<Item id="6304" name="Documenti reçenti"/>
 					<Item id="6305" name="No controlâ a l&apos;iniçio"/>
 					<Item id="6306" name="Elementi dêuviæ de reçente:"/>
-					<Item id="6307" name="Ativa outorilevamento"/>
-					<Item id="6308" name="Minimizza inte l&apos;area de notifica"/>
 					<Item id="6309" name="Aregòrda a sescion atoale a-o proscimo iniçio"/>
 					<Item id="6312" name="Outorilevamento do stato do file"/>
 					<Item id="6313" name="Agiorna sensa notifica"/>
 					<Item id="6114" name="Abilita"/>
-					<Item id="6115" name="Indentaçion outomatica"/>
 					<!--<Item id = "6117" name = "Abilita o conportamento MRU"/>-->
 					<Item id="6117" name="Precedensa a-i file ciù reçenti"/>
 					<Item id="6318" name="Inpostaçioin de colegamenti da sciacâ"/>

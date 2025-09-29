@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VeraCrypt>
-  <localization prog-version= "1.26.15">
+  <localization prog-version= "1.26.24">
     <language langid="id" name="Bahasa Indonesia" en-name="Indonesian" version="1.0.0" translators="Tajuddin N. F.; Transifex contributors" />
     <font lang="id" class="normal" size="11" face="default" />
     <font lang="id" class="bold" size="13" face="Arial" />
@@ -135,8 +135,8 @@
     <entry lang="id" key="IDC_FAVORITE_REMOVE">&amp;Hapus</entry>
     <entry lang="id" key="IDC_FAVORITE_USE_LABEL_IN_EXPLORER">Menggunakan label favorit sebagai label drive Explorer</entry>
     <entry lang="id" key="IDC_FAV_VOL_OPTIONS_GLOBAL_SETTINGS_BOX">Pengaturan Global</entry>
-    <entry lang="id" key="IDC_HK_DISMOUNT_BALLOON_TOOLTIP">Tampilkan tooltip balon setelah turunkan kunci panas yang sukses</entry>
-    <entry lang="id" key="IDC_HK_DISMOUNT_PLAY_SOUND">Memutar suara pemberitahuan sistem setelah berhasil melepas kait memakai tombol pintas.</entry>
+    <entry lang="id" key="IDC_HK_UNMOUNT_BALLOON_TOOLTIP">Tampilkan tooltip balon setelah turunkan kunci panas yang sukses</entry>
+    <entry lang="id" key="IDC_HK_UNMOUNT_PLAY_SOUND">Memutar suara pemberitahuan sistem setelah berhasil melepas kait memakai tombol pintas.</entry>
     <entry lang="id" key="IDC_HK_MOD_ALT">Alt</entry>
     <entry lang="id" key="IDC_HK_MOD_CTRL">Ctrl</entry>
     <entry lang="id" key="IDC_HK_MOD_SHIFT">Shift</entry>
@@ -156,12 +156,12 @@
     <entry lang="id" key="IDC_PIM_HELP">(Kosong atau 0 untuk iterasi baku)</entry>
     <entry lang="id" key="IDC_PREF_BKG_TASK_ENABLE">Difungsikan</entry>
     <entry lang="id" key="IDC_PREF_CACHE_PASSWORDS">Singgahkan kata sandi dalam memori driver</entry>
-    <entry lang="id" key="IDC_PREF_DISMOUNT_INACTIVE">Otomatis lepas kait volume jika tidak ada data dibaca/ditulis setelah:</entry>
-    <entry lang="id" key="IDC_PREF_DISMOUNT_LOGOFF">Pengguna keluar</entry>
-    <entry lang="id" key="IDC_PREF_DISMOUNT_SESSION_LOCKED">Sesi pengguna terkunci</entry>
-    <entry lang="id" key="IDC_PREF_DISMOUNT_POWERSAVING">Memasuki mode hemat daya</entry>
-    <entry lang="id" key="IDC_PREF_DISMOUNT_SCREENSAVER">Screensaver diaktifkan</entry>
-    <entry lang="id" key="IDC_PREF_FORCE_AUTO_DISMOUNT">Paksa otomatis melepas kait walaupun volume memuat berkas atau direktori yang sedang terbuka</entry>
+    <entry lang="id" key="IDC_PREF_UNMOUNT_INACTIVE">Otomatis lepas kait volume jika tidak ada data dibaca/ditulis setelah:</entry>
+    <entry lang="id" key="IDC_PREF_UNMOUNT_LOGOFF">Pengguna keluar</entry>
+    <entry lang="id" key="IDC_PREF_UNMOUNT_SESSION_LOCKED">Sesi pengguna terkunci</entry>
+    <entry lang="id" key="IDC_PREF_UNMOUNT_POWERSAVING">Memasuki mode hemat daya</entry>
+    <entry lang="id" key="IDC_PREF_UNMOUNT_SCREENSAVER">Screensaver diaktifkan</entry>
+    <entry lang="id" key="IDC_PREF_FORCE_AUTO_UNMOUNT">Paksa otomatis melepas kait walaupun volume memuat berkas atau direktori yang sedang terbuka</entry>
     <entry lang="id" key="IDC_PREF_LOGON_MOUNT_DEVICES">Kait semua volume VeraCrypt yang diwadahi peranti</entry>
     <entry lang="id" key="IDC_PREF_LOGON_START">Mulai Tugas Latar Belakang VeraCrypt</entry>
     <entry lang="id" key="IDC_PREF_MOUNT_READONLY">Kait volume sebagai hanya baca</entry>
@@ -169,7 +169,7 @@
     <entry lang="id" key="IDC_PREF_OPEN_EXPLORER">Buka jendela Explorer dari volume yang sukses dikait</entry>
     <entry lang="id" key="IDC_PREF_TEMP_CACHE_ON_MULTIPLE_MOUNT">Secara sementara menyinggahkan kata sandi selama operasi "Mengait Volume Favorit"</entry>
     <entry lang="id" key="IDC_PREF_USE_DIFF_TRAY_ICON_IF_VOL_MOUNTED">Menggunakan ikon bilah tugas yang berbeda ketika ada volume yang dikait</entry>
-    <entry lang="id" key="IDC_PREF_WIPE_CACHE_ON_AUTODISMOUNT">Bersihkan kata sandi yang disinggahkan saat lepas kait otomatis</entry>
+    <entry lang="id" key="IDC_PREF_WIPE_CACHE_ON_AUTOUNMOUNT">Bersihkan kata sandi yang disinggahkan saat lepas kait otomatis</entry>
     <entry lang="id" key="IDC_PREF_WIPE_CACHE_ON_EXIT">Bersihkan kata sandi yang disinggahkan saat keluar</entry>
     <entry lang="id" key="IDC_PRESERVE_TIMESTAMPS">Pertahankan stempel waktu perubahan dari wadah berkas</entry>
     <entry lang="id" key="IDC_RESET_HOTKEYS">Reset</entry>
@@ -269,14 +269,14 @@
     <entry lang="id" key="IDT_ACCELERATION_OPTIONS">Akselerasi Perangkat Keras</entry>
     <entry lang="id" key="IDT_ASSIGN_HOTKEY">Pintasan</entry>
     <entry lang="id" key="IDT_AUTORUN">Konfigurasi JalanOtomatis (autorun.inf)</entry>
-    <entry lang="id" key="IDT_AUTO_DISMOUNT">Pemutusan otomatis</entry>
-    <entry lang="id" key="IDT_AUTO_DISMOUNT_ON">Lepas kait semua saat:</entry>
+    <entry lang="id" key="IDT_AUTO_UNMOUNT">Pemutusan otomatis</entry>
+    <entry lang="id" key="IDT_AUTO_UNMOUNT_ON">Lepas kait semua saat:</entry>
     <entry lang="id" key="IDT_BOOT_LOADER_SCREEN_OPTIONS">Opsi Layar Boot Loader</entry>
     <entry lang="id" key="IDT_CONFIRM_PASSWORD">Konfirmasi Kata Sandi:</entry>
     <entry lang="id" key="IDT_CURRENT">Saat ini</entry>
     <entry lang="id" key="IDT_CUSTOM_BOOT_LOADER_MESSAGE">Tampilkan pesan ubahan ini di layar autentikasi pra-boot (maksimum 24 karakter):</entry>
     <entry lang="id" key="IDT_DEFAULT_MOUNT_OPTIONS">Opsi Kait Baku</entry>
-    <entry lang="id" key="IDT_DISMOUNT_ACTION">Opsi Tombol Pintas</entry>
+    <entry lang="id" key="IDT_UNMOUNT_ACTION">Opsi Tombol Pintas</entry>
     <entry lang="id" key="IDT_DRIVER_OPTIONS">Konfigurasi Driver</entry>
     <entry lang="id" key="IDC_ENABLE_EXTENDED_IOCTL_SUPPORT">Aktifkan dukungan kode kontrol disk yang diperluas</entry>
     <entry lang="id" key="IDT_FAVORITE_LABEL">Label dari volume favorit yang dipilih:</entry>
@@ -423,8 +423,8 @@
     <entry lang="id" key="DEVICE_FREE_PB">Ukuran dari %s adalah %.2f PB</entry>
     <entry lang="id" key="DEVICE_IN_USE_FORMAT">PERINGATAN: Peranti/partisi sedang dipakai oleh sistem operasi atau aplikasi. Memformat peranti/partisi dapat menyebabkan kerusakan data dan ketidakstabilan sistem.\n\nLanjutkan?</entry>
     <entry lang="id" key="DEVICE_IN_USE_INPLACE_ENC">Peringatan: Partisi sedang dipakai oleh sistem operasi atau aplikasi. Anda mesti menutup sembarang aplikasi yang mungkin memakai partisi (termasuk perangkat lunak anti virus).\n\nLanjutkan?</entry>
-    <entry lang="id" key="FORMAT_CANT_DISMOUNT_FILESYS">Galat: Perangkat/partisi berisi sistem berkas yang tidak bisa dilepas kait. Sistem berkas mungkin sedang digunakan oleh sistem operasi. Memformat perangkat/partisi sangat mungkin akan menyebabkan korupsi data dan ketidakstabilan sistem.\n\nUntuk menyelesaikan masalah ini, kami sarankan Anda terlebih dahulu menghapus partisi dan kemudian membuatnya kembali tanpa pemformatan. Untuk melakukannya, ikuti langkah-langkah ini:\n1) Klik kanan ikon 'Komputer' (atau 'Komputer Saya') di 'Start Menu' dan pilih 'Kelola'. Jendela 'Manajemen Komputer' akan muncul.\n2) Di jendela 'Manajemen Komputer', pilih 'Penyimpanan' &gt; 'Manajemen Disk'.\n3) Klik kanan partisi yang ingin Anda enkripsi dan pilih 'Hapus Partisi', atau 'Hapus Volume', atau 'Hapus Drive Logis'.\n4) Klik 'Ya'. Jika Windows meminta Anda untuk me-restart komputer, lakukanlah. Kemudian ulangi langkah 1 dan 2 dan lanjutkan dari langkah 5.\n5) Klik kanan area ruang kosong/yang tidak dialokasikan dan pilih 'Partisi Baru', atau 'Volume Sederhana Baru', atau 'Drive Logis Baru'.\n6) Jendela 'Wahana Pandu Partisi Baru' atau 'Wahana Pandu Volume Serderhana Baru' akan muncul sekarang; ikuti instruksinya. Pada halaman wahana pandu berjudul 'Format Partisi', pilih 'Jangan memformat partisi ini' atau 'Jangan memformat volume ini'. Dalam wahana pandu yang sama, klik 'Berikutnya' dan kemudian 'Selesai'.\n7) Perhatikan bahwa path perangkat yang Anda pilih di VeraCrypt mungkin salah sekarang. Oleh karena itu, keluar dari Wahana Pandu Pembuatan Volume VeraCrypt (jika masih berjalan) dan kemudian mulai lagi.\n8) Coba enkripsi perangkat/partisi lagi.\n\nJika VeraCrypt berulang kali gagal mengenkripsi perangkat/partisi, Anda mungkin ingin mempertimbangkan untuk membuat wadah berkas sebagai gantinya.</entry>
-    <entry lang="id" key="INPLACE_ENC_CANT_LOCK_OR_DISMOUNT_FILESYS">Galat: Sistem berkas tidak dapat dikunci dan/atau dilepas kait. Itu mungkin dipakai oleh sistem operasi atau aplikasi (sebagai contoh, perangkat lunak anti virus). Mengenkripsi partisi dapat menyebabkan rusaknya data dan ketidakstabilan sistem.\n\nHarap tutup sebarang aplikasi yang mungkin memakai sistem berkas (termasuk perangkat lunak anti virus) dan mencoba lagi. Bila itu tidak membantu, harap ikuti langkah-langkah berikut.</entry>
+    <entry lang="id" key="FORMAT_CANT_UNMOUNT_FILESYS">Galat: Perangkat/partisi berisi sistem berkas yang tidak bisa dilepas kait. Sistem berkas mungkin sedang digunakan oleh sistem operasi. Memformat perangkat/partisi sangat mungkin akan menyebabkan korupsi data dan ketidakstabilan sistem.\n\nUntuk menyelesaikan masalah ini, kami sarankan Anda terlebih dahulu menghapus partisi dan kemudian membuatnya kembali tanpa pemformatan. Untuk melakukannya, ikuti langkah-langkah ini:\n1) Klik kanan ikon 'Komputer' (atau 'Komputer Saya') di 'Start Menu' dan pilih 'Kelola'. Jendela 'Manajemen Komputer' akan muncul.\n2) Di jendela 'Manajemen Komputer', pilih 'Penyimpanan' &gt; 'Manajemen Disk'.\n3) Klik kanan partisi yang ingin Anda enkripsi dan pilih 'Hapus Partisi', atau 'Hapus Volume', atau 'Hapus Drive Logis'.\n4) Klik 'Ya'. Jika Windows meminta Anda untuk me-restart komputer, lakukanlah. Kemudian ulangi langkah 1 dan 2 dan lanjutkan dari langkah 5.\n5) Klik kanan area ruang kosong/yang tidak dialokasikan dan pilih 'Partisi Baru', atau 'Volume Sederhana Baru', atau 'Drive Logis Baru'.\n6) Jendela 'Wahana Pandu Partisi Baru' atau 'Wahana Pandu Volume Serderhana Baru' akan muncul sekarang; ikuti instruksinya. Pada halaman wahana pandu berjudul 'Format Partisi', pilih 'Jangan memformat partisi ini' atau 'Jangan memformat volume ini'. Dalam wahana pandu yang sama, klik 'Berikutnya' dan kemudian 'Selesai'.\n7) Perhatikan bahwa path perangkat yang Anda pilih di VeraCrypt mungkin salah sekarang. Oleh karena itu, keluar dari Wahana Pandu Pembuatan Volume VeraCrypt (jika masih berjalan) dan kemudian mulai lagi.\n8) Coba enkripsi perangkat/partisi lagi.\n\nJika VeraCrypt berulang kali gagal mengenkripsi perangkat/partisi, Anda mungkin ingin mempertimbangkan untuk membuat wadah berkas sebagai gantinya.</entry>
+    <entry lang="id" key="INPLACE_ENC_CANT_LOCK_OR_UNMOUNT_FILESYS">Galat: Sistem berkas tidak dapat dikunci dan/atau dilepas kait. Itu mungkin dipakai oleh sistem operasi atau aplikasi (sebagai contoh, perangkat lunak anti virus). Mengenkripsi partisi dapat menyebabkan rusaknya data dan ketidakstabilan sistem.\n\nHarap tutup sebarang aplikasi yang mungkin memakai sistem berkas (termasuk perangkat lunak anti virus) dan mencoba lagi. Bila itu tidak membantu, harap ikuti langkah-langkah berikut.</entry>
     <entry lang="id" key="DEVICE_IN_USE_INFO">PERINGATAN: Beberapa dari peranti/partisi yang dikait sedang dipakai!\n\nMengabaikan ini dapat menyebabkan hasil yang tidak diinginkan termasuk ketidakstabilan sistem.\n\nKami sangat menganjurkan agar Anda menutup sebarang aplikasi yang mungkin sedang memakai peranti/partisi.</entry>
     <entry lang="id" key="DEVICE_PARTITIONS_ERR">Perangkat yang dipilih berisi partisi.\n\nMemformat perangkat dapat menyebabkan ketidakstabilan sistem dan/atau korupsi data. Silakan pilih partisi pada perangkat, atau hapus semua partisi pada perangkat agar VeraCrypt dapat memformatnya dengan aman.</entry>
     <entry lang="id" key="DEVICE_PARTITIONS_ERR_W_INPLACE_ENC_NOTE">Perangkat non-sistem yang dipilih berisi partisi.\n\nVolume VeraCrypt terenkripsi yang diwadahi peranti dapat dibuat dalam perangkat yang tidak mengandung partisi apapun (termasuk hard disk dan solid-state drive). Perangkat yang berisi partisi dapat sepenuhnya dienkripsi di tempat (menggunakan kunci master tunggal) hanya jika itu adalah drive di mana Windows dipasang dan dari mana ia boot.\n\nJika Anda ingin mengenkripsi perangkat non-sistem yang dipilih menggunakan kunci master tunggal, Anda akan perlu pertama kali untuk menghapus semua partisi pada perangkat agar memungkinkan VeraCrypt untuk memformatnya dengan aman (memformat perangkat yang berisi partisi dapat menyebabkan ketidakstabilan sistem dan/atau korupsi data). Atau, Anda dapat mengenkripsi setiap partisi pada drive secara individual (setiap partisi akan dienkripsi menggunakan kunci master yang berbeda).\n\nCatatan: Jika Anda ingin menghapus semua partisi dari disk GPT, Anda mungkin perlu mengonversinya ke disk MBR (menggunakan mis. alat Manajemen Komputer) untuk menghapus partisi tersembunyi.</entry>
@@ -590,7 +590,7 @@
     <entry lang="id" key="HIDDEN_VOLUME_TOO_SMALL_FOR_OS_CLONE">Galat: Berkas yang Anda salin ke volume luar menempati terlalu banyak ruang. Oleh karena itu, tidak ada cukup ruang kosong pada volume luar untuk volume tersembunyi.\n\nCatat bahwa volume tersembunyi harus sebesar partisi sistem (partisi tempat sistem operasi yang sedang berjalan terpasang). Alasannya adalah bahwa sistem operasi tersembunyi perlu dibuat dengan menyalin konten partisi sistem ke volume tersembunyi.\n\n\nProses pembuatan sistem operasi tersembunyi tidak dapat berlanjut.</entry>
     <entry lang="id" key="OPENFILES_DRIVER">Driver tidak bisa membuka kait volume. Beberapa berkas yang terletak pada volume mungkin masih terbuka.</entry>
     <entry lang="id" key="OPENFILES_LOCK">Tidak bisa mengunci volume. Masih ada berkas yang terbuka pada volume. Oleh karena itu, tidak dapat dilepas kait.</entry>
-    <entry lang="id" key="VOL_LOCK_FAILED_OFFER_FORCED_DISMOUNT">VeraCrypt tidak bisa mengunci volume karena digunakan oleh sistem atau aplikasi (mungkin ada berkas yang terbuka pada volume).\n\nApakah Anda hendak memaksa melepas kait pada volume?</entry>
+    <entry lang="id" key="VOL_LOCK_FAILED_OFFER_FORCED_UNMOUNT">VeraCrypt tidak bisa mengunci volume karena digunakan oleh sistem atau aplikasi (mungkin ada berkas yang terbuka pada volume).\n\nApakah Anda hendak memaksa melepas kait pada volume?</entry>
     <entry lang="id" key="OPEN_VOL_TITLE">Pilih sebuah Volume VeraCrypt</entry>
     <entry lang="id" key="OPEN_TITLE">Nyatakan Path dan Nama Berkas</entry>
     <entry lang="id" key="SELECT_PKCS11_MODULE">Pilih Pustaka PKCS #11</entry>
@@ -729,7 +729,7 @@
     <entry lang="id" key="DLL_FILES">Modul Pustaka</entry>
     <entry lang="id" key="FORMAT_NTFS_STOP">Pemformatan NTFS/exFAT/ReFS tidak dapat dilanjutkan.</entry>
     <entry lang="id" key="CANT_MOUNT_VOLUME">Tidak bisa mengait volume.</entry>
-    <entry lang="id" key="CANT_DISMOUNT_VOLUME">Tidak bisa melepas kait volume.</entry>
+    <entry lang="id" key="CANT_UNMOUNT_VOLUME">Tidak bisa melepas kait volume.</entry>
     <entry lang="id" key="FORMAT_NTFS_FAILED">Windows gagal memformat volume sebagai NTFS/exFAT/ReFS.\n\nHarap memilih jenis sistem berkas yang berbeda (jika memungkinkan) dan coba lagi. Atau, Anda dapat membiarkan volume tidak diformat (pilih 'Nihil' sebagai sistem berkas), keluar dari wahana pandu ini, kait volume, dan kemudian menggunakan baik sistem atau alat pihak ketiga untuk memformat volume yang dipasang (volume akan tetap dienkripsi).</entry>
     <entry lang="id" key="FORMAT_NTFS_FAILED_ASK_FAT">Windows gagal memformat volume sebagai NTFS/exFAT/ReFS.\n\nApakah Anda ingin memformat volume sebagai FAT sebagai gantinya?</entry>
     <entry lang="id" key="DEFAULT">Baku</entry>
@@ -771,7 +771,7 @@
     <entry lang="id" key="INPLACE_ENC_GENERIC_ERR_ALT_STEPS">Kesalahan mencegah VeraCrypt mengenkripsi partisi. Silakan coba memperbaiki masalah yang dilaporkan sebelumnya dan kemudian coba lagi. Jika masalah berlanjut, mungkin membantu untuk mengikuti langkah-langkah di bawah ini.</entry>
     <entry lang="id" key="INPLACE_ENC_GENERIC_ERR_RESUME">Suatu kesalahan mencegah VeraCrypt melanjutkan proses enkripsi/dekripsi partisi/volume.\n\nHarap coba perbaiki masalah yang sebelumnya dilaporkan kemudian cobalah melanjutkan proses lagi bila mungkin. Perhatikan bahwa volume tidak dapat dikait sampai sepenuhnya dienkripsi atau seluruhnya didekripsi.</entry>
     <entry lang="id" key="INPLACE_DEC_GENERIC_ERR">Kesalahan mencegah VeraCrypt mendekripsi volume. Silakan coba memperbaiki masalah yang dilaporkan sebelumnya dan kemudian coba lagi jika memungkinkan.</entry>
-    <entry lang="id" key="CANT_DISMOUNT_OUTER_VOL">Kesalahan: Tidak dapat turunkan volume luar!\n\nVolume tidak dapat diturunkan jika berisi file atau folder yang digunakan oleh program atau sistem.\n\nPlease menutup program apa pun yang mungkin menggunakan file atau direktori pada volume dan klik Coba kembali.</entry>
+    <entry lang="id" key="CANT_UNMOUNT_OUTER_VOL">Kesalahan: Tidak dapat turunkan volume luar!\n\nVolume tidak dapat diturunkan jika berisi file atau folder yang digunakan oleh program atau sistem.\n\nPlease menutup program apa pun yang mungkin menggunakan file atau direktori pada volume dan klik Coba kembali.</entry>
     <entry lang="id" key="CANT_GET_OUTER_VOL_INFO">Galat: Tidak bisa memperoleh informasi tentang volume luar!\nPembuatan volume tidak dapat dilanjutkan.</entry>
     <entry lang="id" key="CANT_ACCESS_OUTER_VOL">Galat: Tidak bisa mengakses volume luar! Pembuatan volume tidak dapat dilanjutkan.</entry>
     <entry lang="id" key="CANT_MOUNT_OUTER_VOL">Galat: Tidak bisa mengait volume luar! Pembuatan volume tidak dapat dilanjutkan.</entry>
@@ -855,7 +855,7 @@
     <entry lang="id" key="TC_INSTALLER_IS_RUNNING">VeraCrypt Installer saat ini berjalan pada sistem ini dan melakukan atau mempersiapkan instalasi atau update dari VeraCrypt. Sebelum Anda melanjutkan, silakan menunggu untuk menyelesaikan atau menutupnya. Jika Anda tidak dapat menutupnya, silakan restart komputer Anda sebelum melanjutkan.</entry>
     <entry lang="id" key="INSTALL_FAILED">Pemasangan gagal.</entry>
     <entry lang="id" key="UNINSTALL_FAILED">Penghapusan instalasi gagal.</entry>
-    <entry lang="id" key="DIST_PACKAGE_CORRUPTED">Paket distribusi ini rusak. Silakan coba mengunduhnya lagi (sebaiknya dari situs web resmi VeraCrypt di https://www.veracrypt.fr).</entry>
+    <entry lang="id" key="DIST_PACKAGE_CORRUPTED">Paket distribusi ini rusak. Silakan coba mengunduhnya lagi (sebaiknya dari situs web resmi VeraCrypt di https://veracrypt.jp).</entry>
     <entry lang="id" key="CANNOT_WRITE_FILE_X">Tak bisa menulis berkas %s</entry>
     <entry lang="id" key="EXTRACTING_VERB">Mengekstrak</entry>
     <entry lang="id" key="CANNOT_READ_FROM_PACKAGE">Tidak dapat membaca data dari paket.</entry>
@@ -882,7 +882,7 @@
     <entry lang="id" key="INSTALL_COMPLETED">Instalasi selesai.</entry>
     <entry lang="id" key="CANT_CREATE_FOLDER">Folder '%s' tidak bisa dibuat</entry>
     <entry lang="id" key="CLOSE_TC_FIRST">Driver perangkat VeraCrypt tidak dapat dibongkar.\n\nHarap menutup semua jendela VeraCrypt yang terbuka terlebih dahulu. Jika tidak membantu, silakan restart Windows dan kemudian coba lagi.</entry>
-    <entry lang="id" key="DISMOUNT_ALL_FIRST">Semua volume VeraCrypt harus dilepas kait sebelum memasang atau menghapus instalasi VeraCrypt.</entry>
+    <entry lang="id" key="UNMOUNT_ALL_FIRST">Semua volume VeraCrypt harus dilepas kait sebelum memasang atau menghapus instalasi VeraCrypt.</entry>
     <entry lang="id" key="UNINSTALL_OLD_VERSION_FIRST">Versi usang VeraCrypt saat ini terpasang pada sistem ini. Ini perlu dihapus sebelum Anda dapat memasang versi baru VeraCrypt.\n\nSegera setelah Anda menutup kotak pesan ini, uninstaller dari versi lama akan diluncurkan. Perhatikan bahwa tidak ada volume yang akan didekripsi saat Anda menghapus instalasi VeraCrypt. Setelah Anda menghapus instalasi versi lama VeraCrypt, jalankan penginstal versi baru VeraCrypt lagi.</entry>
     <entry lang="id" key="REG_INSTALL_FAILED">Instalasi entri registri telah gagal</entry>
     <entry lang="id" key="DRIVER_INSTALL_FAILED">Pemasangan device driver telah gagal. Silakan jalankan ulang Windows dan kemudian coba pasang VeraCrypt lagi.</entry>
@@ -903,7 +903,7 @@
     <entry lang="id" key="MINUTES">menit</entry>
     <entry lang="id" key="SECONDS">d</entry>
     <entry lang="id" key="OPEN">Buka</entry>
-    <entry lang="id" key="DISMOUNT">Lepas Kait</entry>
+    <entry lang="id" key="UNMOUNT">Lepas Kait</entry>
     <entry lang="id" key="SHOW_TC">Tampilkan VeraCrypt</entry>
     <entry lang="id" key="HIDE_TC">Sembunyikan VeraCrypt</entry>
     <entry lang="id" key="TOTAL_DATA_READ">Data Dibaca sejak Dikait</entry>
@@ -975,7 +975,7 @@
     <entry lang="id" key="SYSTEM_FAVORITES_DLG_TITLE">VeraCrypt - Volume Favorit Sistem</entry>
     <entry lang="id" key="SYS_FAVORITES_HELP_LINK">Apa itu volume favorit sistem?</entry>
     <entry lang="id" key="SYS_FAVORITES_REQUIRE_PBA">Partisi/drive sistem tampaknya tidak terenkripsi.\n\nVolume favorit sistem hanya dapat dikait memakai kata sandi autentikasi pra boot. Maka, untuk memfungsikan penggunaan volume favorit sistem, Anda perlu terlebih dahulu mengenkripsi partisi/drive sistem.</entry>
-    <entry lang="id" key="DISMOUNT_FIRST">Silakan lepas kait volume sebelum melanjutkan.</entry>
+    <entry lang="id" key="UNMOUNT_FIRST">Silakan lepas kait volume sebelum melanjutkan.</entry>
     <entry lang="id" key="CANNOT_SET_TIMER">Galat: Tak bisa mengatur timer.</entry>
     <entry lang="id" key="IDPM_CHECK_FILESYS">Periksa Sistem Berkas</entry>
     <entry lang="id" key="IDPM_REPAIR_FILESYS">Perbaikan Sistem Berkas</entry>
@@ -1009,11 +1009,11 @@
     <entry lang="id" key="NO_SYSENC_PARTITION_SELECTED">Tidak ada partisi yang dipilih.\n\nKlik 'Plih Perangkat' untuk memilih partisi yang tidak dikait yang biasanya memerlukan otentikasi pra-boot (misalnya, partisi yang terletak pada drive sistem terenkripsi dari sistem operasi lain, yang tidak berjalan, atau partisi sistem terenkripsi dari sistem operasi lain).\n\nCatatan: Partisi yang dipilih akan dikait sebagai sebuah volume VeraCrypt biasa tanpa otentikasi pra-boot. Ini berguna misalnya untuk operasi cadangan atau perbaikan.</entry>
     <entry lang="id" key="CONFIRM_SAVE_DEFAULT_KEYFILES">PERINGATAN: Bila berkas kunci baku diatur dan difungsikan, volume yang tidak memakai berkas kunci ini tidak akan mungkin dikait. Maka, setelah Anda memfungsikan berkas kunci baku, ingatlah untuk menghapus centang kotak centang "Pakai berkas kunci" (di bawah ruas masukan kata sandi) ketika mengait volume seperti itu.\n\nAnda yakin hendak menyimpan berkas kunci/path yang dipilih sebagai nilai baku?</entry>
     <entry lang="id" key="HK_AUTOMOUNT_DEVICES">Perangkat Auto-Mount</entry>
-    <entry lang="id" key="HK_DISMOUNT_ALL">Lepas Kait Semua</entry>
+    <entry lang="id" key="HK_UNMOUNT_ALL">Lepas Kait Semua</entry>
     <entry lang="id" key="HK_WIPE_CACHE">Hapus Cache</entry>
-    <entry lang="id" key="HK_DISMOUNT_ALL_AND_WIPE">Lepas Kait Semua &amp; Hapus Singgahan</entry>
-    <entry lang="id" key="HK_FORCE_DISMOUNT_ALL_AND_WIPE">Paksa Turunkan Semua &amp;Hapus Cache</entry>
-    <entry lang="id" key="HK_FORCE_DISMOUNT_ALL_AND_WIPE_AND_EXIT">Paksa Turunkan Semua, Hapus Cache &amp;Keluar</entry>
+    <entry lang="id" key="HK_UNMOUNT_ALL_AND_WIPE">Lepas Kait Semua &amp; Hapus Singgahan</entry>
+    <entry lang="id" key="HK_FORCE_UNMOUNT_ALL_AND_WIPE">Paksa Turunkan Semua &amp;Hapus Cache</entry>
+    <entry lang="id" key="HK_FORCE_UNMOUNT_ALL_AND_WIPE_AND_EXIT">Paksa Turunkan Semua, Hapus Cache &amp;Keluar</entry>
     <entry lang="id" key="HK_MOUNT_FAVORITE_VOLUMES">Kait Volume Favorit</entry>
     <entry lang="id" key="HK_SHOW_HIDE_MAIN_WINDOW">Tampilkan/Sembunyikan Jendela VeraCrypt Utama</entry>
     <entry lang="id" key="PRESS_A_KEY_TO_ASSIGN">(Klik di sini dan tekan tombol)</entry>
@@ -1025,14 +1025,14 @@
     <entry lang="id" key="PAGING_FILE_CREATION_PREVENTED">Pembuatan file Paging telah dicegah.\n\nPlease mencatat bahwa, karena masalah Windows, file paging tidak dapat ditemukan pada volume VeraCrypt non-sistem (termasuk volume favorit sistem). VeraCrypt mendukung pembuatan file paging hanya pada partisi / drive sistem terenkripsi.</entry>
     <entry lang="id" key="SYS_ENC_HIBERNATION_PREVENTED">Kesalahan atau ketidakcocokan mencegah VeraCrypt mengenkripsi file hibernasi. Oleh karena itu, hibernasi telah dicegah.\n\nNote: Ketika komputer berhibernasi (atau memasuki mode hemat daya), konten memori sistemnya ditulis ke file penyimpanan hibernasi yang berada di drive sistem. VeraCrypt tidak akan dapat mencegah kunci enkripsi dan isi file sensitif yang dibuka di RAM agar tidak disimpan tanpa terenkripsi ke file penyimpanan hibernasi.</entry>
     <entry lang="id" key="HIDDEN_OS_HIBERNATION_PREVENTED">Hibernasi telah dicegah.\n\nVeraCrypt tidak mendukung hibernasi pada sistem operasi tersembunyi yang menggunakan partisi boot tambahan. Harap dicatat bahwa partisi boot dipakai bersama oleh umpan dan sistem tersembunyi. Oleh karena itu, untuk mencegah kebocoran data dan masalah saat melanjutkan dari hibernasi, VeraCrypt harus mencegah sistem tersembunyi dari menulis ke partisi boot bersama dan dari hibernasi.</entry>
-    <entry lang="id" key="VOLUME_MOUNTED_AS_DRIVE_LETTER_X_DISMOUNTED">Volume VeraCrypt dipasang sebagai %c: telah turun.</entry>
-    <entry lang="id" key="MOUNTED_VOLUMES_DISMOUNTED">Volume VeraCrypt telah dilepas kait.</entry>
-    <entry lang="id" key="VOLUMES_DISMOUNTED_CACHE_WIPED">Volume VeraCrypt telah turun dan cache kata sandi telah dihapus.</entry>
-    <entry lang="id" key="SUCCESSFULLY_DISMOUNTED">Berhasil dilepas kait</entry>
+    <entry lang="id" key="VOLUME_MOUNTED_AS_DRIVE_LETTER_X_UNMOUNTED">Volume VeraCrypt dipasang sebagai %c: telah turun.</entry>
+    <entry lang="id" key="MOUNTED_VOLUMES_UNMOUNTED">Volume VeraCrypt telah dilepas kait.</entry>
+    <entry lang="id" key="VOLUMES_UNMOUNTED_CACHE_WIPED">Volume VeraCrypt telah turun dan cache kata sandi telah dihapus.</entry>
+    <entry lang="id" key="SUCCESSFULLY_UNMOUNTED">Berhasil dilepas kait</entry>
     <entry lang="id" key="CONFIRM_BACKGROUND_TASK_DISABLED">PERINGATAN: Jika Tugas Latar Belakang VeraCrypt dinonaktifkan, fungsi berikut akan dinonaktifkan:\n\n1) Tombol panas\n2) Turun otomatis (misalnya, setelah logoff, penghapusan perangkat host yang tidak disengaja, time-out, dll.) \n3) Auto-mount volume favorit\n4) Pemberitahuan (misalnya, ketika kerusakan volume tersembunyi dicegah)\n5) Ikon Baki\n\nNote: Anda dapat mematikan Tugas Latar Belakang kapan saja dengan mengklik kanan ikon baki VeraCrypt dan memilih 'Exit'.\n\n Apakah Anda yakin ingin menonaktifkan Tugas Latar Belakang VeraCrypt secara permanen?</entry>
-    <entry lang="id" key="CONFIRM_NO_FORCED_AUTODISMOUNT">PERINGATAN: Jika opsi ini dinonaktifkan, volume yang berisi file / direktori terbuka tidak akan mungkin untuk turun secara otomatis.\n\n Apakah Anda yakin ingin menonaktifkan opsi ini?</entry>
-    <entry lang="id" key="WARN_PREF_AUTO_DISMOUNT">PERINGATAN: Volume yang berisi file /direktori yang terbuka TIDAK akan diturunkan secara otomatis.\n\nUntuk mencegah hal ini, aktifkan opsi berikut di jendela dialog ini: 'Paksa turun otomatis bahkan jika volume berisi file atau direktori yang terbuka'</entry>
-    <entry lang="id" key="WARN_PREF_AUTO_DISMOUNT_ON_POWER">PERINGATAN: Ketika daya baterai notebook rendah, Windows mungkin menghilangkan pengiriman pesan yang sesuai untuk menjalankan aplikasi ketika komputer memasuki mode hemat daya. Oleh karena itu, VeraCrypt mungkin gagal untuk secara otomatis turun volume dalam kasus tersebut.</entry>
+    <entry lang="id" key="CONFIRM_NO_FORCED_AUTOUNMOUNT">PERINGATAN: Jika opsi ini dinonaktifkan, volume yang berisi file / direktori terbuka tidak akan mungkin untuk turun secara otomatis.\n\n Apakah Anda yakin ingin menonaktifkan opsi ini?</entry>
+    <entry lang="id" key="WARN_PREF_AUTO_UNMOUNT">PERINGATAN: Volume yang berisi file /direktori yang terbuka TIDAK akan diturunkan secara otomatis.\n\nUntuk mencegah hal ini, aktifkan opsi berikut di jendela dialog ini: 'Paksa turun otomatis bahkan jika volume berisi file atau direktori yang terbuka'</entry>
+    <entry lang="id" key="WARN_PREF_AUTO_UNMOUNT_ON_POWER">PERINGATAN: Ketika daya baterai notebook rendah, Windows mungkin menghilangkan pengiriman pesan yang sesuai untuk menjalankan aplikasi ketika komputer memasuki mode hemat daya. Oleh karena itu, VeraCrypt mungkin gagal untuk secara otomatis turun volume dalam kasus tersebut.</entry>
     <entry lang="id" key="NONSYS_INPLACE_ENC_RESUME_PROMPT">Anda telah menjadwalkan proses enkripsi/dekripsi partisi/volume. Prosesnya belum selesai.\n\nApakah Anda ingin melanjutkan prosesnya sekarang?</entry>
     <entry lang="id" key="SYSTEM_ENCRYPTION_RESUME_PROMPT">Anda telah menjadwalkan proses enkripsi atau dekripsi partisi / drive sistem. Prosesnya belum selesai.\n\n Apakah Anda ingin memulai (melanjutkan) prosesnya sekarang?</entry>
     <entry lang="id" key="ASK_NONSYS_INPLACE_ENC_NOTIFICATION_REMOVAL">Apakah Anda ingin diminta tentang apakah Anda ingin melanjutkan proses enkripsi / dekripsi yang dijadwalkan saat ini dari partisi / volume non-sistem?</entry>
@@ -1063,7 +1063,7 @@
     <entry lang="id" key="SYS_AUTOMOUNT_DISABLED">Sistem Anda tidak dikonfigurasi untuk mengait otomatis volume baru. Barangkali tidak mungkin untuk mengait volume VeraCrypt yang diwadahi perangkat. Pengaitan otomatis dapat diaktifkan dengan menjalankan perintah berikut dan memulai ulang sistem.\n\nmountvol.exe /E</entry>
     <entry lang="id" key="SYS_ASSIGN_DRIVE_LETTER">Silakan tetapkan surat drive ke partisi /perangkat sebelum melanjutkan ('Control Panel' &gt; 'System and Maintenance' &gt; 'Administrative Tools' - 'Buat dan format partisi hard disk').\n\nNote bahwa ini adalah persyaratan dari sistem operasi.</entry>
     <entry lang="id" key="MOUNT_TC_VOLUME">Volume Mount VeraCrypt</entry>
-    <entry lang="id" key="DISMOUNT_ALL_TC_VOLUMES">Lepas kait semua volume VeraCrypt</entry>
+    <entry lang="id" key="UNMOUNT_ALL_TC_VOLUMES">Lepas kait semua volume VeraCrypt</entry>
     <entry lang="id" key="UAC_INIT_ERROR">VeraCrypt gagal mendapatkan hak Administrator.</entry>
     <entry lang="id" key="ERR_ACCESS_DENIED">Akses ditolak oleh sistem operasi. \n \nPossible penyebab: Sistem operasi mengharuskan Anda telah membaca / menulis izin (atau hak administrator) untuk folder, file, dan perangkat tertentu, agar Anda diizinkan untuk membaca dan menulis data ke / dari mereka. Biasanya, pengguna tanpa hak administrator diizinkan untuk membuat, membaca, dan memodifikasi file di folder Dokumennya.</entry>
     <entry lang="id" key="SECTOR_SIZE_UNSUPPORTED">Kesalahan: Drive menggunakan ukuran sektor yang tidak didukung.\n\n Saat ini tidak mungkin untuk membuat volume partisi / perangkat yang dihosting pada drive yang menggunakan sektor yang lebih besar dari 4096 byte. Namun, perhatikan bahwa Anda dapat membuat volume file-hosted (kontainer) pada drive tersebut.</entry>
@@ -1229,7 +1229,7 @@
     <entry lang="id" key="HIDDEN_OS_CREATION_PREINFO_HELP">Pada langkah selanjutnya, VeraCrypt akan membuat sistem operasi tersembunyi dengan menyalin konten partisi sistem ke volume tersembunyi (data yang disalin akan dienkripsi sambil jalan dengan kunci enkripsi yang berbeda dari yang akan digunakan untuk sistem operasi umpan).\n\nHarap perhatikan bahwa proses akan dilaksanakan dalam lingkungan pra boot (sebelum Windows dimulai) dan mungkin makan waktu lama untuk selesai; beberapa jam atau bahkan beberapa hari (tergantung pada ukuran partisi sistem dan kinerja komputer Anda).\n\nAnda akan dapat menginterupsi proses, mematikan komputer Anda, memulai sistem operasi, lalu melanjutkan proses. Namun, jika Anda menginterupsinya, seluruh proses menyalin sistem harus dimulai dari awal (karena konten partisi sistem tidak boleh berubah selama kloning).</entry>
     <entry lang="id" key="CONFIRM_CANCEL_HIDDEN_OS_CREATION">Apakah Anda ingin membatalkan seluruh proses pembuatan sistem operasi tersembunyi?\n\nNote: Anda TIDAK akan dapat melanjutkan proses jika Anda membatalkannya sekarang.</entry>
     <entry lang="id" key="CONFIRM_CANCEL_SYS_ENC_PRETEST">Apakah Anda ingin membatalkan pra-uji enkripsi sistem?</entry>
-    <entry lang="id" key="BOOT_PRETEST_FAILED_RETRY">Pratest enkripsi sistem VeraCrypt gagal. Jika Anda memilih 'Tidak', komponen otentikasi pra-boot akan dihapus.\n\nNotes:\n\n-- Jika VeraCrypt Boot Loader tidak meminta Anda untuk memasukkan kata sandi sebelum Windows dimulai, ada kemungkinan bahwa sistem operasi Anda tidak boot dari drive tempat ia diinstal. Jika Anda menggunakan algoritma enkripsi selain AES dan tes pra-gagal (dan Anda memasukkan kata sandi), itu mungkin disebabkan oleh driver yang dirancang secara tidak tepat. Pilih 'Tidak', dan coba enkripsi partisi / drive sistem lagi, tetapi gunakan algoritma enkripsi AES (yang memiliki persyaratan memori terendah https://www.veracrypt.fr/en/Troubleshooting.html).</entry>
+    <entry lang="id" key="BOOT_PRETEST_FAILED_RETRY">Pratest enkripsi sistem VeraCrypt gagal. Jika Anda memilih 'Tidak', komponen otentikasi pra-boot akan dihapus.\n\nNotes:\n\n-- Jika VeraCrypt Boot Loader tidak meminta Anda untuk memasukkan kata sandi sebelum Windows dimulai, ada kemungkinan bahwa sistem operasi Anda tidak boot dari drive tempat ia diinstal. Jika Anda menggunakan algoritma enkripsi selain AES dan tes pra-gagal (dan Anda memasukkan kata sandi), itu mungkin disebabkan oleh driver yang dirancang secara tidak tepat. Pilih 'Tidak', dan coba enkripsi partisi / drive sistem lagi, tetapi gunakan algoritma enkripsi AES (yang memiliki persyaratan memori terendah https://veracrypt.jp/en/Troubleshooting.html).</entry>
     <entry lang="id" key="SYS_DRIVE_NOT_ENCRYPTED">Partisi / drive sistem tampaknya tidak dienkripsi (tidak sebagian atau seluruhnya).</entry>
     <entry lang="id" key="SETUP_FAILED_BOOT_DRIVE_ENCRYPTED">Partisi / drive sistem Anda dienkripsi (sebagian atau seluruhnya). \n \nPlease mendekripsi partisi / drive sistem Anda sepenuhnya sebelum melanjutkan. Untuk melakukannya, pilih 'System' &gt; 'Permanen Decrypt System Partition /Drive' dari bilah menu jendela VeraCrypt utama.</entry>
     <entry lang="id" key="SETUP_FAILED_BOOT_DRIVE_ENCRYPTED_DOWNGRADE">Ketika partisi / drive sistem dienkripsi (sebagian atau seluruhnya), Anda tidak dapat menurunkan VeraCrypt (tetapi Anda dapat meningkatkannya atau menginstal ulang versi yang sama).</entry>
@@ -1286,7 +1286,7 @@
     <entry lang="id" key="BOOT_PASSWORD_CACHE_KEYBOARD_WARNING">PENTING: Harap dicatat bahwa kata sandi otentikasi pra-boot selalu diketik menggunakan tata letak keyboard standar AS. Oleh karena itu, volume yang menggunakan kata sandi yang diketik menggunakan tata letak keyboard lainnya mungkin tidak mungkin dipasang menggunakan kata sandi otentikasi pra-boot (perhatikan bahwa ini bukan bug di VeraCrypt). Untuk mengizinkan volume tersebut dipasang menggunakan kata sandi autentikasi pra-boot, ikuti langkah-langkah ini:\n\n1) Klik 'Pilih File' atau 'Pilih Perangkat' dan pilih volumenya.\n2) Pilih 'Volume' &gt; 'Ubah Kata Sandi Volume'.\n3) Masukkan kata sandi saat ini untuk volume.\n4) Ubah tata letak keyboard ke bahasa Inggris (AS) dengan mengklik ikon bilah bahasa di bilah tugas Windows dan pilih 'EN English (Amerika Serikat)'.\n5) Di VeraCrypt,  di bidang untuk kata sandi baru, ketik kata sandi otentikasi pra-boot.\n6) Konfirmasikan kata sandi baru dengan menghapusnya kembali di bidang konfirmasi dan klik 'OK'.\nWARNING: Harap diingat bahwa jika Anda mengikuti langkah-langkah ini, kata sandi volume akan selalu harus diketik menggunakan tata letak keyboard AS (yang secara otomatis hanya dijamin di lingkungan pra-boot).</entry>
     <entry lang="id" key="SYS_FAVORITES_KEYBOARD_WARNING">Volume favorit sistem akan dipasang menggunakan kata sandi otentikasi pra-boot. Jika ada volume favorit sistem yang menggunakan kata sandi yang berbeda, itu tidak akan dipasang.</entry>
     <entry lang="id" key="SYS_FAVORITES_ADMIN_ONLY_INFO">Harap dicatat bahwa jika Anda perlu mencegah tindakan volume VeraCrypt normal (seperti 'Turunkan Semua', turun otomatis, dll.) dari mempengaruhi volume favorit sistem, Anda harus mengaktifkan opsi 'Hanya Izinkan administrator untuk melihat dan menurunkan volume favorit sistem di VeraCrypt'. Selain itu, ketika VeraCrypt dijalankan tanpa hak administrator (default pada Windows Vista dan yang lebih baru), volume favorit sistem tidak akan ditampilkan dalam daftar huruf drive di jendela aplikasi VeraCrypt utama.</entry>
-    <entry lang="id" key="SYS_FAVORITES_ADMIN_ONLY_WARNING">PENTING: Harap diingat bahwa jika opsi ini diaktifkan dan VeraCrypt tidak memiliki hak administrator, volume favorit sistem yang dipasang TIDAK ditampilkan di jendela aplikasi VeraCrypt dan tidak dapat diturunkan. Oleh karena itu, jika Anda perlu misalnya untuk turunkan volume favorit sistem, silakan klik kanan ikon VeraCrypt (di menu Mulai) dan pilih 'Jalankan sebagai administrator' terlebih dahulu. Batasan yang sama berlaku untuk fungsi 'Dismount All', fungsi 'Auto-Dismount', tombol panas 'Turunkan Semua', dll.</entry>
+    <entry lang="id" key="SYS_FAVORITES_ADMIN_ONLY_WARNING">PENTING: Harap diingat bahwa jika opsi ini diaktifkan dan VeraCrypt tidak memiliki hak administrator, volume favorit sistem yang dipasang TIDAK ditampilkan di jendela aplikasi VeraCrypt dan tidak dapat diturunkan. Oleh karena itu, jika Anda perlu misalnya untuk turunkan volume favorit sistem, silakan klik kanan ikon VeraCrypt (di menu Mulai) dan pilih 'Jalankan sebagai administrator' terlebih dahulu. Batasan yang sama berlaku untuk fungsi 'Unmount All', fungsi 'Auto-Unmount', tombol panas 'Turunkan Semua', dll.</entry>
     <entry lang="id" key="SETTING_REQUIRES_REBOOT">Perhatikan bahwa pengaturan ini berlaku hanya setelah sistem operasi dimulai ulang.</entry>
     <entry lang="id" key="COMMAND_LINE_ERROR">Galat saat mengurai opsi baris perintah:</entry>
     <entry lang="id" key="RESCUE_DISK">Disk Penyelamatan</entry>
@@ -1306,8 +1306,8 @@
     <entry lang="id" key="LIMITED_THREAD_COUNT_AFFECTS_PERFORMANCE">Perhatikan bahwa jumlah thread saat ini terbatas, yang akan mempengaruhi hasil benchmark (kinerja yang lebih buruk). \n \nUntuk memanfaatkan potensi penuh dari prosesor (s), pilih 'Settings' &gt; 'Performance' dan menonaktifkan opsi yang sesuai.</entry>
     <entry lang="id" key="ASK_REMOVE_DEVICE_WRITE_PROTECTION">Apakah Anda ingin VeraCrypt mencoba menonaktifkan perlindungan tulis partisi/drive?</entry>
     <entry lang="id" key="CONFIRM_SETTING_DEGRADES_PERFORMANCE">PERINGATAN: Pengaturan ini dapat menurunkan kinerja.\n\nApakah Anda yakin ingin menggunakan pengaturan ini?</entry>
-    <entry lang="id" key="HOST_DEVICE_REMOVAL_DISMOUNT_WARN_TITLE">Peringatan: Volume VeraCrypt dilepas kait secara otomatis</entry>
-    <entry lang="id" key="HOST_DEVICE_REMOVAL_DISMOUNT_WARN">Sebelum Anda secara fisik menghapus atau mematikan perangkat yang berisi volume yang dipasang, Anda harus selalu menurunkan volume di VeraCrypt terlebih dahulu.</entry>
+    <entry lang="id" key="HOST_DEVICE_REMOVAL_UNMOUNT_WARN_TITLE">Peringatan: Volume VeraCrypt dilepas kait secara otomatis</entry>
+    <entry lang="id" key="HOST_DEVICE_REMOVAL_UNMOUNT_WARN">Sebelum Anda secara fisik menghapus atau mematikan perangkat yang berisi volume yang dipasang, Anda harus selalu menurunkan volume di VeraCrypt terlebih dahulu.</entry>
     <entry lang="id" key="UNSUPPORTED_TRUECRYPT_FORMAT">Volume ini dibuat dengan TrueCrypt %x.%x tetapi VeraCrypt hanya mendukung volume TrueCrypt yang dibuat dengan seri TrueCrypt 6.x/7.x.</entry>
     <entry lang="id" key="TEST">Tes</entry>
     <entry lang="id" key="KEYFILE">Berkas kunci</entry>
@@ -1453,7 +1453,7 @@
     <entry lang="id" key="IDM_ADD_ALL_VOLUME_TO_FAVORITES">Tambahkan Semua Volume yang Dipasang ke Favorit...</entry>
     <entry lang="id" key="TASKICON_PREF_MENU_ITEMS">Item Menu Ikon Tugas</entry>
     <entry lang="id" key="TASKICON_PREF_OPEN_VOL">Buka Volume Terpasang</entry>
-    <entry lang="id" key="TASKICON_PREF_DISMOUNT_VOL">Turunkan Volume yang Dipasang</entry>
+    <entry lang="id" key="TASKICON_PREF_UNMOUNT_VOL">Turunkan Volume yang Dipasang</entry>
     <entry lang="id" key="DISK_FREE">Ruang kosong yang tersedia: {0}</entry>
     <entry lang="id" key="VOLUME_SIZE_HELP">Harap tentukan ukuran wadah yang akan dibuat. Perhatikan bahwa ukuran minimum volume yang mungkin adalah 292 KiB.</entry>
     <entry lang="id" key="LINUX_CONFIRM_INNER_VOLUME_CALC">PERINGATAN: Anda telah memilih sistem file selain FAT untuk volume luar.\nPlease Catatan bahwa dalam hal ini VeraCrypt tidak dapat menghitung ukuran maksimum maksimum yang diizinkan untuk volume tersembunyi dan hanya akan menggunakan estimasi yang bisa salah.\nThus, adalah tanggung jawab Anda untuk menggunakan nilai yang memadai untuk ukuran volume tersembunyi sehingga tidak tumpang tindih dengan volume luar. sistem file yang dipilih untuk volume luar?</entry>
@@ -1483,14 +1483,14 @@
     <entry lang="id" key="LINUX_DO_NOT_MOUNT">Jangan mount</entry>
     <entry lang="id" key="LINUX_MOUNT_AT_DIR">Mount di direktori:</entry>
     <entry lang="id" key="LINUX_SELECT">Pi&amp;lih...</entry>
-    <entry lang="id" key="LINUX_DISMOUNT_ALL_WHEN">Turunkan Semua Volume Saat</entry>
+    <entry lang="id" key="LINUX_UNMOUNT_ALL_WHEN">Turunkan Semua Volume Saat</entry>
     <entry lang="id" key="LINUX_ENTERING_POWERSAVING">Sistem memasuki mode hemat daya</entry>
     <entry lang="id" key="LINUX_LOGIN_ACTION">Tindakan yang Harus Dilakukan saat Pengguna Log On</entry>
-    <entry lang="id" key="LINUX_CLOSE_EXPL_ON_DISMOUNT">Tutup semua jendela volume Explorer yang turun</entry>
+    <entry lang="id" key="LINUX_CLOSE_EXPL_ON_UNMOUNT">Tutup semua jendela volume Explorer yang turun</entry>
     <entry lang="id" key="LINUX_HOTKEYS">Kunci pintas</entry>
     <entry lang="id" key="LINUX_SYSTEM_HOTKEYS">Hotkeys Lebar Sistem</entry>
-    <entry lang="id" key="LINUX_SOUND_NOTIFICATION">Memutar suara pemberitahuan sistem setelah mount/dismount</entry>
-    <entry lang="id" key="LINUX_CONFIRM_AFTER_DISMOUNT">Menampilkan kotak pesan konfirmasi setelah turun</entry>
+    <entry lang="id" key="LINUX_SOUND_NOTIFICATION">Memutar suara pemberitahuan sistem setelah mount/unmount</entry>
+    <entry lang="id" key="LINUX_CONFIRM_AFTER_UNMOUNT">Menampilkan kotak pesan konfirmasi setelah turun</entry>
     <entry lang="id" key="LINUX_VC_QUITS">VeraCrypt berhenti</entry>
     <entry lang="id" key="LINUX_OPEN_FINDER">Buka jendela Finder untuk volume yang berhasil dipasang</entry>
     <entry lang="id" key="LINUX_DISABLE_KERNEL_ONLY_SETTING">Harap dicatat bahwa pengaturan ini berlaku hanya jika penggunaan layanan kriptografi kernel dinonaktifkan.</entry>
@@ -1522,125 +1522,130 @@
     <entry lang="id" key="LINUX_DOT_LF">.\n</entry>
     <entry lang="id" key="LINUX_NOT_SUPPORTED"> (tidak didukung oleh komponen yang tersedia di platform ini).</entry>
     <entry lang="id" key="LINUX_KERNEL_OLD">Sistem Anda menggunakan versi lama dari kernel Linux. Masalah ini dapat diselesaikan dengan memutakhirkan kernel ke versi 2.6.24 atau yang lebih baru.</entry>
-    <entry lang="id" key="LINUX_VOL_DISMOUNTED">Volume {0} telah turun.</entry>
-    <entry lang="en" key="LINUX_VOL_MOUNTED">Volume {0} has been mounted.</entry>
+    <entry lang="id" key="LINUX_VOL_UNMOUNTED">Volume {0} telah turun.</entry>
+    <entry lang="id" key="LINUX_VOL_MOUNTED">Volume {0} telah dikaitkan.</entry>
     <entry lang="id" key="LINUX_OOM">Kehabisan memori.</entry>
-    <entry lang="id" key="LINUX_CANT_GET_ADMIN_PRIV">Gagal mendapatkan hak administrator</entry>
+    <entry lang="id" key="LINUX_CANT_GET_ADMIN_PRIV">Gagal mendapatkan hak administrator.</entry>
     <entry lang="id" key="LINUX_COMMAND_GET_ERROR">Perintah {0} mengembalikan kesalahan {1}.</entry>
-    <entry lang="id" key="LINUX_CMD_HELP">Bantuan Baris Perintah VeraCrypt</entry>
-    <entry lang="id" key="LINUX_HIDDEN_FILES_PRESENT_IN_KEYFILE_PATH">\n\nWarning: File tersembunyi hadir dalam jalur keyfile. Jika Anda perlu menggunakannya sebagai keyfiles, hapus titik terdepan dari nama file mereka. File tersembunyi hanya terlihat jika diaktifkan dalam opsi sistem.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_DEVICESECTORSIZEMISMATCH">Perangkat penyimpanan dan ketidakcocokan ukuran sektor volume VC</entry>
-    <entry lang="id" key="LINUX_EX2MSG_ENCRYPTEDSYSTEMREQUIRED">Operasi ini harus dilakukan hanya ketika sistem yang dihosting pada volume berjalan.</entry>
+    <entry lang="id" key="LINUX_CMD_HELP">Bantuan Baris Perintah VeraCrypt.</entry>
+    <entry lang="id" key="LINUX_HIDDEN_FILES_PRESENT_IN_KEYFILE_PATH">\n\nPeringatan: Berkas tersembunyi ada di jalur berkas kunci. Jika Anda perlu menggunakannya sebagai berkas kunci, hapus titik di awal nama berkasnya. Berkas tersembunyi hanya terlihat jika diaktifkan pada opsi sistem.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_DEVICESECTORSIZEMISMATCH">Ketidakcocokan ukuran sektor antara perangkat penyimpanan dan volume VC.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_ENCRYPTEDSYSTEMREQUIRED">Operasi ini harus dilakukan hanya ketika sistem yang di-host pada volume tersebut sedang berjalan.</entry>
     <entry lang="id" key="LINUX_EX2MSG_INSUFFICIENTDATA">Tidak cukup data yang tersedia.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_KERNELCRYPTOSERVICETESTFAILED">Uji layanan kriptografi kernel gagal. Layanan kriptografi kernel Anda kemungkinan besar tidak mendukung volume yang lebih besar dari 2 TB.\n\nPossible solutions:\n- Upgrade kernel Linux ke versi 2.6.33 atau yang lebih baru.\n- Nonaktifkan penggunaan layanan kriptografi kernel (Pengaturan &gt; Preferences &gt; System Integration) atau gunakan opsi mount 'nokernelcrypto' pada baris perintah.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_KERNELCRYPTOSERVICETESTFAILED">Uji layanan kriptografi kernel gagal. Layanan kriptografi kernel Anda kemungkinan besar tidak mendukung volume yang lebih besar dari 2 TB.\n\nSolusi yang mungkin:\n- Tingkatkan kernel Linux ke versi 2.6.33 atau yang lebih baru.\n- Nonaktifkan penggunaan layanan kriptografi kernel (Pengaturan &gt; Preferensi &gt; Integrasi Sistem) atau gunakan opsi kait 'nokernelcrypto' pada baris perintah.</entry>
     <entry lang="id" key="LINUX_EX2MSG_LOOPDEVICESETUPFAILED">Gagal menyiapkan perangkat loop.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_MISSINGARGUMENT">Argumen yang diperlukan kurang.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_MISSINGARGUMENT">Argumen yang diperlukan tidak ada.</entry>
     <entry lang="id" key="LINUX_EX2MSG_MISSINGVOLUMEDATA">Data volume hilang.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_MOUNTPOINTREQUIRED">Titik gunung diperlukan.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_MOUNTPOINTUNAVAILABLE">Titik mount sudah digunakan.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_PASSWORDEMPTY">Tidak ada kata sandi atau berkas kunci yang dinyatakan.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_PASSWORDORKEYBOARDLAYOUTINCORRECT">\n\nNote bahwa kata sandi otentikasi pra-boot perlu diketik dalam lingkungan pra-boot di mana tata letak keyboard non-AS tidak tersedia. Oleh karena itu, kata sandi otentikasi pra-boot harus selalu diketik menggunakan tata letak keyboard standar AS (jika tidak, kata sandi akan diketik secara tidak benar dalam banyak kasus). Namun, perhatikan bahwa Anda TIDAK memerlukan keyboard AS yang nyata; Anda hanya perlu mengubah tata letak keyboard di sistem operasi Anda.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_PASSWORDORMOUNTOPTIONSINCORRECT">\n\nNote: Jika Anda mencoba me-mount partisi yang terletak pada drive sistem terenkripsi tanpa otentikasi pra-boot atau untuk me-mount partisi sistem terenkripsi dari sistem operasi yang tidak berjalan, Anda dapat melakukannya dengan memilih 'Options &gt;' &gt; 'Mount partition using system encryption'.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_PASSWORDTOOLONG">Kata sandi lebih panjang dari karakter {0}.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_MOUNTPOINTREQUIRED">Titik kait diperlukan.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_MOUNTPOINTUNAVAILABLE">Titik kait sudah digunakan.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_PASSWORDEMPTY">Tidak ada kata sandi atau berkas kunci yang ditentukan.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_PASSWORDORKEYBOARDLAYOUTINCORRECT">\n\nPerhatikan bahwa kata sandi autentikasi pra-boot perlu diketik dalam lingkungan pra-boot di mana tata letak papan ketik non-AS tidak tersedia. Oleh karena itu, kata sandi autentikasi pra-boot harus selalu diketik menggunakan tata letak papan ketik standar AS (jika tidak, kata sandi akan diketik secara tidak benar dalam banyak kasus). Namun, perhatikan bahwa Anda TIDAK memerlukan papan ketik AS yang nyata; Anda hanya perlu mengubah tata letak papan ketik di sistem operasi Anda.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_PASSWORDORMOUNTOPTIONSINCORRECT">\n\nCatatan: Jika Anda mencoba mengaitkan partisi yang terletak pada drive sistem terenkripsi tanpa autentikasi pra-boot atau untuk mengaitkan partisi sistem terenkripsi dari sistem operasi yang tidak berjalan, Anda dapat melakukannya dengan memilih 'Opsi &gt;' &gt; 'Kaitkan partisi menggunakan enkripsi sistem'.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_PASSWORDTOOLONG">Kata sandi lebih panjang dari {0} karakter.</entry>
     <entry lang="id" key="LINUX_EX2MSG_PARTITIONDEVICEREQUIRED">Perangkat partisi diperlukan.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_PROTECTIONPASSWORDINCORRECT">Kata sandi yang salah untuk volume tersembunyi terproteksi atau volume tersembunyi tidak ada.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_PROTECTIONPASSWORDKEYFILESINCORRECT">Berkas kunci dan/atau kata sandi ke volume tersembunyi terproteksi yang salah atau volume tersembunyi tidak ada.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_PROTECTIONPASSWORDINCORRECT">Kata sandi yang salah untuk volume tersembunyi yang dilindungi atau volume tersembunyi tidak ada.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_PROTECTIONPASSWORDKEYFILESINCORRECT">Berkas kunci dan/atau kata sandi yang salah untuk volume tersembunyi yang dilindungi atau volume tersembunyi tidak ada.</entry>
     <entry lang="id" key="LINUX_EX2MSG_STRINGCONVERSIONFAILED">Karakter yang tidak valid ditemui.</entry>
     <entry lang="id" key="LINUX_EX2MSG_STRINGFORMATTEREXCEPTION">Galat saat mengurai string terformat.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_TEMPORARYDIRECTORYFAILURE">Gagal membuat file atau direktori di direktori sementara.\n\nPlease pastikan bahwa direktori sementara ada, izin keamanannya memungkinkan Anda mengaksesnya, dan ada ruang disk yang cukup.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZEHIDDENVOLUMEPROTECTION">Kesalahan: Drive menggunakan ukuran sektor selain 512 byte.\n\nDue untuk keterbatasan komponen yang tersedia di platform Anda, volume luar yang dihosting pada drive tidak dapat dipasang menggunakan perlindungan volume tersembunyi.\n\n Solusi Yang Dapat diakses:\n- Gunakan drive dengan sektor 512-byte.\n- Buat volume file-hosted (kontainer) pada drive.\n-Backup isi volume tersembunyi dan kemudian perbarui volume luar.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZENOKERNELCRYPTO">Kesalahan: Drive menggunakan ukuran sektor selain 512 byte.\n\nDue untuk keterbatasan komponen yang tersedia di platform Anda, volume partisi / perangkat yang dihosting pada drive hanya dapat dipasang menggunakan layanan kriptografi kernel.\n\n Solusi Yang Dapat diakses:\n- Aktifkan penggunaan layanan kriptografi kernel (Preferensi &gt; Integrasi Sistem).\n- Gunakan drive dengan sektor 512-byte.\n- Buat volume file-hosted (kontainer) pada drive.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZE">Kesalahan: Drive menggunakan ukuran sektor selain 512 byte.\n\nDue untuk keterbatasan komponen yang tersedia di platform Anda, volume partisi / perangkat yang dihosting tidak dapat dibuat / digunakan pada drive.\n\nPossible solutions:\n- Buat volume file-hosted (container) pada drive.\n- Gunakan drive dengan sektor 512-byte.\n- Gunakan VeraCrypt pada platform lain.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_TEMPORARYDIRECTORYFAILURE">Gagal membuat berkas atau direktori di direktori sementara.\n\nHarap pastikan bahwa direktori sementara ada, izin keamanannya memungkinkan Anda mengaksesnya, dan ada ruang disk yang cukup.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZEHIDDENVOLUMEPROTECTION">Kesalahan: Drive menggunakan ukuran sektor selain 512 byte.\n\nKarena keterbatasan komponen yang tersedia di platform Anda, volume luar yang di-host pada drive tidak dapat dikaitkan menggunakan perlindungan volume tersembunyi.\n\nSolusi yang mungkin:\n- Gunakan drive dengan sektor 512-byte.\n- Buat volume berbasis berkas (wadah) pada drive.\n- Cadangkan isi volume tersembunyi dan kemudian perbarui volume luar.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZENOKERNELCRYPTO">Kesalahan: Drive menggunakan ukuran sektor selain 512 byte.\n\nKarena keterbatasan komponen yang tersedia di platform Anda, volume berbasis partisi/perangkat yang di-host pada drive hanya dapat dikaitkan menggunakan layanan kriptografi kernel.\n\nSolusi yang mungkin:\n- Aktifkan penggunaan layanan kriptografi kernel (Preferensi &gt; Integrasi Sistem).\n- Gunakan drive dengan sektor 512-byte.\n- Buat volume berbasis berkas (wadah) pada drive.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZE">Kesalahan: Drive menggunakan ukuran sektor selain 512 byte.\n\nKarena keterbatasan komponen yang tersedia di platform Anda, volume berbasis partisi/perangkat yang di-host tidak dapat dibuat/digunakan pada drive.\n\nSolusi yang mungkin:\n- Buat volume berbasis berkas (wadah) pada drive.\n- Gunakan drive dengan sektor 512-byte.\n- Gunakan VeraCrypt pada platform lain.</entry>
     <entry lang="id" key="LINUX_EX2MSG_VOLUMEHOSTINUSE">Berkas/perangkat host sudah digunakan.</entry>
     <entry lang="id" key="LINUX_EX2MSG_VOLUMESLOTUNAVAILABLE">Slot volume tidak tersedia.</entry>
-    <entry lang="id" key="LINUX_EX2MSG_HIGHERFUSEVERSIONREQUIRED">VeraCrypt membutuhkan OSXFUSE 2.5 atau lebih tinggi.</entry>
-    <entry lang="id" key="EXCEPTION_OCCURRED">Terjadi eksepsi</entry>
-    <entry lang="id" key="ENTER_PASSWORD">Masukkan kata sandi</entry>
-    <entry lang="id" key="ENTER_TC_VOL_PASSWORD">Masukkan Kata Sandi Volume VeraCrypt</entry>
+    <entry lang="id" key="LINUX_EX2MSG_HIGHERFUSEVERSIONREQUIRED">VeraCrypt membutuhkan macFUSE 2.5 atau lebih tinggi.</entry>
+    <entry lang="id" key="EXCEPTION_OCCURRED">Terjadi eksepsi.</entry>
+    <entry lang="id" key="ENTER_PASSWORD">Masukkan kata sandi.</entry>
+    <entry lang="id" key="ENTER_TC_VOL_PASSWORD">Masukkan Kata Sandi Volume VeraCrypt.</entry>
     <entry lang="id" key="MOUNT">Kait</entry>
-    <entry lang="id" key="MOUNT_POINT">Kait Direktori"</entry>
-    <entry lang="id" key="NO_VOLUMES_MOUNTED">Tidak ada volume yang dikait.</entry>
-    <entry lang="id" key="OPEN_NEW_VOLUME">Nyatakan Volume VeraCrypt Baru</entry>
-    <entry lang="id" key="PARAMETER_INCORRECT">Parameter salah</entry>
-    <entry lang="id" key="SELECT_KEYFILES">Pilih Berkas Kunci</entry>
-    <entry lang="id" key="START_TC">Mulai VeraCrypt</entry>
-    <entry lang="id" key="VOLUME_ALREADY_MOUNTED">Volume {0} sudah dikait.</entry>
-    <entry lang="id" key="UNKNOWN_OPTION">Opsi tak dikenal</entry>
-    <entry lang="id" key="VOLUME_LOCATION">Lokasi Volume</entry>
-    <entry lang="id" key="VOLUME_HOST_IN_USE">PERINGATAN: File / perangkat host {0} sudah digunakan! \n\nIgnoring ini dapat menyebabkan hasil yang tidak diinginkan termasuk ketidakstabilan sistem. Semua aplikasi yang mungkin menggunakan file / perangkat host harus ditutup sebelum memasang volume.</entry>
-    <entry lang="en" key="CANT_INSTALL_WITH_EXE_OVER_MSI">VeraCrypt was previously installed using an MSI package and so it can't be updated using the standard installer.\n\nPlease use the MSI package to update your VeraCrypt installation.</entry>
-    <entry lang="en" key="IDC_USE_ALL_FREE_SPACE">Use all available free space</entry>
-    <entry lang="en" key="SYS_ENCRYPTION_UPGRADE_UNSUPPORTED_ALGORITHM">VeraCrypt cannot be upgraded because the system partition/drive was encrypted using an algorithm that is not supported anymore.\nPlease decrypt your system before upgrading VeraCrypt and then encrypt it again.</entry>
-    <entry lang="en" key="LINUX_EX2MSG_TERMINALNOTFOUND">Supported terminal application could not be found, you need either xterm, konsole or gnome-terminal (with dbus-x11).</entry>
-    <entry lang="en" key="IDM_MOUNT_NO_CACHE">Mount Without Cache</entry>
-    <entry lang="en" key="EXPANDER_INFO">:: VeraCrypt Expander ::\n\nExpand a VeraCrypt volume on the fly without reformatting\n\n\nAll kind of volumes (container files, disks and partitions) formatted with NTFS are supported. The only condition is that there must be enough free space on the host drive or host device of the VeraCrypt volume.\n\nDo not use this software to expand an outer volume containing a hidden volume, because this destroys the hidden volume!\n</entry>
-    <entry lang="en" key="IDC_STEPSEXPAND">1. Select the VeraCrypt volume to be expanded\n2. Click the 'Mount' button</entry>
-    <entry lang="en" key="IDT_VOL_NAME">Volume: </entry>
-    <entry lang="en" key="IDT_FILE_SYS">File system: </entry>
-    <entry lang="en" key="IDT_CURRENT_SIZE">Current size: </entry>
-    <entry lang="en" key="IDT_NEW_SIZE">New size: </entry>
-    <entry lang="en" key="IDT_NEW_SIZE_BOX_TITLE">Enter new volume size</entry>
-    <entry lang="en" key="IDC_INIT_NEWSPACE">Fill new space with random data</entry>
-    <entry lang="en" key="IDC_QUICKEXPAND">Quick Expand</entry>
-    <entry lang="en" key="IDT_INIT_SPACE">Fill new space: </entry>
-    <entry lang="en" key="EXPANDER_FREE_SPACE">%s free space available on host drive</entry>
-    <entry lang="en" key="EXPANDER_HELP_DEVICE">This is a device-based VeraCrypt volume.\n\nThe new volume size will be choosen automatically as the size of the host device.</entry>
-    <entry lang="en" key="EXPANDER_HELP_FILE">Please specify the new size of the VeraCrypt volume (must be at least %I64u KB larger than the current size).</entry>
-    <entry lang="en" key="QUICK_EXPAND_WARNING">WARNING: You should use Quick Expand only in the following cases:\n\n1) The device where the file container is located contains no sensitive data and you do not need plausible deniability.\n2) The device where the file container is located has already been securely and fully encrypted.\n\nAre you sure you want to use Quick Expand?</entry>
-    <entry lang="en" key="EXPANDER_STATUS_TEXT">IMPORTANT: Move your mouse as randomly as possible within this window. The longer you move it, the better. This significantly increases the cryptographic strength of the encryption keys. Then click 'Continue' to expand the volume.</entry>
-    <entry lang="en" key="EXPANDER_STATUS_TEXT_LEGACY">Click 'Continue' to expand the volume.</entry>
-    <entry lang="en" key="EXPANDER_FINISH_ERROR">Error: volume expansion failed.</entry>
-    <entry lang="en" key="EXPANDER_FINISH_ABORT">Error: operation aborted by user.</entry>
-    <entry lang="en" key="EXPANDER_FINISH_OK">Finished. Volume successfully expanded.</entry>
-    <entry lang="en" key="EXPANDER_CANCEL_WARNING">Warning: Volume expansion is in progress!\n\nStopping now may result in a damaged volume.\n\nDo you really want to cancel?</entry>
-    <entry lang="en" key="EXPANDER_STARTING_STATUS">Starting volume expansion ...\n</entry>
-    <entry lang="en" key="EXPANDER_HIDDEN_VOLUME_ERROR">An outer volume containing a hidden volume can't be expanded, because this destroys the hidden volume.\n</entry>
-    <entry lang="en" key="EXPANDER_SYSTEM_VOLUME_ERROR">A VeraCrypt system volume can't be expanded.</entry>
-    <entry lang="en" key="EXPANDER_NO_FREE_SPACE">Not enough free space to expand the volume</entry>
-    <entry lang="en" key="EXPANDER_WARNING_FILE_CONTAINER_JUNK">Warning: The container file is larger than the VeraCrypt volume area. The data after the VeraCrypt volume area will be overwritten.\n\nDo you want to continue?</entry>
-    <entry lang="en" key="EXPANDER_WARNING_FAT">Warning: The VeraCrypt volume contains a FAT file system!\n\nOnly the VeraCrypt volume itself will be expanded, but not the file system.\n\nDo you want to continue?</entry>
-    <entry lang="en" key="EXPANDER_WARNING_EXFAT">Warning: The VeraCrypt volume contains an exFAT file system!\n\nOnly the VeraCrypt volume itself will be expanded, but not the file system.\n\nDo you want to continue?</entry>
-    <entry lang="en" key="EXPANDER_WARNING_UNKNOWN_FS">Warning: The VeraCrypt volume contains an unknown or no file system!\n\nOnly the VeraCrypt volume itself will be expanded, the file system remains unchanged.\n\nDo you want to continue?</entry>
-    <entry lang="en" key="EXPANDER_ERROR_VOLUME_SIZE_TOO_SMALL">New volume size too small, must be at least %I64u kB larger than the current size.</entry>
-    <entry lang="en" key="EXPANDER_ERROR_VOLUME_SIZE_TOO_LARGE">New volume size too large, not enough space on host drive.</entry>
-    <entry lang="en" key="EXPANDER_ERROR_MAX_FILE_SIZE_EXCEEDED">Maximum file size of %I64u MB on host drive exceeded.</entry>
-    <entry lang="en" key="EXPANDER_ERROR_QUICKEXPAND_PRIVILEGES">Error: Failed to get necessary privileges to enable Quick Expand!\nPlease uncheck Quick Expand option and try again.</entry>
-    <entry lang="en" key="EXPANDER_ERROR_MAX_VC_VOLUME_SIZE_EXCEEDED">Maximum VeraCrypt volume size of %I64u TB exceeded!\n</entry>
-    <entry lang="en" key="FULL_FORMAT">Full Format</entry>
-    <entry lang="en" key="FAST_CREATE">Fast Create</entry>
-    <entry lang="en" key="WARN_FAST_CREATE">WARNING: You should use Fast Create only in the following cases:\n\n1) The device contains no sensitive data and you do not need plausible deniability.\n2) The device has already been securely and fully encrypted.\n\nAre you sure you want to use Fast Create?</entry>
-    <entry lang="en" key="IDC_ENABLE_EMV_SUPPORT">Enable EMV Support</entry>
-    <entry lang="en" key="COMMAND_APDU_INVALID">The APDU command sent to the card is not valid.</entry>
-    <entry lang="en" key="EXTENDED_APDU_UNSUPPORTED">Extended APDU commands cannot be used with the current token.</entry>
-    <entry lang="en" key="SCARD_MODULE_INIT_FAILED">Error when loading the WinSCard / PCSC library.</entry>
-    <entry lang="en" key="EMV_UNKNOWN_CARD_TYPE">The card in the reader is not a supported EMV card.</entry>
-    <entry lang="en" key="EMV_SELECT_AID_FAILED">The AID of the card in the reader could not be selected.</entry>
-    <entry lang="en" key="EMV_ICC_CERT_NOTFOUND">ICC Public Key Certificate was not found in the card.</entry>
-    <entry lang="en" key="EMV_ISSUER_CERT_NOTFOUND">Issuer Public Key Certificate was not found in the card.</entry>
-    <entry lang="en" key="EMV_CPLC_NOTFOUND">CPLC was not found in the EMV card.</entry>
-    <entry lang="en" key="EMV_PAN_NOTFOUND">No Primary Account Number (PAN) found in the EMV card.</entry>
-    <entry lang="en" key="INVALID_EMV_PATH">EMV path is invalid.</entry>
-    <entry lang="en" key="EMV_KEYFILE_DATA_NOTFOUND">Unable to build a keyfile from the EMV card's data.\n\nOne of the following is missing:\n- ICC Public Key Certificate.\n- Issuer Public Key Certificate.\n- CPLC data.</entry>
-    <entry lang="en" key="SCARD_W_REMOVED_CARD">No card in the reader.\n\nPlease make sure the card is correctly slotted.</entry>
-    <entry lang="en" key="FORMAT_EXTERNAL_FAILED">Windows format.com command failed to format the volume as NTFS/exFAT/ReFS: Error 0x%.8X.\n\nFalling back to using Windows FormatEx API.</entry>
-    <entry lang="en" key="FORMATEX_API_FAILED">Windows FormatEx API failed to format the volume as NTFS/exFAT/ReFS.\n\nFailure status = %s.</entry>
-    <entry lang="en" key="EXPANDER_WRITING_RANDOM_DATA">Writing random data to new space ...\n</entry>
-    <entry lang="en" key="EXPANDER_WRITING_ENCRYPTED_BACKUP">Writing re-encrypted backup header ...\n</entry>
-    <entry lang="en" key="EXPANDER_WRITING_ENCRYPTED_PRIMARY">Writing re-encrypted primary header ...\n</entry>
-    <entry lang="en" key="EXPANDER_WIPING_OLD_HEADER">Wiping old backup header ...\n</entry>
-    <entry lang="en" key="EXPANDER_MOUNTING_VOLUME">Mounting volume ...\n</entry>
-    <entry lang="en" key="EXPANDER_UNMOUNTING_VOLUME">Unmounting volume ...\n</entry>
-    <entry lang="en" key="EXPANDER_EXTENDING_FILESYSTEM">Extending file system ...\n</entry>
-    <entry lang="en" key="PARTIAL_SYSENC_MOUNT_READONLY">Warning: The system partition you attempted to mount was not fully encrypted. As a safety measure to prevent potential corruption or unwanted modifications, volume '%s' was mounted as read-only.</entry>
-    <entry lang="en" key="IDC_LINK_KEYFILES_EXTENSIONS_WARNING">Important information on using third-party file extensions</entry>
-    <entry lang="en" key="IDC_DISABLE_MEMORY_PROTECTION">Disable memory protection for Accessibility tools compatibility</entry>
-    <entry lang="en" key="DISABLE_MEMORY_PROTECTION_WARNING">WARNING: Disabling memory protection significantly reduces security. Enable this option ONLY if you rely on Accessibility tools, like Screen Readers, to interact with VeraCrypt's UI.</entry>
+    <entry lang="id" key="MOUNT_POINT">Kait Direktori</entry>
+    <entry lang="id" key="NO_VOLUMES_MOUNTED">Tidak ada volume yang dikaitkan.</entry>
+    <entry lang="id" key="OPEN_NEW_VOLUME">Tentukan Volume VeraCrypt Baru.</entry>
+    <entry lang="id" key="PARAMETER_INCORRECT">Parameter salah.</entry>
+    <entry lang="id" key="SELECT_KEYFILES">Pilih Berkas Kunci.</entry>
+    <entry lang="id" key="START_TC">Mulai VeraCrypt.</entry>
+    <entry lang="id" key="VOLUME_ALREADY_MOUNTED">Volume {0} sudah dikaitkan.</entry>
+    <entry lang="id" key="UNKNOWN_OPTION">Opsi tidak dikenal.</entry>
+    <entry lang="id" key="VOLUME_LOCATION">Lokasi Volume.</entry>
+    <entry lang="id" key="VOLUME_HOST_IN_USE">PERINGATAN: Berkas/perangkat host {0} sudah digunakan!\n\nMengabaikan ini dapat menyebabkan hasil yang tidak diinginkan termasuk ketidakstabilan sistem. Semua aplikasi yang mungkin menggunakan berkas/perangkat host harus ditutup sebelum mengaitkan volume.\n\nLanjutkan mengaitkan?</entry>
+    <entry lang="id" key="CANT_INSTALL_WITH_EXE_OVER_MSI">VeraCrypt sebelumnya diinstal menggunakan paket MSI sehingga tidak dapat diperbarui menggunakan penginstal standar.\n\nSilakan gunakan paket MSI untuk memperbarui instalasi VeraCrypt Anda.</entry>
+    <entry lang="id" key="IDC_USE_ALL_FREE_SPACE">Gunakan semua ruang kosong yang tersedia</entry>
+    <entry lang="id" key="SYS_ENCRYPTION_UPGRADE_UNSUPPORTED_ALGORITHM">VeraCrypt tidak dapat ditingkatkan karena partisi/drive sistem dienkripsi menggunakan algoritme yang tidak lagi didukung.\nSilakan dekripsi sistem Anda sebelum meningkatkan VeraCrypt lalu enkripsi kembali.</entry>
+    <entry lang="id" key="LINUX_EX2MSG_TERMINALNOTFOUND">Aplikasi terminal yang didukung tidak dapat ditemukan, Anda memerlukan xterm, konsole, atau gnome-terminal (dengan dbus-x11).</entry>
+    <entry lang="id" key="IDM_MOUNT_NO_CACHE">Kait Tanpa Cache</entry>
+    <entry lang="id" key="EXPANDER_INFO">:: VeraCrypt Expander ::\n\nPerluas volume VeraCrypt secara langsung tanpa memformat ulang\n\n\nSemua jenis volume (berkas wadah, disk, dan partisi) yang diformat dengan NTFS didukung. Satu-satunya syarat adalah harus ada ruang kosong yang cukup pada drive atau perangkat host volume VeraCrypt.\n\nJangan gunakan perangkat lunak ini untuk memperluas volume luar yang berisi volume tersembunyi, karena ini akan menghancurkan volume tersembunyi!\n</entry>
+    <entry lang="id" key="IDC_STEPSEXPAND">1. Pilih volume VeraCrypt yang akan diperluas\n2. Klik tombol 'Kait'</entry>
+    <entry lang="id" key="IDT_VOL_NAME">Volume: </entry>
+    <entry lang="id" key="IDT_FILE_SYS">Sistem berkas: </entry>
+    <entry lang="id" key="IDT_CURRENT_SIZE">Ukuran saat ini: </entry>
+    <entry lang="id" key="IDT_NEW_SIZE">Ukuran baru: </entry>
+    <entry lang="id" key="IDT_NEW_SIZE_BOX_TITLE">Masukkan ukuran volume baru</entry>
+    <entry lang="id" key="IDC_INIT_NEWSPACE">Isi ruang baru dengan data acak</entry>
+    <entry lang="id" key="IDC_QUICKEXPAND">Perluas Cepat</entry>
+    <entry lang="id" key="IDT_INIT_SPACE">Isi ruang baru: </entry>
+    <entry lang="id" key="EXPANDER_FREE_SPACE">%s ruang kosong tersedia di drive host.</entry>
+    <entry lang="id" key="EXPANDER_HELP_DEVICE">Ini adalah volume VeraCrypt berbasis perangkat.\n\nUkuran volume baru akan dipilih secara otomatis sesuai ukuran perangkat host.</entry>
+    <entry lang="id" key="EXPANDER_HELP_FILE">Silakan tentukan ukuran baru volume VeraCrypt (harus setidaknya %I64u KB lebih besar dari ukuran saat ini).</entry>
+    <entry lang="id" key="QUICK_EXPAND_WARNING">PERINGATAN: Anda sebaiknya hanya menggunakan Perluas Cepat dalam kasus berikut:\n\n1) Perangkat tempat berkas wadah berada tidak berisi data sensitif dan Anda tidak memerlukan penyangkalan yang masuk akal.\n2) Perangkat tempat berkas wadah berada sudah dienkripsi dengan aman dan sepenuhnya.\n\nApakah Anda yakin ingin menggunakan Perluas Cepat?</entry>
+    <entry lang="id" key="EXPANDER_STATUS_TEXT">PENTING: Gerakkan tetikus Anda seacak mungkin di dalam jendela ini. Semakin lama Anda menggerakkannya, semakin baik. Ini secara signifikan meningkatkan kekuatan kriptografi kunci enkripsi. Setelah itu, klik 'Lanjutkan' untuk memperluas volume.</entry>
+    <entry lang="id" key="EXPANDER_STATUS_TEXT_LEGACY">Klik 'Lanjutkan' untuk memperluas volume.</entry>
+    <entry lang="id" key="EXPANDER_FINISH_ERROR">Kesalahan: perluasan volume gagal.</entry>
+    <entry lang="id" key="EXPANDER_FINISH_ABORT">Kesalahan: operasi dibatalkan oleh pengguna.</entry>
+    <entry lang="id" key="EXPANDER_FINISH_OK">Selesai. Volume berhasil diperluas.</entry>
+    <entry lang="id" key="EXPANDER_CANCEL_WARNING">Peringatan: Proses perluasan volume sedang berlangsung!\n\nMenghentikan sekarang dapat menyebabkan volume rusak.\n\nApakah Anda yakin ingin membatalkan?</entry>
+    <entry lang="id" key="EXPANDER_STARTING_STATUS">Memulai perluasan volume ...\n</entry>
+    <entry lang="id" key="EXPANDER_HIDDEN_VOLUME_ERROR">Volume luar yang berisi volume tersembunyi tidak dapat diperluas, karena ini akan menghancurkan volume tersembunyi.\n</entry>
+    <entry lang="id" key="EXPANDER_SYSTEM_VOLUME_ERROR">Volume sistem VeraCrypt tidak dapat diperluas.</entry>
+    <entry lang="id" key="EXPANDER_NO_FREE_SPACE">Ruang kosong tidak cukup untuk memperluas volume.</entry>
+    <entry lang="id" key="EXPANDER_WARNING_FILE_CONTAINER_JUNK">Peringatan: Berkas wadah lebih besar dari area volume VeraCrypt. Data setelah area volume VeraCrypt akan ditimpa.\n\nApakah Anda ingin melanjutkan?</entry>
+    <entry lang="id" key="EXPANDER_WARNING_FAT">Peringatan: Volume VeraCrypt berisi sistem berkas FAT!\n\nHanya volume VeraCrypt itu sendiri yang akan diperluas, bukan sistem berkasnya.\n\nApakah Anda ingin melanjutkan?</entry>
+    <entry lang="id" key="EXPANDER_WARNING_EXFAT">Peringatan: Volume VeraCrypt berisi sistem berkas exFAT!\n\nHanya volume VeraCrypt itu sendiri yang akan diperluas, bukan sistem berkasnya.\n\nApakah Anda ingin melanjutkan?</entry>
+    <entry lang="id" key="EXPANDER_WARNING_UNKNOWN_FS">Peringatan: Volume VeraCrypt berisi sistem berkas yang tidak dikenal atau tidak ada sistem berkas!\n\nHanya volume VeraCrypt itu sendiri yang akan diperluas, sistem berkas tetap tidak berubah.\n\nApakah Anda ingin melanjutkan?</entry>
+    <entry lang="id" key="EXPANDER_ERROR_VOLUME_SIZE_TOO_SMALL">Ukuran volume baru terlalu kecil, harus setidaknya %I64u KiB lebih besar dari ukuran saat ini.</entry>
+    <entry lang="id" key="EXPANDER_ERROR_VOLUME_SIZE_TOO_LARGE">Ukuran volume baru terlalu besar, ruang di drive host tidak mencukupi.</entry>
+    <entry lang="id" key="EXPANDER_ERROR_MAX_FILE_SIZE_EXCEEDED">Ukuran berkas maksimum %I64u MB pada drive host terlampaui.</entry>
+    <entry lang="id" key="EXPANDER_ERROR_QUICKEXPAND_PRIVILEGES">Kesalahan: Gagal mendapatkan hak istimewa yang diperlukan untuk mengaktifkan Perluas Cepat!\nSilakan hapus centang opsi Perluas Cepat dan coba lagi.</entry>
+    <entry lang="id" key="EXPANDER_ERROR_MAX_VC_VOLUME_SIZE_EXCEEDED">Ukuran maksimum volume VeraCrypt sebesar %I64u TB terlampaui!\n</entry>
+    <entry lang="id" key="FULL_FORMAT">Format Penuh</entry>
+    <entry lang="id" key="FAST_CREATE">Buat Cepat</entry>
+    <entry lang="id" key="WARN_FAST_CREATE">PERINGATAN: Anda sebaiknya hanya menggunakan Buat Cepat dalam kasus berikut:\n\n1) Perangkat tidak berisi data sensitif dan Anda tidak memerlukan penyangkalan yang masuk akal.\n2) Perangkat sudah dienkripsi dengan aman dan sepenuhnya.\n\nApakah Anda yakin ingin menggunakan Buat Cepat?</entry>
+    <entry lang="id" key="IDC_ENABLE_EMV_SUPPORT">Aktifkan Dukungan EMV</entry>
+    <entry lang="id" key="COMMAND_APDU_INVALID">Perintah APDU yang dikirim ke kartu tidak valid.</entry>
+    <entry lang="id" key="EXTENDED_APDU_UNSUPPORTED">Perintah APDU diperluas tidak dapat digunakan dengan token saat ini.</entry>
+    <entry lang="id" key="SCARD_MODULE_INIT_FAILED">Kesalahan saat memuat pustaka WinSCard / PCSC.</entry>
+    <entry lang="id" key="EMV_UNKNOWN_CARD_TYPE">Kartu di pembaca bukan kartu EMV yang didukung.</entry>
+    <entry lang="id" key="EMV_SELECT_AID_FAILED">AID dari kartu di pembaca tidak dapat dipilih.</entry>
+    <entry lang="id" key="EMV_ICC_CERT_NOTFOUND">Sertifikat Kunci Publik ICC tidak ditemukan di kartu.</entry>
+    <entry lang="id" key="EMV_ISSUER_CERT_NOTFOUND">Sertifikat Kunci Publik Penerbit tidak ditemukan di kartu.</entry>
+    <entry lang="id" key="EMV_CPLC_NOTFOUND">CPLC tidak ditemukan di kartu EMV.</entry>
+    <entry lang="id" key="EMV_PAN_NOTFOUND">Tidak ditemukan Nomor Rekening Utama (PAN) di kartu EMV.</entry>
+    <entry lang="id" key="INVALID_EMV_PATH">Jalur EMV tidak valid.</entry>
+    <entry lang="id" key="EMV_KEYFILE_DATA_NOTFOUND">Tidak dapat membuat berkas kunci dari data kartu EMV.\n\nSalah satu dari berikut ini hilang:\n- Sertifikat Kunci Publik ICC.\n- Sertifikat Kunci Publik Penerbit.\n- Data CPLC.</entry>
+    <entry lang="id" key="SCARD_W_REMOVED_CARD">Tidak ada kartu di pembaca.\n\nHarap pastikan kartu sudah terpasang dengan benar.</entry>
+    <entry lang="id" key="FORMAT_EXTERNAL_FAILED">Perintah format.com Windows gagal memformat volume sebagai NTFS/exFAT/ReFS: Kesalahan 0x%.8X.\n\nMenggunakan Windows FormatEx API sebagai alternatif.</entry>
+    <entry lang="id" key="FORMATEX_API_FAILED">Windows FormatEx API gagal memformat volume sebagai NTFS/exFAT/ReFS.\n\nStatus kegagalan = %s.</entry>
+    <entry lang="id" key="EXPANDER_WRITING_RANDOM_DATA">Menulis data acak ke ruang baru ...\n</entry>
+    <entry lang="id" key="EXPANDER_WRITING_ENCRYPTED_BACKUP">Menulis header cadangan terenkripsi ulang ...\n</entry>
+    <entry lang="id" key="EXPANDER_WRITING_ENCRYPTED_PRIMARY">Menulis header utama terenkripsi ulang ...\n</entry>
+    <entry lang="id" key="EXPANDER_WIPING_OLD_HEADER">Menghapus header cadangan lama ...\n</entry>
+    <entry lang="id" key="EXPANDER_MOUNTING_VOLUME">Mengaitkan volume ...\n</entry>
+    <entry lang="id" key="EXPANDER_UNMOUNTING_VOLUME">Melepas kait volume ...\n</entry>
+    <entry lang="id" key="EXPANDER_EXTENDING_FILESYSTEM">Memperluas sistem berkas ...\n</entry>
+    <entry lang="id" key="PARTIAL_SYSENC_MOUNT_READONLY">Peringatan: Partisi sistem yang Anda coba kaitkan tidak terenkripsi sepenuhnya. Sebagai langkah pengamanan untuk mencegah potensi kerusakan atau modifikasi yang tidak diinginkan, volume '%s' dikaitkan sebagai hanya-baca.</entry>
+    <entry lang="id" key="IDC_LINK_KEYFILES_EXTENSIONS_WARNING">Informasi penting tentang penggunaan ekstensi berkas pihak ketiga</entry>
+    <entry lang="id" key="IDC_DISABLE_MEMORY_PROTECTION">Nonaktifkan perlindungan memori untuk kompatibilitas alat Aksesibilitas</entry>
+    <entry lang="id" key="DISABLE_MEMORY_PROTECTION_WARNING">PERINGATAN: Menonaktifkan perlindungan memori secara signifikan mengurangi keamanan. Aktifkan opsi ini HANYA jika Anda bergantung pada alat Aksesibilitas, seperti Pembaca Layar, untuk berinteraksi dengan antarmuka VeraCrypt.</entry>
     <entry lang="id" key="LINUX_LANGUAGE">Bahasa</entry>
-    <entry lang="en" key="LINUX_SELECT_SYS_DEFAULT_LANG">Select system's default language</entry>
-    <entry lang="en" key="LINUX_RESTART_FOR_LANGUAGE_CHANGE">For the language change to come into effect, VeraCrypt needs to be restarted.</entry>
-    <entry lang="en" key="ERR_XTS_MASTERKEY_VULNERABLE">WARNING: The volume's master key is vulnerable to an attack that compromises data security.\n\nPlease create a new volume and transfer the data to it.</entry>
-    <entry lang="en" key="ERR_SYSENC_XTS_MASTERKEY_VULNERABLE">WARNING: The encrypted system's master key is vulnerable to an attack that compromises data security.\nPlease decrypt the system partition/drive and then re-encrypt it.</entry>
-    <entry lang="en" key="ERR_XTS_MASTERKEY_VULNERABLE_SHORT">WARNING: The volume's master key has a security vulnerability.</entry>
+    <entry lang="id" key="LINUX_SELECT_SYS_DEFAULT_LANG">Pilih bahasa default sistem</entry>
+    <entry lang="id" key="LINUX_RESTART_FOR_LANGUAGE_CHANGE">Agar perubahan bahasa berlaku, VeraCrypt perlu dimulai ulang.</entry>
+    <entry lang="id" key="ERR_XTS_MASTERKEY_VULNERABLE">PERINGATAN: Kunci induk volume rentan terhadap serangan yang mengompromikan keamanan data.\n\nSilakan buat volume baru dan transfer data ke dalamnya.</entry>
+    <entry lang="id" key="ERR_SYSENC_XTS_MASTERKEY_VULNERABLE">PERINGATAN: Kunci induk sistem terenkripsi rentan terhadap serangan yang mengompromikan keamanan data.\nSilakan dekripsi partisi/drive sistem kemudian enkripsi ulang.</entry>
+    <entry lang="id" key="ERR_XTS_MASTERKEY_VULNERABLE_SHORT">PERINGATAN: Kunci induk volume memiliki kerentanan keamanan.</entry>
+    <entry lang="id" key="MOUNTPOINT_BLOCKED">KESALAHAN: Titik kait volume diblokir karena menimpa direktori sistem yang dilindungi.\n\nSilakan pilih titik kait lain.</entry>
+    <entry lang="id" key="MOUNTPOINT_NOTALLOWED">KESALAHAN: Titik kait volume tidak diizinkan karena menimpa direktori yang merupakan bagian dari variabel lingkungan PATH.\n\nSilakan pilih titik kait lain.</entry>
+    <entry lang="id" key="INSECURE_MODE">[MODE TIDAK AMAN]</entry>
+    <entry lang="id" key="IDC_DISABLE_SCREEN_PROTECTION">Nonaktifkan perlindungan terhadap tangkapan layar dan perekaman layar</entry>
+    <entry lang="id" key="DISABLE_SCREEN_PROTECTION_WARNING">PERINGATAN: Menonaktifkan perlindungan layar secara signifikan mengurangi keamanan. Aktifkan opsi ini HANYA jika Anda memiliki kebutuhan khusus untuk menangkap antarmuka VeraCrypt. Hal ini dapat mengekspos data sensitif ke alat tangkapan layar dan fitur perekaman layar seperti Windows 11 Recall.</entry>
   </localization>
   <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="VeraCrypt">

@@ -134,7 +134,6 @@ By ChesÃƒÂºs D. Trigo [xuxinho7@gmail.com] & softaragones [softaragones@soft
 					<Item id="42030" name="Copiar o nombre d'o fichero actual t'o portafuellas"/>
 					<Item id="42031" name="Copiar o camÃƒÂ­n d'o directorio actual t'o portafuellas"/>
 					<Item id="42032" name="&amp;Executar una macro quantas vegadas..."/>
-					<Item id="42033" name="&amp;Suprimir o sinyal de NomÃƒÂ¡s-Lectura"/>
 					<Item id="42035" name="&amp;Adhibir-ie o simbolo de comentarios"/>
 					<Item id="42036" name="&amp;Sacar-ne o simbolo de comentarios"/>
 					<Item id="42055" name="&amp;Borrar as linias vuedas"/>
@@ -321,7 +320,6 @@ By ChesÃƒÂºs D. Trigo [xuxinho7@gmail.com] & softaragones [softaragones@soft
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Estendillau (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Substituir-lo en os fichers"/>
-				<Item id="1661" name="Seguir documento actual"/>
 				<Item id="1641" name="Mirar-lo tot en o documento actual"/>
 				<Item id="1686" name="Transparencia"/>
 				<Item id="1703" name="&amp;. mirar nueva linia"/>
@@ -556,19 +554,16 @@ By ChesÃƒÂºs D. Trigo [xuxinho7@gmail.com] & softaragones [softaragones@soft
 			<Preference title="Preferencias">
 				<Item id="6001" name="Zarrar"/>
 				<Global title="Cheneral">
-					<Item id="6101" name="Barra de ferramientas"/>
 					<Item id="6102" name="Amagar-la"/>
 					<Item id="6103" name="Iconos chicotz"/>
 					<Item id="6104" name="Iconos grans"/>
 					<Item id="6105" name="Iconos estandar"/>
 
-					<Item id="6106" name="Barra de pestanyas"/>
 					<Item id="6107" name="Reducir"/>
 					<Item id="6108" name="Blocar (no se podrÃƒÂ¡ arrocegar)"/>
 					<Item id="6109" name="Enfoscar as pestanyas inactivas"/>
 					<Item id="6110" name="Meter una marca en a pestanya activa"/>
 
-					<Item id="6111" name="Amostrar a barra d'estau"/>
 					<Item id="6112" name="BotÃƒÂ³n de zarrar en cada pestanya"/>
 					<Item id="6113" name="Doble clic ta zarrar o documento"/>
 					<Item id="6118" name="Amagar-la"/>
@@ -589,7 +584,6 @@ By ChesÃƒÂºs D. Trigo [xuxinho7@gmail.com] & softaragones [softaragones@soft
 					<Item id="6221" name="R"/><!--rapedo-->
 					<Item id="6222" name="P"/><!--pando-->
 					<Item id="6224" name="Multi-ediciÃƒÂ³n"/>
-					<Item id="6225" name="Habilitar (Ctrl+zorz)"/>
 					<Item id="6201" name="Estilo de agrupaciÃƒÂ³n"/>
 					<Item id="6202" name="Simple"/>
 					<Item id="6203" name="Trianglo"/>
@@ -697,8 +691,6 @@ By ChesÃƒÂºs D. Trigo [xuxinho7@gmail.com] & softaragones [softaragones@soft
 				</RecentFilesHistory>
 
 				<MISC title="Miscelania">
-					<Item id="6307" name="Habilitar"/>
-					<Item id="6308" name="Minimizar ta la servilla d'o sistema"/>
 					<Item id="6309" name="Remerar a sesiÃƒÂ³n actual ta la venient execuciÃƒÂ³n"/>
 					<Item id="6312" name="AutodetecciÃƒÂ³n de l'estau d'o fichero"/>
 					<Item id="6313" name="Esviellar en silencio"/>
@@ -731,7 +723,6 @@ By ChesÃƒÂºs D. Trigo [xuxinho7@gmail.com] & softaragones [softaragones@soft
 				</Backup>
 
 				<AutoCompletion title="AutocompleciÃƒÂ³n">
-					<Item id="6115" name="Sangrar automaticament"/>
 					<Item id="6807" name="AutocompleciÃƒÂ³n"/>
 					<Item id="6808" name="Permitir l'autocompleciÃƒÂ³n en cada dentrada"/>
 					<Item id="6809" name="Autocompletar funcions"/>

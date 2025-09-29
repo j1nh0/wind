@@ -75,7 +75,6 @@
 					<Item id="42030" name="Aktiven Datei&amp;numm kopéieren"/>
 					<Item id="42031" name="Aktiven &amp;Repertoire kopéieren"/>
 					<Item id="42032" name="Makro &amp;puer mol ausféieren ..."/>
-					<Item id="42033" name="Schreifschut&amp;z ophiewen"/>
 					<Item id="42034" name="&amp;Block-Editor ..."/>
 					<Item id="42035" name="Block auskommentéieren"/>
 					<Item id="42036" name="Block ankommentéieren"/>
@@ -310,17 +309,14 @@
 			<Preference title="Astellungen">
 				<Item id="6001" name="Zoumaachen"/>
 				<Global title="Allgemein">
-					<Item id="6101" name="Symbolleescht"/>
 					<Item id="6102" name="Ausblenden"/>
 					<Item id="6103" name="Kleng Icons"/>
 					<Item id="6104" name="Grouss Icons"/>
 					<Item id="6105" name="Kleng Standard-Icons"/>
-					<Item id="6106" name="Tableescht"/>
 					<Item id="6107" name="Verklengeren"/>
 					<Item id="6108" name="Sperren (keen Drag &amp;&amp; Drop)"/>
 					<Item id="6109" name="Inaktiv Reiter gro markéieren"/>
 					<Item id="6110" name="Aktiv Reiter orange markéieren"/>
-					<Item id="6111" name="Weis Statusleescht"/>
 					<Item id="6112" name="Zoumaachen-Kräiz op jieder Tab"/>
 					<Item id="6113" name="Duebbelklick mächt d'Dokument zou"/>
 					<Item id="6118" name="Ausblenden"/>
@@ -408,13 +404,10 @@
 					<Item id="6304" name="Dateiverlaf"/>
 					<Item id="6305" name="Beim Start net iwwerpréiwen"/>
 					<Item id="6306" name="Max. Gréisst vum Dateiverlaf:"/>
-					<Item id="6307" name="Aktivéieren"/>
-					<Item id="6308" name="An den Infoberäich miniméieren"/>
 					<Item id="6309" name="Aktuell Sëtzung bis zum nächsten Start behalen"/>
 					<Item id="6312" name="Automatesch Ännerungserkennung"/>
 					<Item id="6313" name="Ouni Réckfro aktualiséieren"/>
 					<Item id="6114" name="Aktivéieren"/>
-					<Item id="6115" name="Automatesch Zeilenanzuch"/>
 					<Item id="6116" name="Den leschten benotzten Repertoire behalen"/>
 					<Item id="6117" name="Aktivéier MRU-Verhaaen"/>
 					<Item id="6318" name="Klickbar Links"/>

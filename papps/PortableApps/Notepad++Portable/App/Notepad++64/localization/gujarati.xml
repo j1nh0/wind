@@ -135,7 +135,6 @@
 					<Item id="42030" name="હાલનું ફાઈલનેમ ક્લિપબોર્ડ પર"/>
 					<Item id="42031" name="હાલનો ડિરેક્ટરી પાથ ક્લિપબોર્ડ પર"/>
 					<Item id="42032" name="એક મૅક્રો ઘણી વખત ચલાવો..."/>
-					<Item id="42033" name="ક્લિયર રિડ ઓનલી ફ્લેગ"/>
 					<Item id="42035" name="સિંગલ લાઈન કમેન્ટ"/>
 					<Item id="42036" name="સિંગલ લાઈન અનકમેન્ટ"/>
 					<Item id="42055" name="ખાલી લાઈન્સ કાઢો"/>
@@ -340,7 +339,6 @@
 				<Item id="1625" name="નોર્મલ"/>
 				<Item id="1626" name="વિસ્તૃત(Extended) (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="ફાઈલ્સ માં બદલો"/>
-				<Item id="1661" name="હાલના ડોક્યુમેન્ટ ને અનુસરો"/>
 				<Item id="1641" name="બધા હાલના ડોક્યુમેન્ટ માં શોધો"/>
 				<Item id="1686" name="પારદર્શકતા"/>
 				<Item id="1703" name="&amp;. નવી લાઈન મેચ કરે"/>
@@ -566,19 +564,16 @@
 			<Preference title="Preferences">
 				<Item id="6001" name="બંધ કરો"/>
 				<Global title="General">
-					<Item id="6101" name="ટૂલબાર"/>
 					<Item id="6102" name="છુપાવો"/>
 					<Item id="6103" name="નાના આઇકોન્સ"/>
 					<Item id="6104" name="મોટા આઇકોન્સ"/>
 					<Item id="6105" name="સ્ટાનડર્દ આઇકોન્સ"/>
 
-					<Item id="6106" name="ટેબ બાર"/>
 					<Item id="6107" name="ઘટાડો"/>
 					<Item id="6108" name="લોક ( ડ્રેગ અને ડ્રોપ નહિ)"/>
 					<Item id="6109" name="નિષ્ક્રિય ટેબ્સ ને ડાર્ક કરો"/>
 					<Item id="6110" name="એક્ટીવ ટેબ પર કલર કરેલ બાર દોરો"/>
 
-					<Item id="6111" name="સ્ટેટસ બાર બતાવો"/>
 					<Item id="6112" name="બધા ટેબ પર ક્લોઝ બટન બતાવો"/>
 					<Item id="6113" name="ડોક્યુમેન્ટ બંધ કરવા ડબલ ક્લિક કરો"/>
 					<Item id="6118" name="છુપાવો"/>
@@ -599,7 +594,6 @@
 					<Item id="6221" name="એફ(F)"/>
 					<Item id="6222" name="એસ(S)"/>
 					<Item id="6224" name="મલ્ટી-એડીટીંગ સેટીંગઝ"/>
-					<Item id="6225" name="સક્રિય કરો (Ctrl+માઉસ ક્લીક/સિલેકશન)"/>
 					<Item id="6201" name="ફોલ્ડર માર્જિન સ્ટાઈલ"/>
 					<Item id="6202" name="સિમ્પલ"/>
 					<Item id="6203" name="એરો"/>
@@ -720,7 +714,6 @@
 				</Backup>
 
 				<AutoCompletion title="Auto-Completion">
-					<Item id="6115" name="ઓટો-ઇન્ડેન્ટ"/>
 					<Item id="6807" name="ઓટો -કમ્પ્લીશન(Auto-Completion)"/>
 					<Item id="6808" name="દરેક ઈનપુટ માટે ઓટો-કમ્પ્લીશન સક્રિય કરો"/>
 					<Item id="6809" name="ફંક્શન કમ્પ્લીશન"/>
@@ -755,8 +748,6 @@
 				</Delimiter>
 
 				<MISC title="MISC.">
-					<Item id="6307" name="સક્રિય"/>
-					<Item id="6308" name="સીસ્ટમ ટ્રે માટે/સુધી ઘટાડો"/>
 					<Item id="6312" name="ફાઈલ સ્ટેટસ ઓટો-ડીટેક્શન"/>
 					<Item id="6313" name="અપડેટ સાઈલન્ટલી"/>
 					<Item id="6318" name="ક્લીકેબલ લીંક સેટિંગ્સ"/>
@@ -812,8 +803,8 @@
 		<MessageBox>
 			<ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu.\rYou have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
 			<NppHelpAbsentWarning title="File does not exist" message="\rdoesn't exist. Please download it on Notepad++ site."/>
-			<SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification.\rAll the saved modifications can not be undone.\r\rContinue?"/>
-			<LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification.\rAll the saved modifications can not be undone.\r\rContinue?"/>
+			<SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification.\rAll the saved modifications cannot be undone.\r\rContinue?"/>
+			<LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification.\rAll the saved modifications cannot be undone.\r\rContinue?"/>
 			<CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
 			<DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
 			<FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>

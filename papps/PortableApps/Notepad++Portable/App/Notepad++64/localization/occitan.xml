@@ -125,7 +125,6 @@
 					<Item id="42030" name="Copiar lo nom del fichièr actiu"/>
 					<Item id="42031" name="Copiar lo camin complet del repertòri actiu"/>
 					<Item id="42032" name="Aviar la macrò mai d'un còp..."/>
-					<Item id="42033" name="Suprimir l'atribut Lectura-Sola"/>
 					<Item id="42034" name="Editor colomna..."/>
 					<Item id="42035" name="Comentar la linha"/>
 					<Item id="42036" name="Descomentar la linha"/>
@@ -380,7 +379,6 @@
 				<Item id="1625" name="Normal"/>
 				<Item id="1626" name="Espandit (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="Remplaçar dins los fichièrs"/>
-				<Item id="1661" name="Seguir lo document actiu"/>
 				<Item id="1641" name="Trobar tot dins lo document actiu"/>
 				<Item id="1686" name="Transparéncia"/>
 				<Item id="1703" name="&amp;. cerca linhas novèlas"/>
@@ -661,19 +659,16 @@
 			<Preference title="Preferéncia">
 				<Item id="6001" name="Tampar"/>
 				<Global title="Global">
-					<Item id="6101" name="Barra d'aisinas"/>
 					<Item id="6102" name="Amagar"/>
 					<Item id="6103" name="Icònas pichonas"/>
 					<Item id="6104" name="Icònas bèlas"/>
 					<Item id="6105" name="Icònas pichonas estandard"/>
 
-					<Item id="6106" name="Barra d'onglets"/>
 					<Item id="6107" name="Redusir"/>
 					<Item id="6108" name="Verrolhar (pas de rebalar-depausar)"/>
 					<Item id="6109" name="Mostrar los onglets inactius"/>
 					<Item id="6110" name="Barra colorada sus l'onglet actiu"/>
 
-					<Item id="6111" name="Mostrar la barra d'estat"/>
 					<Item id="6112" name="Boton per tampar sus cada onglet"/>
 					<Item id="6113" name="Doble clic per tampar lo document"/>
 					<Item id="6118" name="Amagar"/>
@@ -696,7 +691,6 @@
 					<Item id="6221" name="R"/>
 					<Item id="6222" name="L"/>
 					<Item id="6224" name="Paramètres de multi-edicion"/>
-					<Item id="6225" name="Activar (Ctrl + clic/seleccion)"/>
 					<Item id="6201" name="Estil d'agropament"/>
 					<Item id="6202" name="Simple"/>
 					<Item id="6203" name="Sageta"/>
@@ -837,7 +831,6 @@
 				</Backup>
 				
 				<AutoCompletion title="Auto-complecion">
-					<Item id="6115" name="Indentacion automatica"/>
 					<Item id="6807" name="Auto-compleion"/>
 					<Item id="6808" name="Activar l'auto-complecion per cada entrada"/>
 					<Item id="6809" name="Complecion de fonccion"/>
@@ -888,8 +881,6 @@
 				</SearchEngine>
 				
 				<MISC title="Autres">
-					<Item id="6307" name="Activar"/>
-					<Item id="6308" name="Minimizar dins la barra d'estat sistèma"/>
 					<Item id="6312" name="Auto-deteccion de l'estatut de fichièr"/>
 					<Item id="6313" name="Actualizacion discreta"/>
 					<Item id="6318" name="Paramètre de ligam clicable"/>

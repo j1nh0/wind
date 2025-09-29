@@ -167,7 +167,6 @@
 					<Item id="42030" name="Igama lomfanekiso lamanje ku-Clipboard"/>
 					<Item id="42031" name="Ukushayela okwamanje. Indlela eya ebhodini lokunamathisela"/>
 					<Item id="42032" name="&amp;Qalisa izikhathi eziningi ze-Macro..."/>
-					<Item id="42033" name="Sula i-Flag kuphela"/>
 					<Item id="42035" name="I-Single Line Comment"/>
 					<Item id="42036" name="Ukungaxhunyiwe kwe-Single Line"/>
 					<Item id="42055" name="Susa amaLines angenalutho"/>
@@ -379,7 +378,6 @@
 				<Item id="1625" name="&amp;Okujwayelekile"/>
 				<Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
 				<Item id="1660" name="&amp;Faka esikhundleni kumafayela"/>
-				<Item id="1661" name="Landela i-doc yamanje."/>
 				<Item id="1641" name="Thola konke kuDokhumenti yamanje"/>
 				<Item id="1686" name="&amp;Ukuphawula"/>
 				<Item id="1703" name="&amp;.ifana ne-lineline entsha"/>
@@ -669,19 +667,16 @@
 			<Preference title="Izintandokazi">
 				<Item id="6001" name="Vala"/>
 				<Global title="Jikelele">
-					<Item id="6101" name="Ibha yamathuluzi"/>
 					<Item id="6102" name="Fihla"/>
 					<Item id="6103" name="Izithonjana ezincane"/>
 					<Item id="6104" name="Izithombe ezinkulu"/>
 					<Item id="6105" name="Izithonjana ezijwayelekile"/>
 
-					<Item id="6106" name="Ibha yamathebhu"/>
 					<Item id="6107" name="Nciphisa"/>
 					<Item id="6108" name="Khiya (akukho ukuhudula nokudonsa)"/>
 					<Item id="6109" name="Amathebhu angasebenzi"/>
 					<Item id="6110" name="Dweba ibha enemibala kuthebhu esebenzayo"/>
 
-					<Item id="6111" name="Bonisa ibha yesimo"/>
 					<Item id="6112" name="Bonisa inkinobho yokuvala kuthebhu ngayinye"/>
 					<Item id="6113" name="Chofoza kabili ukuvala idokhumenti"/>
 					<Item id="6118" name="Fihla"/>
@@ -703,7 +698,6 @@
 					<Item id="6221" name="F"/>
 					<Item id="6222" name="S"/>
 					<Item id="6224" name="Izilungiselelo eziningi zokuhlela"/>
-					<Item id="6225" name="Nika amandla (ctrl + chofoza umouse / ukukhetha)"/>
 					<Item id="6201" name="Isitayela seMargin isilawuli"/>
 					<Item id="6202" name="Okulula"/>
 					<Item id="6203" name="Umcibisholo"/>
@@ -842,7 +836,6 @@
 				</Backup>
 
 				<AutoCompletion title="Ukuqedela ngokuzenzekelayo">
-					<Item id="6115" name="I-self-indent"/>
 					<Item id="6807" name="Ukuqedela ngokuzenzekelayo"/>
 					<Item id="6808" name="Nika amandla ukuqedela ngokuzenzakalela kokufakwayo ngalunye"/>
 					<Item id="6809" name="Ukuqedwa komsebenzi"/>
@@ -899,8 +892,6 @@
 				</SearchEngine>
 
 				<MISC title="I-MISC.">
-					<Item id="6307" name="Nika amandla"/>
-					<Item id="6308" name="Ncishiswa kwi-tray yesistimu"/>
 					<Item id="6312" name="Isimo Sefayile Ukutholwa Okuzenzakalelayo"/>
 					<Item id="6313" name="Buyekeza ngokuthula"/>
 					<Item id="6318" name="Izilungiselelo Zesixhumanisi Clickable"/>
@@ -1174,7 +1165,6 @@ Ingabe ufuna ukuqala i-Notepad ++ kwimodi ye-Administrator?"/>
 			<finder-copy value="Kopisha"/>
 			<finder-select-all value="Khetha konke"/>
 			<finder-clear-all value="Sula konke"/>
-			<finder-open-all value="Vula konke"/>
 		</MiscStrings>
 
 	</Native-Langue>

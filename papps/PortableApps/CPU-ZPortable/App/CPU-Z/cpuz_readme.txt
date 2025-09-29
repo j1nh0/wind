@@ -2,8 +2,8 @@
 CPU-Z Readme file
 ------------------
 
-Version 2.09
-January 2024
+Version 2.16
+July 2025
 Contact : cpuz@cpuid.com
 Web page: https://www.cpuid.com/softwares/cpu-z.html
 Validation page : https://valid.x86.fr/
@@ -78,14 +78,75 @@ F6 : save the current tab in the clipboard
 F7 : save cvf file in the current directory
 
 
-Cache Latency Tool
-------------------
-
-The cache latency tool can be downloaded at that address : http://download.cpuid.com/misc/latency.zip
-
-
 History
 -------
+--------------------------------------------------------------------------------------------------
+2.16 - July 2025
+- AMD Ryzen Z2 and Z2 Extreme (Strix Point).
+- AMD Ryzen 9 8945HX, 8940HX, Ryzen 7 8840HX, 8745HX (Dragon Range refresh).
+- Improved support of AMD Ryzen AI 7 350 and Ryzen AI 5 340 (Kraken Point).
+- Zhaoxin KaiXian KX-U6780A and KX-U6580 (LuJiaZui, 8 cores).
+- AMD Radeon RX 9060 XT (Navi 44).
+- NVIDIA RTX 5060 Ti (GB206), RTX 5060 (GB206), RTX 5050 (GB207)
+
+--------------------------------------------------------------------------------------------------
+2.15 - March 2025
+- Improved support of Intel Arrow Lake-H processors.
+- AMD Ryzen AI Max+ 395 & AI Max+ PRO 395, Ryzen AI Max 390 & AI Max 385 (Strix Halo).
+- AMD Ryzen AI 7 350, Ryzen AI 5 340  (Kraken Point).
+- AMD Radeon RX 9070 XT & 9070 (Navi 48).
+- AMD Ryzen 7 5705G, 5705GE, Ryzen 5 5605G, 5605GE, Ryzen 3 5305G, 5305GE (Cezanne).
+- AMD EPYC 9965 (192C/384T), 9845 (160C/320T), 9825 (144C, 288T), 9755 (128C/256T), 9745 (128C/256T),
+9655 (96C/192T), 9645 (96C/192T), 9565 (72C/144T), 9555 (64C/128T), 9535 (64C/128T), 9455 (48C, 96T),
+9355 (32C/64T), 9335 (32C/64T), 9135 (16C/32T), 9115 (16C/32T), 9015 (8C/16T).
+- NVIDIA RTX 5070 Ti (GB203) & 5070 (GB205).
+- Added GPU compute units (Graphics tab).
+- New Validation Statistics page (https://valid.x86.fr/statistics.html).
+
+--------------------------------------------------------------------------------------------------
+2.14 - February 2025
+- NVIDIA RTX 5090 & 5080 GPUs.
+- AMD Ryzen 9 9955HX3D, 9955HX, 9950HX3D, 9950HX, 9850HX, 9845HX (Fire Range).
+- Fixed benchmark graphs scaling.
+
+--------------------------------------------------------------------------------------------------
+2.13 - December 2024
+- Intel Arc B580 GPU.
+- Intel Arrow Lake-U preliminary support.
+- Improved support of Intel Lunar Lake.
+- Intel Q870, B860, H810, W880, HM870, WM890, WM880 chipsets.
+- AMD X870/B840 chipsets.
+- CAMM2 memory modules type.
+
+--------------------------------------------------------------------------------------------------
+2.12 - November 2024
+- AMD Ryzen 7 9800X3D (Granite Ridge).
+- Intel Core Ultra 9 285HX, Ultra 7 275HX/265HX/255HX, Ultra 5 245HX/235HX (Arrow Lake-HX).
+- Intel Core Ultra 9 285H, Ultra 7 265H/255H, Ultra 5 235H/225H (Arrow Lake-H).
+- Intel Core 7 160HL, 150HL, 160UL, 150UL, 150U (Raptor Lake).
+- Intel Core 5 130HL, 120HL, 130UL, 120U (Raptor Lake).
+- Intel Core 3 100HL, 100UL, 100U (Raptor Lake).
+- CUDIMM DDR5 memory.
+
+--------------------------------------------------------------------------------------------------
+2.11.2 - October 2024
+- Fixes ARL memory clock and timings (2.11.2).
+- Adds microcode revision report in Mainboard tab / BIOS.
+- Improved support of AMD Strix Point (including GPU).
+- AMD Granite Ridge/Strix Point memory p-states.
+- Improved support of Intel Arrow Lake clock multiplier granularity.
+- Intel Core Ultra 5 235, 225 & 225F (Arrow Lake).
+- Intel Core i9 14901KE & 14901E, Core i7 14701KE, Core i5 14501E & 14401E/F (Raptor Lake).
+
+--------------------------------------------------------------------------------------------------
+2.10 - July 2024
+- AMD Ryzen 9 9950X (16C/32T), 9900X (12C/24T), Ryzen 7 9700X (8C/16T) and Ryzen 5 9600X (6C/12T) Granite Ridge (Zen 5).
+- AMD Ryzen AI 9 HX 375 (4x Zen 5 + 8x Zen 5c), Ryzen AI 9 365 (4x Zen 5 + 6x Zen 5c) Strix Point APUs.
+- AMD Ryzen 9 8945H, Ryzen 7 8845HS (Hawk Point).
+- Intel Core Ultra 9 285K & 275, Core Ultra 7 265K & 255, Core Ultra 5 245K & 240 (Arrow Lake). 
+- Intel Core Ultra 9 288V ; Ultra 7 268V, 266V, 258V, 256V ; Ultra 5 236V, 228V, 2266V (Lunar Lake).
+- AMD Radeon RX 7600 XT (Navi 33 XT).
+
 --------------------------------------------------------------------------------------------------
 2.09 - January 2024
 - Improved support of Intel Meteor Lake and preliminary support of Arrow Lake.
