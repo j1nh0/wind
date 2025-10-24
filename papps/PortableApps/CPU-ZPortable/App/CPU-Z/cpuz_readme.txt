@@ -2,8 +2,8 @@
 CPU-Z Readme file
 ------------------
 
-Version 2.16
-July 2025
+Version 2.17
+October 2025
 Contact : cpuz@cpuid.com
 Web page: https://www.cpuid.com/softwares/cpu-z.html
 Validation page : https://valid.x86.fr/
@@ -81,13 +81,24 @@ F7 : save cvf file in the current directory
 History
 -------
 --------------------------------------------------------------------------------------------------
+2.17 - October 2025
+- Intel Core Ultra X9 388H, Core Ultra X7 368H and 358H, Core Ultra X5 338H (Panther Lake-H).
+- Intel Core Ultra 9 375H, Core Ultra 7 355H and 345H, Core Ultra 5 325H (Panther Lake-H).
+- Intel Core Ultra 7 360U, Core Ultra 5 350U and 340U, Core Ultra 3 320U (Panther Lake-U).
+- Intel Core Ultra 3 205 (Arrow Lake).
+- Intel Core 3/5/7 2xxE (Bartlett Lake).
+- Intel Core i5 110 (Comet Lake).
+- AMD Ryzen 5 5600F (Vermeer).
+- AMD Ryzen 9 PRO 9945, Ryzen 7 PRO 9745, Ryzen 5 PRO 9645 (Granite Ridge).
+
+--------------------------------------------------------------------------------------------------
 2.16 - July 2025
 - AMD Ryzen Z2 and Z2 Extreme (Strix Point).
 - AMD Ryzen 9 8945HX, 8940HX, Ryzen 7 8840HX, 8745HX (Dragon Range refresh).
 - Improved support of AMD Ryzen AI 7 350 and Ryzen AI 5 340 (Kraken Point).
 - Zhaoxin KaiXian KX-U6780A and KX-U6580 (LuJiaZui, 8 cores).
 - AMD Radeon RX 9060 XT (Navi 44).
-- NVIDIA RTX 5060 Ti (GB206), RTX 5060 (GB206), RTX 5050 (GB207)
+- NVIDIA RTX 5060 Ti (GB206), RTX 5060 (GB206), RTX 5050 (GB207).
 
 --------------------------------------------------------------------------------------------------
 2.15 - March 2025
