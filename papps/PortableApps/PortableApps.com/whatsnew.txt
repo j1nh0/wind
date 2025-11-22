@@ -1,13 +1,28 @@
-We've been operating at a loss much of this year. Recent donations have been helping a lot. Please donate if you can. Credit/debit, wire transfer, PayPal, crypto and more are accepted.
+We've been operating at a loss much of this year. Donations over the last few months have helped get us close to even. Please donate if you can. Credit/debit, wire transfer, PayPal, crypto and more are accepted.
+
+* VERSION 30.1.3 [2025-11-17]
+
+FIXED: Workaround a bug in MS Defender Enterprise blocking installs and updates
+
+* VERSION 30.1.2 [2025-11-09]
+
+FIXED: Crash when changing profile picture or manually selecting a PA.c Installer on some systems
+UPDATED: Korean locale
+
+* VERSION 30.1.1 [2025-11-04]
+
+FIXED: Platform won't run on some Windows XP/2003 machines and ReactOS
+FIXED: App Store mistakenly shows all apps installed on ReactOS
 
 * VERSION 30.1 [2025-09-27]
 
 UPDATED: 7-Zip to latest version
 UPDATED: Compiler to Delphi 13.0 for improved speed and stability
+FIXED: Error on platform startup for some users
 
 * VERSION 30.0.4 [2025-07-15]
 
-UPDATED: Croatian Locale
+UPDATED: Croatian locale
 FIXED: Incorrect version in About
 
 * VERSION 30.0.3 [2025-07-14]
