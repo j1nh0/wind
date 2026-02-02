@@ -2,8 +2,8 @@
 CPU-Z Readme file
 ------------------
 
-Version 2.17
-October 2025
+Version 2.18
+January 2026
 Contact : cpuz@cpuid.com
 Web page: https://www.cpuid.com/softwares/cpu-z.html
 Validation page : https://valid.x86.fr/
@@ -80,6 +80,14 @@ F7 : save cvf file in the current directory
 
 History
 -------
+--------------------------------------------------------------------------------------------------
+2.18 - January 2026
+- AMD Ryzen 7 9850X3D (Granite Ridge).
+- AMD Ryzen 5 7500X3D (Raphael).
+- Preliminary support of AMD Medusa Point.
+- Intel Core Ultra 9 290K Plus, Ultra 7 270K Plus and Ultra 5 250K Plus (Arrow Lake Refresh).
+- Improved support of LPDDR5X CAMM2.
+
 --------------------------------------------------------------------------------------------------
 2.17 - October 2025
 - Intel Core Ultra X9 388H, Core Ultra X7 368H and 358H, Core Ultra X5 338H (Panther Lake-H).
