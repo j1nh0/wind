@@ -2,8 +2,8 @@
 CPU-Z Readme file
 ------------------
 
-Version 2.18
-January 2026
+Version 2.19
+March 2026
 Contact : cpuz@cpuid.com
 Web page: https://www.cpuid.com/softwares/cpu-z.html
 Validation page : https://valid.x86.fr/
@@ -81,11 +81,21 @@ F7 : save cvf file in the current directory
 History
 -------
 --------------------------------------------------------------------------------------------------
+2.19 - March 2026
+- AMD Ryzen AI 7/PRO 450G/E, AI 5/PRO 440G/E & 435G/E (Kraken Point 2).
+- AMD Ryzen AI 9 HX 470.
+- Fix AMD Ryzen 5 5500U (Lucienne) reported as 7350U (Cezanne).
+- Preliminary support of Intel Wildcat Lake.
+- CQDIMM (4-ranks CUDIMM) memory support.
+- Fix DLL hijacking vulnerability thanks to Kwangyun Kem.
+- New Chinese translation thanks to Shinjo Kurumi.
+
+--------------------------------------------------------------------------------------------------
 2.18 - January 2026
 - AMD Ryzen 7 9850X3D (Granite Ridge).
 - AMD Ryzen 5 7500X3D (Raphael).
 - Preliminary support of AMD Medusa Point.
-- Intel Core Ultra 9 290K Plus, Ultra 7 270K Plus and Ultra 5 250K Plus (Arrow Lake Refresh).
+- Preliminary support of Intel Arrow Lake Refresh.
 - Improved support of LPDDR5X CAMM2.
 
 --------------------------------------------------------------------------------------------------

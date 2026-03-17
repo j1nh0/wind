@@ -21,9 +21,9 @@
 ;Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 !define APPNAME "PortableApps.com AppCompactor"
-!define VER "3.13.0.0"
+!define VER "3.15.0.0"
 !define WEBSITE "https://portableapps.com/apps/utilities/portableapps.com_appcompactor"
-!define FRIENDLYVER "3.13"
+!define FRIENDLYVER "3.15"
 
 ;=== Program Details
 Name "${APPNAME}"

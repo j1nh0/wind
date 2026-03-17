@@ -6,10 +6,10 @@
 
 <body>
 <h3>innounp, the Inno Setup Unpacker</h3>
-<h4>Version 2.67.2 - Unicode </h4>
+<h4>Version 2.67.4 - Unicode </h4>
 <p><b>based on <a href="https://sourceforge.net/projects/innounp/" target="_blank"><i>innounp</i> version 0.50</a> by 
   <a href="https://sourceforge.net/u/ariman_ua/profile/" target="_blank">ariman</a></b><br>
-  Supports Inno Setup versions 2.0.7 through 6.7.0</p>
+  Supports Inno Setup versions 2.0.7 through 6.7.1</p>
 <p><a href="http://www.jrsoftware.org/isinfo.php">Inno Setup</a> is a popular program
   for making software installations. Unfortunately, there is no official unpacker - the
   only method of getting the files out of the self-extracting executable
@@ -71,6 +71,7 @@ Options:
   -o     no colored console output  
   -h     do not display headline with program info  
   -w     generate install script without UTF-8 conversion (use default encoding)
+  -r     use Windows regional settings for separators and date/time format
   -u     use UTF-8 for console output instead of ANSI (Codepage 850)
 Exit codes: 0 no errors
             1 version not supported
@@ -100,6 +101,15 @@ Exit codes: 0 no errors
   which is the code made by the RemObjects Pascal Script compiler.</p>
 
 <h2><a name="History"></a>What's new / History</h2>
+<p style="margin-bottom:-15px;"><b>2.67.4</b> <small>(2026-02-19)</small></p>
+<ul>
+  <li>Improved display of required Windows version (MinVersion)</li>
+  <li>Optional formatting of numbers and date/time with regional settings</li>
+</ul>
+<p style="margin-bottom:-15px;"><b>2.67.3</b> <small>(2026-02-01)</small></p>
+<ul>
+  <li>Added to install rebuilt script: more settings from the setup section</li>
+</ul>
 <p style="margin-bottom:-15px;"><b>2.67.2</b> <small>(2026-01-17)</small></p>
 <ul>
   <li>Added: support of <i>Dark Mode</i> for <i>WizardStyle</i> in install script</li>
@@ -110,7 +120,7 @@ Exit codes: 0 no errors
 </ul>
 <p style="margin-bottom:-15px;"><b>2.67.0</b> <small>(2026-01-10)</small></p>
 <ul>
-  <li>Added: support for IS up to 6.7.0</li>
+  <li>Added: support for IS up to 6.7.1</li>
   <li>Added: option <i>-w</i> to disable UTF-8 encoding of the script</li>
   <li>Fixed: UTF-8 encoding of the setup filename in the comment at the beginning of the script</li>
 </ul>
