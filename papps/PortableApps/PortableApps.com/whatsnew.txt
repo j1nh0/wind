@@ -1,6 +1,21 @@
-Our hosting and code signing costs have doubled. We're working on moving now. Please donate if you can to help. Credit/debit, wire transfer, PayPal, crypto and more are accepted.
+We're currently operating at a loss. Our hosting and code signing costs have risen dramatically. We're working on moving. Please donate if you can to help. Credit/debit, wire transfer, PayPal, crypto and more are accepted.
 
-* Version 30.2 [2025-02-17]
+* Version 30.4.1 [2026-05-30]
+
+UPDATED: 7-Zip 64-bit to latest version (sorry about that)
+UPDATED: Logo holiday decoration dates
+
+* Version 30.4 [2026-04-28]
+
+UPDATED: 7-Zip to latest version
+UPDATED: Danish locale
+
+* Version 30.3 [2026-03-29]
+
+UPDATED: Compiler to Delphi 13.1 for improved speed and stability
+FIXED: Error on platform startup for last set of users
+
+* Version 30.2 [2026-02-17]
 
 ADDED: Support for Petabyte drives and TB space display
 UPDATED: 7-Zip to latest version

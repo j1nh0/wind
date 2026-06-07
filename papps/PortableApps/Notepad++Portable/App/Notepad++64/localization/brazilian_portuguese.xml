@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Brazilian Portuguese by Hélio de Souza and Luxy, updated: Jul 2021, for Notepad++ 8.1.2; last update by Marcello, 09 Feb 2026 for 8.9.1+
+<!-- Brazilian Portuguese by Hélio de Souza and Luxy, updated: Jul 2021, for Notepad++ 8.1.2; last update by Marcello, 01 Jun 2026 for 8.9.6+
 Translation note:
 1. Please install XML Tools plugin for formatting your XML translation. Via menu "Plugins -> XML Tools-> Pretty Print - indent only" command.
 2. All the comments are for explanation, they are not for translation.
 -->
 <NotepadPlus>
-	<Native-Langue name="Brazilian Portuguese" filename="brazilian_portuguese.xml" version="8.9.1">
+	<Native-Langue name="Brazilian Portuguese" filename="brazilian_portuguese.xml" version="8.9.6.2">
 		<Menu>
 			<Main>
 				<!-- Main Menu Entries -->
@@ -50,11 +50,11 @@ Translation note:
 					<Item subMenuId="search-jumpDown" name="Saltar abaixo"/>
 					<Item subMenuId="search-copyStyledText" name="Copiar texto estilizado"/>
 					<Item subMenuId="search-bookmark" name="Marcadores"/>
-					<Item subMenuId="view-currentFileIn" name="Visualizar arquivo atual no"/>
-					<Item subMenuId="view-showSymbol" name="Mostrar símbolo"/>
-					<Item subMenuId="view-zoom" name="Zoom"/>
-					<Item subMenuId="view-moveCloneDocument" name="Mover/Clonar documento atual"/>
-					<Item subMenuId="view-tab" name="Aba"/>
+					<Item subMenuId="view-currentFileIn" name="&amp;Visualizar arquivo atual no"/>
+					<Item subMenuId="view-showSymbol" name="Mostrar &amp;Símbolo"/>
+					<Item subMenuId="view-zoom" name="&amp;Zoom"/>
+					<Item subMenuId="view-moveCloneDocument" name="&amp;Mover/Clonar documento atual"/>
+					<Item subMenuId="view-tab" name="A&amp;ba"/>
 					<Item subMenuId="view-collapseLevel" name="Recolher o nível"/>
 					<Item subMenuId="view-uncollapseLevel" name="Expandir o nível"/>
 					<Item subMenuId="view-project" name="Projeto"/>
@@ -90,6 +90,7 @@ Translation note:
 					<Item id="41002" name="&amp;Abrir..."/>
 					<Item id="41019" name="Explorer"/>
 					<Item id="41020" name="CMD (Prompt de Comando)"/>
+					<Item id="41027" name="PowerShell"/>
 					<Item id="41025" name="Pasta como espaço de trabalho"/>
 					<Item id="41003" name="&amp;Fechar"/>
 					<Item id="41004" name="F&amp;echar todos"/>
@@ -296,6 +297,7 @@ Translation note:
 					<Item id="44024" name="Reduzir (Ctrl+Roda do Mouse para Baixo)"/>
 					<Item id="44025" name="Exibir espaços e tabulações"/>
 					<Item id="44026" name="Exibir final de linha"/>
+					<Item id="44027" name="&amp;Sincronizar entre Visualizações"/>
 					<Item id="44029" name="Expandir todos níveis"/>
 					<Item id="44030" name="Recolher nível atual"/>
 					<Item id="44031" name="Expandir nível atual"/>
@@ -399,6 +401,7 @@ Translation note:
 					<Item id="48511" name="Gerar dos arquivos..."/>
 					<Item id="48512" name="Gerar a partir da seleção na área de transferência"/>
 					<Item id="49000" name="Executa&amp;r..."/>
+					<Item id="49001" name="Validar shortcuts.xml"/>
 
 					<Item id="50000" name="Completar função"/>
 					<Item id="50001" name="Completar palavra"/>
@@ -440,6 +443,7 @@ Translation note:
 				<Item CMDID="1" name="Abrir em"/>
 				<Item CMDID="41019" name="Abrir o caminho no Explorer"/>
 				<Item CMDID="41020" name="Abrir o caminho no CMD (Prompt de Comando)"/>
+				<Item CMDID="41027" name="Abrir o caminho no PowerShell"/>
 				<Item CMDID="41025" name="Abrir o caminho como espaço de trabalho"/>
 				<Item CMDID="41023" name="Abrir no visualizador padrão"/>
 				<Item CMDID="41017" name="Renomear..."/>
@@ -655,6 +659,10 @@ Translation note:
 				</SubDialog>
 			</StyleConfig>
 
+			<ColorPopup>
+				<Item id="1" name="Mais Cores..."/>
+			</ColorPopup>
+
 			<ShortcutMapper title="Mapeador de atalhos">
 				<Item id="2602" name="Modificar"/>
 				<Item id="2603" name="Excluir"/>
@@ -679,6 +687,8 @@ Translation note:
 				<MainCommandNames>
 					<Item id="41019" name="Abrir o caminho no Explorer"/>
 					<Item id="41020" name="Abrir o caminho no Prompt de Comando"/>
+					<Item id="41027" name="Abrir o caminho no PowerShell"/>
+					<Item id="41025" name="Abrir o camino como Espaço de Trabalho"/>
 					<Item id="41021" name="Restaurar último arquivo fechado"/>
 					<Item id="45001" name="Conversão EOL para Windows (CR LF)"/>
 					<Item id="45002" name="Conversão EOL para Unix (LF)"/>
@@ -1024,6 +1034,7 @@ Translation note:
 					<Item id="6239" name="Manter a seleção ao clicar com o botão direito fora da seleção"/>
 					<Item id="6245" name="Habilitar espaço virtual"/>
 					<Item id="6214" name="Habilitar Copiar/Recortar Linha sem seleção"/>
+					<Item id="6266" name="Desabilitar arrastar e soltar de texto selecionado"/>
 					<Item id="6225" name="Aplicar cor customizada em texto selecionado"/>
 					<Item id="6651" name="Indicador de linha atual"/>
 					<Item id="6652" name="Nenhum"/>
@@ -1224,6 +1235,7 @@ Translation note:
 					<Item id="6910" name="Tamanho Mínimo para Auto-Selecionar Opção &quot;Na seleção&quot;"/>
 					<Item id="6913" name="Preencher o campo 'Pasta' de 'Localizar nos arquivos' Baseado no Documento Ativo"/>
 					<Item id="6916" name=": Máx Caracteres para Auto-Preenchimento de Campo de Busca da Seleção"/>
+					<Item id="6917" name="Localizar em Arquivos: Preferir conteúdo gravado ao invés de alterações não salvas"/>
 				</Searching>
 
 				<RecentFilesHistory title="Histórico de arquivos recentes">
@@ -1583,12 +1595,6 @@ Deseja continuar?"/>
 			<LanguageMenuCompactWarning title="Menu Compacto de Linguagem" message="Esta opção será alterada na próxima vez que o programa for aberto."/><!-- HowToReproduce: toggle "Make language menu compact" via Preferences dialog "Language/Language Menu. -->
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Alterações não salvas estão prestes a serem perdidas!
 Deseja salvar suas alterações antes de alterar os temas?"/><!-- HowToReproduce: In the Style Configurator dialog change some theme and switch to other theme without saving. -->
-			<MacroAndRunCmdlWarning title="Compatibilidade de comandos Macro e Executar" message="Seus comandos Macro e Executar salvos no Notepad++ v.8.5.2 (ou anteriores) podem não ser compatíveis com a versão atual do Notepad++.
-Por favor, teste estes comandos e, se necessário, altere-os.
-
-Como alternativa, você pode voltar à versão v8.5.2 do Notepad++ e restaurar os dados anteriores.
-O Notepad++ irá efetuar backup do seu arquivo &quot;shortcuts.xml&quot; anterior e salvá-lo como &quot;shortcuts.xml.v8.5.2.backup&quot;.
-Ao renomear &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot;, seus comandos devem ser restaurados e devem funcionar a contento."/><!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up -->
 			<FullReadOnlySavingForbidden title="Erro ao Salvar" message="Não foi possível salvar o arquivo.
 O modo proibição de salvar em apenas-leitura total do Notepad++ impediu que o arquivo fosse salvo."/>
 			<NotEnoughRoom4Saving title="Erro ao salvar" message="Não foi possível salvar o arquivo.
@@ -1614,6 +1620,15 @@ Se for necessário executar uma busca regex para trás, consulte o manual de usu
 Por favor verifique a condição de localização antes de continuar."/> <!-- Como Reproduzir: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
 		<Need2Restart2ShowMenuShortcuts title="O Notepad++ precisa ser reiniciado" message="O Notepad++ precisa ser reiniciado para mostrar os atalhos de botão direito."/>
 		<NoAdminRight2ChangeReadOnlyFileAttribute title="Falha na mudança de atributo de apenas leitura do arquivo" message="Por favor execute o Notepad++ como administrador para mudar os atributos de arquivo."/>
+		<ReadOnlyFileCannotBeSaved title="Erro ao Salvar - Arquivo é de Somente Leitura" message="&quot;$STR_REPLACE$&quot;
+O arquivo é de somente leitura e não pode ser salvo.
+Por favor, remova o atributo de somente leitura e depois salve o seu arquivo."/>
+		<ShortcutsXmlHMACMissing title="Aviso de Segurança" message="The security information for shortcuts.xml is missing in config.xml.
+
+Por motivos de segurança, a integridade do arquivo shortcuts.xml será checada. Para executar seu comando customizado, revise o arquivo aberto shortcuts.xml. Se o conteúdo do arquivo estiver OK, use &quot;Validar shortcuts.xml&quot; do menu para confirmar."/>
+		<ShortcutsXmlTampered title="Aviso de Segurança" message="O arquivo shortcuts.xml parece ter sido alterado manualmente.
+
+Por motivos de segurança, revise o arquivo aberto shortcuts.xml. Se o conteúdo do arquivo estiver OK, use &quot;Validar shortcuts.xml&quot; do menu para confirmar."/>
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="Histórico da área de transferência"/>
@@ -1671,6 +1686,7 @@ Por favor verifique a condição de localização antes de continuar."/> <!-- Co
 				<Item id="3518" name="Explorar aqui"/>
 				<Item id="3519" name="CMD (Prompt de Comando) aqui"/>
 				<Item id="3520" name="Copiar nome do arquivo"/>
+				<Item id="3521" name="PowerShell aqui"/>
 			</Menu>
 		</FolderAsWorkspace>
 		<ProjectManager>
@@ -1779,6 +1795,7 @@ Procurar em todos os arquivos, excluindo pastas de log ou logs recursivamente:
 			<find-status-scope-all value="no arquivo inteiro"/>
 			<find-status-scope-backward value="do começo do arquivo ao cursor"/>
 			<find-status-scope-forward value="do cursor ao fim do arquivo"/>
+			<find-status-replace-invalid-replace-chars value="Substituir: não é possível substituir com caracteres não-ANSI em documento ANSI"/>
 			<find-status-invisible-chars-findWhat value="Caracteres invisíveis colados nos campos &quot;Localizar&quot; ou &quot;Substituir por&quot;"/>
 			<find-status-invisible-chars-findWhat-tip value="Aviso: Caracteres invisíveis no campo localizar (ou substituir por). 
 O texto colado neste campo inclui caracteres invisíveis (talvez caracter de final de linha). Se você continuar sem apagá-los, eles serão incluídos no texto de busca (ou substituição)."/>
@@ -1906,6 +1923,7 @@ Se você ativar o modo avançado mas não editar arquivos destas linguagens, a i
  			<statusbar-Sel value="Sel: "/>
  			<statusbar-Sel-number value="Sel"/>
 			<toolbar-accent-tip value="Esta opção faz com que os ícondes de sua barra de ferramentas sigam a cor principal do sistema Windows. A cor principal é a cor de destaque usada em botões, margens, e títulos no Menu Iniciar do Windows. Para alterar, acesse Configurações &gt; Preferências &gt; Cores, e então selecione seu padrão de  cores preferido."/>
+			<len-limit-exceeded-tip value="Limite de tamanho excedido: Seu texto pode exceder o limite permitido e pode ter sido truncado, e não será salvo para a próxima sessão."/>
 			<max-len-on-search-tip value="São permitidos apenas $INT_REPLACE$ caracteres para tamanho de texto de localização/substituição - o seu texto pode ser truncado, e não será salvo para a próxima sessão."/>
 			<max-len-on-save-tip value="Este texto de localização (> $INT_REPLACE$ caracteres) não será salvo para a próxima sessão."/>
 			<goto-setting-tip value="Encontre sua configuração aqui"/>

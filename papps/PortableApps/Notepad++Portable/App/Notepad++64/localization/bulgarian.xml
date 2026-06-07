@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- ========================================== [ Bulgarian localization ] ===\
+<!-- ============================ [ Bulgarian localization for Notepad++ ] ===\
 |
 |   Translators:.....: 2014–yyyy – Rusi Dimitrov;
 |                      2007–2012 – Milen Metev (Tragedy);
-|   Last revision:...: 13.02.2026 by Rusi Dimitrov <npp[at]rdd.anonaddy.com>
+|   Last revision:...: 17.05.2026 by Rusi Dimitrov <npp[at]rdd.anonaddy.com>
 |
 \========================================================================== -->
 <NotepadPlus>
@@ -344,6 +344,7 @@
 					<Item id="44023" name="&amp;Увеличаване на мащаба"/>
 					<Item id="44024" name="&amp;Намаляване на мащаба"/>
 					<Item id="44033" name="Възстановяване на мащаба"/>
+					<Item id="44027" name="&amp;Синхрон между изгледите"/>
 					<!-- Подменю "Текущ документ" -->
 					<Item id="10001" name="Преместване в съседен изглед"/>
 					<Item id="10002" name="Клониране в съседен изглед"/>
@@ -955,6 +956,7 @@
 					<Item id="6225" name="Прилагане на потребителски цвят за преден план на избрания текст"/>
 					<Item id="6236" name="Превъртане след последният ред"/>
 					<Item id="6234" name="Без разширени функции за превъртане"/>
+					<Item id="6266" name="Без влачене и пускане на избран текст"/>
 				</Scintillas>
 				<!-- Редактиране 2 -->
 				<Scintillas2 title="Редактиране 2">
@@ -1159,6 +1161,7 @@
 					<Item id="6904" name="Потвърждение при &quot;Замяна на всичко във всички отворени&quot; документи"/>
 					<Item id="6905" name="Без преместване към следващото повторение при замяна"/>
 					<Item id="6906" name="Прозорец с резултати от търсене: показване само на един запис на намерен ред, ако е възможно"/>
+					<Item id="6917" name="Търсене във файлове: Използване съдържанието на файла от диска вместо в отворените буфери"/>
 				</Searching>
 				<!-- Резервно копие -->
 				<Backup title="Резервно копие">
@@ -1349,6 +1352,10 @@
 					<Item id="2235" name="Какво е Global override?"/>
 				</SubDialog>
 			</StyleConfig>
+			<!-- Цветове -->
+			<ColorPopup>
+				<Item id="1" name="Още цветове..."/>
+			</ColorPopup>
 			<!-- "Бързи клавиши..." -->
 			<ShortcutMapper title="Бързи клавиши">
 				<Item id="2602" name="Промяна"/>
@@ -1701,6 +1708,7 @@
 			<find-status-replaced-next-not-found value="Замяна: Заменено е 1 повторение. Не бяха намерени повече повторения."/>
 			<find-status-replace-not-found value="Замяна: Не е намерено повторение"/>
 			<find-status-replace-readonly value="Замяна: Текстът не може да бъде заменен. Текущият документ е само за четене."/>
+			<find-status-replace-invalid-replace-chars value="Замяна: Не може да се замени в ANSI документ с текст, който не е ANSI"/>
 			<find-status-mark-1-match value="Маркиране: 1 повторение"/>
 			<find-status-mark-nb-matches value="Маркиране: $INT_REPLACE$ повторения"/>
 			<find-status-count-1-match value="Брой повторения: 1"/>
@@ -2058,12 +2066,6 @@ C, C++, Java, C#, Objective-C, PHP, JavaScript, JSP, CSS, Perl, Rust, PowerShell
 			<LanguageMenuCompactWarning title="Компактно меню със синтаксиси" message="Тази опция ще бъде променена при следващото стартиране."/>
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Незапазените промени ще бъдат отхвърлени!
 Искате ли промените да бъдат запазени, преди да смените темата?"/>
-			<MacroAndRunCmdlWarning title="Съвместимост на макроси и команди за изпълнение" message="Вашите макроси и команди за изпълнение, записани в Notepad++ v.8.5.2 (или по-стара), може да не са съвместими с текущата версия на Notepad++.
-Моля, тествайте тези команди и ако е необходимо ги редактирайте отново.
-
-Като алтернатива, можете да понижите версията си до Notepad++ v8.5.2 и да възстановите предишните си данни.
-Notepad++ ще направи резервно копие на стария файл &quot;shortcuts.xml&quot; и ще го запише като &quot;shortcuts.xml.v8.5.2.backup&quot;.
-Преименувайки &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot;, вашите команди трябва да бъдат възстановени и да работят правилно."/>
 			<NotEnoughRoom4Saving title="Неуспешно запазване" message="Неуспешно запазване на файл.
 
 Изглежда, че на носителя няма достатъчно място за запазване на файла. Файлът не е запазен."/>
@@ -2097,6 +2099,9 @@ Notepad++ ще направи резервно копие на стария фа
 			<FullReadOnlySavingForbidden title="Неуспешен запис" message="Файлът не може да бъде записан.
 
 Режимът на Notepad++ за пълна забрана на запис в режим &quot;само за четене&quot; предотврати записването на файла."/>
+			<ReadOnlyFileCannotBeSaved title="Неуспешен запис - файлът е само за четене" message="&quot;$STR_REPLACE$&quot;
+Файлът е само за четене и не може да бъде записан.
+премахнете атрибута &quot;само за четене&quot;, след което запишете файла си."/>
 		</MessageBox>
 	</Native-Langue>
 </NotepadPlus>

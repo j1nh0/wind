@@ -5,7 +5,7 @@
 <!-- Prohardver topic: https://prohardver.hu/tema/re_notepad/friss.html -->
 <!-- For more information see the Commits History: https://github.com/notepad-plus-plus/notepad-plus-plus/commits/master/PowerEditor/installer/nativeLang/hungarian.xml -->
 <NotepadPlus>
-	<Native-Langue name="Magyar" filename="hungarian.xml" version="8.9">
+	<Native-Langue name="Magyar" filename="hungarian.xml" version="8.9.6.2">
 		<Menu>
 			<Main>
 				<!-- Main Menu Entries -->
@@ -88,8 +88,9 @@
 				<Commands>
 					<Item id="41001" name="Ú&amp;j"/>
 					<Item id="41002" name="&amp;Megnyitás…"/>
-					<Item id="41019" name="&amp;Megnyitás Fájlkezelőben"/>
-					<Item id="41020" name="M&amp;egnyitás terminálban"/>
+					<Item id="41019" name="Megnyitás &amp;Fájlkezelőben"/>
+					<Item id="41020" name="Megnyitás &amp;terminálban"/>
+					<Item id="41027" name="Megnyitás &amp;PowerShellben"/>
 					<Item id="41025" name="M&amp;appa mint munkaterület"/>
 					<Item id="41003" name="&amp;Bezárás"/>
 					<Item id="41004" name="Az összes &amp;bezárása"/>
@@ -296,6 +297,7 @@
 					<Item id="44024" name="&amp;Kicsinyítés (Ctrl + görgetés lefelé)"/>
 					<Item id="44025" name="&amp;Szóközök és tabulátorok megjelenítése"/>
 					<Item id="44026" name="S&amp;orvégjelek megjelenítése"/>
+					<Item id="44027" name="N&amp;ézetek közötti szinkronizálás"/>
 					<Item id="44029" name="&amp;Minden blokk kibontása"/>
 					<Item id="44030" name="&amp;Az aktuális blokk összecsukása"/>
 					<Item id="44031" name="&amp;Az aktuális blokk kibontása"/>
@@ -399,6 +401,7 @@
 					<Item id="48511" name="Létrehozás &amp;fájlokból…"/>
 					<Item id="48512" name="Létrehozás &amp;a kijelölésből a vágólapra"/>
 					<Item id="49000" name="&amp;Futtatás…"/>
+					<Item id="49001" name="A shortcuts.xml érvényesítése"/>
 
 					<Item id="50000" name="&amp;Függvénykiegészítés (nyelvfüggő)"/>
 					<Item id="50001" name="&amp;Szókiegészítés (dokumentumfüggő)"/>
@@ -440,6 +443,7 @@
 				<Item CMDID="1" name="Megnyitás máshol"/>
 				<Item CMDID="41019" name="Tartalmazó mappa megnyitása Fájlkezelőben"/>
 				<Item CMDID="41020" name="Tartalmazó mappa megnyitása terminálban"/>
+				<Item CMDID="41027" name="Tartalmazó mappa megnyitása PowerShellben"/>
 				<Item CMDID="41025" name="Tartalmazó mappa megnyitása munkaterületként"/>
 				<Item CMDID="41023" name="Megnyitás a társított alkalmazásban"/>
 				<Item CMDID="41017" name="Átnevezés…"/>
@@ -655,6 +659,10 @@
 				</SubDialog>
 			</StyleConfig>
 
+			<ColorPopup>
+				<Item id="1" name="További színek…"/>
+			</ColorPopup>
+
 			<ShortcutMapper title="Billentyűparancs-összerendelések">
 				<Item id="2602" name="&amp;Módosítás"/>
 				<Item id="2603" name="&amp;Törlés"/>
@@ -679,6 +687,8 @@
 				<MainCommandNames>
 					<Item id="41019" name="Tartalmazó mappa megnyitása Fájlkezelőben"/>
 					<Item id="41020" name="Tartalmazó mappa megnyitása terminálban"/>
+					<Item id="41027" name="Tartalmazó mappa megnyitása PowerShellben"/>
+					<Item id="41025" name="Tartalmazó mappa megnyitása munkaterületként"/>
 					<Item id="41021" name="A legutóbb bezárt fájl visszaállítása"/>
 					<Item id="45001" name="Sorvégződés-átalakítás Windows-rendszerűre (CR LF)"/>
 					<Item id="45002" name="Sorvégződés-átalakítás Unix-rendszerűre (LF)"/>
@@ -788,7 +798,7 @@
 				<Item id="20005" name="&amp;Klónozás…"/><!-- It'll save the existing UDL too! -->
 				<Item id="20007" name="&amp;Felhaszn. nyelv: "/>
 				<Item id="20009" name="Kiterjeszt&amp;és:"/>
-				<Item id="20012" name="Kis- és &amp;nagybetű-egyezéssel"/>
+				<Item id="20012" name="Kis- és &amp;nagybetűegyezéssel"/>
 				<Item id="20011" name="&amp;Átlátszóság"/>
 				<Item id="20015" name="&amp;Importálás…"/>
 				<Item id="20016" name="E&amp;xportálás…"/>
@@ -1024,6 +1034,7 @@
 					<Item id="6239" name="Kijelölés &amp;megtartása a kijelölésen kívül jobb egérgombbal kattintva is"/>
 					<Item id="6245" name="S&amp;orvégi virtuális szóközök engedélyezése"/>
 					<Item id="6214" name="Ki&amp;jelölés nélküli sormásolás és -kivágás engedélyezése"/>
+					<Item id="6266" name="A kijel&amp;ölt szöveg „fogd és vidd” műveletének letiltása"/>
 					<Item id="6225" name="Eg&amp;yéni szín a kijelölt szöveg előteréhez"/>
 					<Item id="6651" name="Aktuálissor-jelölés"/>
 					<Item id="6652" name="&amp;Nincs"/>
@@ -1224,6 +1235,7 @@
 					<Item id="6910" name="„&amp;A kijelölésben” automatikus bejelölése ettől:"/>
 					<Item id="6913" name="A „Keresés &amp;fájlokban” fül alatti „Mappa” mező kitöltése az aktív dokumentum alapján"/>
 					<Item id="6916" name=": a ki&amp;jelölt karakterek legnagyobb száma a „Keresendő” mező auto. kitöltéséhez"/>
+					<Item id="6917" name="„Kere&amp;sés fájlokban”: a lemezen lévő fájlok előnyben részesítése a pufferelt tartalommal szemben"/>
 				</Searching>
 
 				<RecentFilesHistory title="Fájlelőzmények">
@@ -1583,12 +1595,6 @@ Szeretné folytatni?"/>
 			<LanguageMenuCompactWarning title="Kompakt „Nyelv” menü" message="Ez a beállítás a következő indításkor lép érvénybe"/><!-- HowToReproduce: toggle "Make language menu compact" via Preferences dialog "Language/Language Menu. -->
 			<SwitchUnsavedThemeWarning title="A(z) „$STR_REPLACE$” stílus módosítása" message="A nem mentett módosítások el lesznek vetve!
 Szeretné menteni a módosításokat témaváltás előtt?"/><!-- HowToReproduce: In the Style Configurator dialog change some theme and switch to other theme without saving. -->
-			<MacroAndRunCmdlWarning title="Kompatibilitás: „Makrók” és „Programok (Parancsok) futtatása”" message="Előfordulhat, hogy a Notepad++ 8.5.2-es (vagy régebbi) verziójával mentett, „Makrók” és „Programok (Parancsok) futtatása” alatti műveletek nem kompatibilisek a Notepad++ jelenlegi verziójával.
-Kérjük, tesztelje ezeket a parancsokat, és ha szükséges, szerkessze újra őket.
-
-Alternatív megoldásként visszaválthat Notepad++ v8.5.2-re, és visszaállíthatja a korábbi adatokat.
-A Notepad++ biztonsági másolatot készít a régi „shortcuts.xml” fájlról, és elmenti azt „shortcuts.xml.v8.5.2.backup” néven.
-Egy „shortcuts.xml.v8.5.2.backup” » „shortcuts.xml” átnevezéssel a parancsokat sikeresen vissza kell tudnia állítani, és azoknak megfelelően működniük kell."/><!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up -->
 			<FullReadOnlySavingForbidden title="Sikertelen mentés" message="Nem menthető el a fájl.
 A Notepad++ az összes dokumentumot csak olvashatóként kezeli, ami megakadályozza a fájl mentését"/>
 			<NotEnoughRoom4Saving title="Sikertelen mentés" message="Nem sikerült menteni a fájlt.
@@ -1614,6 +1620,15 @@ Ha szüksége van a visszafelé történő reguláris keresésre, a Felhasznál�
 Kérjük, a művelet végrehajtása előtt ellenőrizze a keresési feltételeket"/> <!-- HowToReproduce: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
 			<Need2Restart2ShowMenuShortcuts title="A Notepad++ újraindítása szükséges" message="Újra kell indítani a Notepad++-t a jobb oldali parancsikonok megjelenítéséhez"/>
 			<NoAdminRight2ChangeReadOnlyFileAttribute title="A fájl csak olvasható attribútumának megváltoztatása sikertelen" message="Kérjük, futtassa a Notepad++-t rendszergazdaként a fájl attribútumának módosításához"/>
+			<ReadOnlyFileCannotBeSaved title="Sikertelen mentés – A fájl csak olvasható" message="„$STR_REPLACE$”
+A fájl csak olvasható, emiatt nem menthető el.
+Kérjük, törölje a dokumentum csak olvasható beállítását, majd mentse el a fájlt."/>
+			<ShortcutsXmlHMACMissing title="Biztonsági figyelmeztetés" message="A config.xml fájlból hiányoznak a shortcuts.xml biztonsági adatai.
+
+Biztonsági okokból a Notepad++ ellenőrzi a shortcuts.xml integritását. Egyéni parancsai futtatásához, kérjük, tekintse át a megnyitott shortcuts.xml fájlt. Ha a fájl tartalmát rendben találja, válassza a menüből az „A shortcuts.xml érvényesítése” lehetőséget a megerősítéshez."/>
+			<ShortcutsXmlTampered title="Biztonsági figyelmeztetés" message="Úgy tűnik, hogy a shortcuts.xml fájl kézzel lett módosítva.
+
+Biztonsági okokból, kérjük, tekintse át a megnyitott shortcuts.xml fájlt. Ha a fájl tartalmát rendben találja, válassza a menüből az „A shortcuts.xml érvényesítése” lehetőséget a megerősítéshez."/>
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="Vágólap-előzmények"/>
@@ -1671,6 +1686,7 @@ Kérjük, a művelet végrehajtása előtt ellenőrizze a keresési feltételeke
 				<Item id="3518" name="Fájlkezelő ezzel az elérési úttal"/>
 				<Item id="3519" name="Terminál ezzel a mappával"/>
 				<Item id="3520" name="Fájlnév másolása"/>
+				<Item id="3521" name="PowerShell ezzel a mappával"/>
 			</Menu>
 		</FolderAsWorkspace>
 		<ProjectManager>
@@ -1779,6 +1795,7 @@ Keresés minden fájlban – kivéve rekurzívan a log vagy logs mappákat:
 			<find-status-scope-all value="az egész fájlban"/>
 			<find-status-scope-backward value="a fájl eleje és a kurzor között"/>
 			<find-status-scope-forward value="a kurzor és a fájl vége között"/>
+			<find-status-replace-invalid-replace-chars value="Csere: nem hajtható végre nem-ANSI szöveggel egy ANSI-dokumentumban"/>
 			<find-status-invisible-chars-findWhat value="Láthatatlan karakterek a beillesztett „Keresendő” vagy „Csere erre” tartalomban"/>
 			<find-status-invisible-chars-findWhat-tip value="Figyelem: láthatatlan karakterek a keresési (vagy csere) mezőben!
 A mezőbe beillesztett szöveg láthatatlan karaktereket (esetleg sorvégjeleket) tartalmaz. Ha nem törli ezeket, akkor bekerülnek a keresett (vagy cserélendő) szövegbe"/>
@@ -1906,13 +1923,11 @@ Ha a „Haladó szintű” módot választja, de nem a fenti nyelvek fájljait s
 			<statusbar-Sel value="Kij.: "/>
 			<statusbar-Sel-number value="Kij."/>
 			<toolbar-accent-tip value="A beállítással az eszköztár ikonjaira a Windows kiemelőszíne alkalmazható. A kiemelőszín egy, a Windows gombjaiban, szegélyeiben és a Start menüben az elemek hangsúlyozására használt szín. A módosításhoz kattintson a ⚙ Beállítások » Személyre szabás » Színek lehetőségre, majd válassza ki a kívánt Kiemelőszínt"/>
-			<len-limit-exceeded-tip value="Karakterkorlát túllépve: előfordulhat, hogy a felvett szöveg meghaladja a megengedett hosszúságot, emiatt lehet, hogy rövidítve lesz, valamint a levágott részt nem menti a rendszer a következő munkamenethez"/>
-			<max-len-on-search-tip value="Előfordulhat, hogy a felvett szöveg meghaladja a megengedett hosszúságot, emiatt lehet, hogy rövidítve lesz, valamint a levágott részt nem menti a rendszer a következő munkamenethez"/>
+			<len-limit-exceeded-tip value="Karakterkorlát túllépve: előfordulhat, hogy a felvett szöveg meghaladja a megengedett hosszúságot, emiatt lehet, hogy rövidítve lesz, valamint a levágott részt nem menti a Notepad++ a következő munkamenethez"/>
+			<max-len-on-search-tip value="Előfordulhat, hogy a felvett szöveg meghaladja a megengedett hosszúságot, emiatt lehet, hogy rövidítve lesz, valamint a levágott részt nem menti a Notepad++ a következő munkamenethez"/>
 			<max-len-on-save-tip value="A felvett szöveg rendkívül hosszú, emiatt előfordulhat, hogy nem lehet teljesen menteni a következő munkamenethez"/>
 			<goto-setting-tip value="Keresés a beállítások között"/>
 			<tabbar-tabcompactlabellen-tip value="A terjedelmes lapnevek hosszának korlátozása. A megadott érték alkalmazásához nyomjon Entert. Értéktartomány: 1–257 karakter (a 0 kikapcsolja a levágást)"/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
-
-
